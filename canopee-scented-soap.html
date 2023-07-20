@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NONFICTION</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/nf.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <aside id="menuPanel">
+        <input type="button" value="close" class="closeBtn">
+        <nav>
+            <div>
+                <b>SHOP</b>
+                <ul>
+                    <li><a href="list-shop-all.html">SHOP ALL</a></li>
+                    <li><a href="list-best-seller.html">BEST SELLER</a></li>
+                    <li><a href="list-home-fragrance.html">HOME FRAGRANCE</a></li>
+                    <li><a href="list-perfume.html">PERFUME</a></li>
+                    <li><a href="list-body-care.html">BODY CARE</a></li>
+                    <li><a href="list-hand-care.html">HAND CARE</a></li>
+                    <li><a href="list-gift-set.html">GIFT SET</a></li>
+                    <li><a href="list-acc.html">ACC</a></li>
+                </ul>
+            </div>
+            <div>
+                <b>ABOUT</b>
+                <ul>
+                    <li><a href="our-story.html">OUR STORY</a></li>
+                    <li><a href="press.html">PRESS</a></li>
+                </ul>
+            </div>
+            <b><a href="stockist.html">STOCKIST</a></b>
+            <b><a href="contact-us.html">CONTACT</a></b>
+        </nav>
+    </aside>
+
+    <div id="cartPanel">
+        <h2>
+            YOUR CART
+            <span>(1)</span>
+            <input type="button" value="close" class="closeBtn">
+        </h2>
+        <form action="checkout.html">
+            <ul>
+                <li class="active">
+                    <a href="santal-cream-hand-cream.html">
+                        <img src="images/santalcream_hc_slide_01.png" alt="santal cream hand cream image">
+                    </a>
+                    <div>
+                        <dl>
+                            <dt>SANTAL CREAM</dt>
+                            <dd>Hand Cream</dd>
+                            <dd>50ML / 1.7OZ</dd>
+                            <dd>POSTCARD : NONE</dd>
+                        </dl>
+                        <div class="numberComponent">
+                            <input type="button" value="-" class="countDown">
+                            <span>1</span>
+                            <input type="button" value="+" class="countUp">
+                        </div>
+                        <input type="button" value="Remove" class="deleteBtn lineBtn">
+                        <strong>$21.00 USD</strong>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <strong>
+                    <span>Total</span>
+                    <span>$21.00 USD</span>
+                </strong>
+                <p>Free Shipping on orders over $80</p>
+                <input type="submit" value="PROCEED TO CHECKOUT">
+            </div>
+        </form>
+    </div>
+
+    <header>
+        <div>
+            <div>
+                <input type="button" value="menu" class="material-icons-outlined" data-panelName="menuPanel">
+                <a href="press.html">PRESS</a>
+            </div>
+            <h1>
+                <a href="index-after.html">
+                    <img src="images/logo.png" alt="NONFICTION beauty">
+                </a>
+            </h1>
+            <ul>
+                <li><input type="button" value="search" data-panelName="searchPanel"></li>
+                <li><a href="mypage.html">account</a></li>
+                <li><input type="button" value="cart" data-panelName="cartPanel"><span>+99</span></li>
+            </ul>
+        </div>
+        <div id="searchPanel">
+            <form>
+                <input type="search" placeholder="SEARCH" title="insert your search keyword">
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </header>
+
+    <section class="detailContainer">
+        <div>
+            <div>
+                <small>Scented Soap</small>
+                <h2>CANOPÉE</h2>
+                <span>156G / 5.5OZ</span>
+                <strong>$18.00 USD</strong>
+                <ul class="tabMenu">
+                    <li>
+                        <input type="button" value="About the product" data-tabNumb="tabFirst" class="activated">
+                    </li>
+                    <li>
+                        <input type="button" value="Scent" data-tabNumb="tabSecond">
+                    </li>
+                    <li>
+                        <input type="button" value="Ingredients" data-tabNumb="tabThird">
+                    </li>
+                    <li>
+                        <input type="button" value="How to apply" data-tabNumb="tabFourth">
+                    </li>
+                </ul>
+                <div id="tabFirst" class="activated">
+                    <p>
+                        The fresh top note comes from a combination of bergamot, lemon and herb greens, while richness of lingering scent is made with a blend of Earl Grey and magnolia. Dense and rich foam cleanses skin, leaving sense of refreshment, while highly moisturizing hyaluronic acid, rice oil and coconut oil keeps your skin moisturized and nourished.
+                        <strong>* Shopping bags are available in the ACC category.</strong>
+                    </p>
+                </div>
+                <div id="tabSecond">
+                    <p>
+                        "Fresh top note blended with bergamot, lemon, and herb green, leaving behind a rich aroma of earl grey and magnolia."
+                    </p>
+                    <p>
+                        A canopy created by a lush bergamot tree, drenched in warm sunlight. Fresh scent of citrus green carried by a breeze that gently shake the shade in a steady rhythm. The hollowed space replenished with rich aroma of earl grey and magnolia.
+                    </p>
+                    <p>
+                        Bergamot, Herb Green, Earl Grey, Magnolia, Moss
+                    </p>
+                </div>
+                <div id="tabThird">
+                    <p>Sodium Palm Kernelate, Sodium Palmate, Water/Aqua, Fragrance/Parfum, Palm Kernel Acid, Palm Acid, Glycerin, Sodium Chloride, Tetrasodium EDTA, Tetrasodium Etidronate, Coumarin, Geraniol, Limonene, Linalool, Butylene Glycol, 1,2-Hexanediol, Coptis Japonica Root Extract, Olea Europaea (Olive) Fruit Oil, Cocos Nucifera (Coconut) Oil, Oryza Sativa (Rice) Bran Oil, Sodium Hyaluronate, Melaleuca Alternifolia(Tea Tree) Leaf Extract, Propolis Extract, Aloe Barbadensis Leaf Extract, Titanium Dioxide, Disodium Cocoamphodiacetate, Hexylene Glycol</p>
+                </div>
+                <div id="tabFourth">
+                    <p>Make foam with wet hands and gently rub on your hands and body skin, and then thoroughly cleanse the foam with water.</p>
+                </div>
+            </div>
+            <ul class="detailSlider">
+                <li><img src="images/canopee_soap_slide_01.png" alt="canopee scented soap package image"></li>
+                <li><img src="images/canopee_soap_slide_02.png" alt="canopee scented soap package image"></li>
+                <li><img src="images/canopee_soap_slide_03.png" alt="canopee scented soap image"></li>
+                <li><img src="images/slide_last.png" alt="postcard image"></li>
+            </ul>
+            <div>
+                <select title="please select an option">
+                    <option>Postcard</option>
+                    <option>Thank you</option>
+                    <option>Happy Birthday</option>
+                    <option>Congratulations</option>
+                    <option>None</option>
+                </select>
+                <input type="button" value="Add to Cart $18.00 USD" class="boxBtn" data-panelName="cartPanel">
+            </div>
+        </div>
+
+        <figure class="limgRtxt scentedSoap_bg">
+            <img src="images/bg_canopee_soap.png" alt="image of canopee scented soap">
+            <figcaption>
+                <p>The fresh top note comes from a combination of bergamot, lemon and herb greens, while richness of lingering scent is made with a blend of Earl Grey and magnolia.</p>
+                <p>Dense and rich foam cleanses skin, leaving sense of refreshment, while highly moisturizing hyaluronic acid, rice oil and coconut oil keeps your skin moisturized and nourished.</p>
+            </figcaption>
+        </figure>
+
+        <div>
+            <h2>You may also like</h2>
+            <ul class="recList">
+                <li>
+                    <a href="rose-pale-scented-soap.html">
+                        <img src="images/rosepale_soap_slide_01.png" alt="rose pale scented soap">
+                    </a>
+                    <dl>
+                        <dt>ROSE PALE</dt>
+                        <dd>Scented Soap</dd>
+                        <dd>$18.00 USD</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="scented-soap-duo.html">
+                        <img src="images/soapduo_gs_slide_01.png" alt="scented soap duo">
+                    </a>
+                    <dl>
+                        <dt>Scented Soap Duo</dt>
+                        <dd>Gift Set</dd>
+                        <dd>$36.00 USD</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="gentle-night-hand-cream.html">
+                        <img src="images/gentlenight_hc_slide_01.png" alt="gentle night hand cream">
+                    </a>
+                    <dl>
+                        <dt>GENTLE NIGHT</dt>
+                        <dd>Hand Cream</dd>
+                        <dd>$21.00 USD</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <h2>SUBSCRIBE</h2>
+                <form>
+                    <input type="email" placeholder="Email Address" title="Enter your email address to receive special offers">
+                    <input type="submit" value="submit">
+                </form>
+                <p>Enter your email address to receive special offers!</p>
+            </div>
+            <div>
+                <div>
+                    <h3>INFO</h3>
+                    <ul>
+                        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                        <li><a href="payment-info.html">Payment Info</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="refund-policy.html">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>CONTACT US</h3>
+                    <ul>
+                        <li><a href="contact-us.html">Help &amp; FAQs</a></li>
+                        <li><a href="stockist.html">Stockists</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/official.nonfiction/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.pinterest.co.kr/officialnonfiction/_created/" target="_blank">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <address>
+                    NONFICTION Inc. Company no: 819-87-01383 | CEO: Hye-young Cha | Address: 3F 49, Itaewon-ro 55ga-gil, Yongsan-gu, Seoul 04348 South Korea | <a href="mailto:help@nonfiction-beauty.com">Mail: help@nonfiction-beauty.com</a> | <a href="tel:+8227904096">Tel: +82 2 790 4096</a>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

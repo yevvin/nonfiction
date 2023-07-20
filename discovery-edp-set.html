@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NONFICTION</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/nf.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <aside id="menuPanel">
+        <input type="button" value="close" class="closeBtn">
+        <nav>
+            <div>
+                <b>SHOP</b>
+                <ul>
+                    <li><a href="list-shop-all.html">SHOP ALL</a></li>
+                    <li><a href="list-best-seller.html">BEST SELLER</a></li>
+                    <li><a href="list-home-fragrance.html">HOME FRAGRANCE</a></li>
+                    <li><a href="list-perfume.html">PERFUME</a></li>
+                    <li><a href="list-body-care.html">BODY CARE</a></li>
+                    <li><a href="list-hand-care.html">HAND CARE</a></li>
+                    <li><a href="list-gift-set.html">GIFT SET</a></li>
+                    <li><a href="list-acc.html">ACC</a></li>
+                </ul>
+            </div>
+            <div>
+                <b>ABOUT</b>
+                <ul>
+                    <li><a href="our-story.html">OUR STORY</a></li>
+                    <li><a href="press.html">PRESS</a></li>
+                </ul>
+            </div>
+            <b><a href="stockist.html">STOCKIST</a></b>
+            <b><a href="contact-us.html">CONTACT</a></b>
+        </nav>
+    </aside>
+
+    <div id="cartPanel">
+        <h2>
+            YOUR CART
+            <span>(1)</span>
+            <input type="button" value="close" class="closeBtn">
+        </h2>
+        <form action="checkout.html">
+            <ul>
+                <li class="active">
+                    <a href="santal-cream-hand-cream.html">
+                        <img src="images/santalcream_hc_slide_01.png" alt="santal cream hand cream image">
+                    </a>
+                    <div>
+                        <dl>
+                            <dt>SANTAL CREAM</dt>
+                            <dd>Hand Cream</dd>
+                            <dd>50ML / 1.7OZ</dd>
+                            <dd>POSTCARD : NONE</dd>
+                        </dl>
+                        <div class="numberComponent">
+                            <input type="button" value="-" class="countDown">
+                            <span>1</span>
+                            <input type="button" value="+" class="countUp">
+                        </div>
+                        <input type="button" value="Remove" class="deleteBtn lineBtn">
+                        <strong>$21.00 USD</strong>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <strong>
+                    <span>Total</span>
+                    <span>$21.00 USD</span>
+                </strong>
+                <p>Free Shipping on orders over $80</p>
+                <input type="submit" value="PROCEED TO CHECKOUT">
+            </div>
+        </form>
+    </div>
+
+    <header>
+        <div>
+            <div>
+                <input type="button" value="menu" class="material-icons-outlined" data-panelName="menuPanel">
+                <a href="press.html">PRESS</a>
+            </div>
+            <h1>
+                <a href="index-after.html">
+                    <img src="images/logo.png" alt="NONFICTION beauty">
+                </a>
+            </h1>
+            <ul>
+                <li><input type="button" value="search" data-panelName="searchPanel"></li>
+                <li><a href="mypage.html">account</a></li>
+                <li><input type="button" value="cart" data-panelName="cartPanel"><span>+99</span></li>
+            </ul>
+        </div>
+        <div id="searchPanel">
+            <form>
+                <input type="search" placeholder="SEARCH" title="insert your search keyword">
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </header>
+
+    <section class="detailContainer">
+        <div>
+            <div>
+                <small>Perfume</small>
+                <h2>DISCOVERY EDP SET</h2>
+                <span>3ML X 6</span>
+                <strong>$40.00 USD</strong>
+                <ul class="tabMenu">
+                    <li>
+                        <input type="button" value="About the product" data-tabNumb="tabFirst" class="activated">
+                    </li>
+                    <li>
+                        <input type="button" value="Scent" data-tabNumb="tabSecond">
+                    </li>
+                    <li>
+                        <input type="button" value="Ingredients" data-tabNumb="tabThird">
+                    </li>
+                    <li>
+                        <input type="button" value="How to apply" data-tabNumb="tabFourth">
+                    </li>
+                </ul>
+                <div id="tabFirst" class="activated">
+                    <p>
+                        Discovery EDP Set presents you with Nonfiction's signature fragrances. Experience sensational charms of fragrances, with each presenting its unique narratives.
+                        <strong>* Shopping bags are available in the ACC category.</strong>
+                    </p>
+                </div>
+                <div id="tabSecond">
+                    <p>
+                        SANTAL CREAM - Serene and languid moments culminated by a harmony of vetiver, sandalwood, and fresh cardamom. <br>
+                        Sandalwood, Vetiver, Fig, Cardamom, Ginger, Bergamot
+                    </p>
+                    <p>
+                        GENTLE NIGHT - Epicene beauty blended with warmth of sweet suede, calming cedarwood, vanilla, and musk. <br>
+                        Suede, White Tea, Fig, Moss, Cedarwood, Musk
+                    </p>
+                    <p>
+                        GAIAC FLOWER - Smoky twists of innocence and sensuality of oriental flowers. <br>
+                        Wild Rose, Guaiac, Oriental, Vanilla, Amber
+                    </p>
+                    <p>
+                        FORGET ME NOT - Mystic and captivating aroma of citrus blended with notes of spicy pepper, amber, and green. <br>
+                        Basil, Pink Pepper, Green, Gardenia, Amber
+                    </p>
+                    <p>
+                        IN THE SHOWER - A fresh interpretation of woody fragrance enhanced with Campari accord. <br>
+                        Patchouli, Tobacco, Bitter orange, Campari, Guaiac
+                    </p>
+                    <p>
+                        FOR REST - Subtle and modern scent completed by a combination of hinoki, yuzu, nutmeg and frankincense. <br>
+                        Hinoki, Frankincense, Turkish Rose, Yuzu, Nutmeg
+                    </p>
+                </div>
+                <div id="tabThird">
+                    <p>
+                        SANTAL CREAM <br>
+                        Alcohol Denat, Fragrance, Water, PEG-60 Hydrogenated Castor Oil, Benzyl salicylate, Coumarin, Limonene, Linalool, Geraniol, Eugenol, Citral, Isoeugenol, Benzyl alcohol, Benzyl benzoate, Citronellol
+                    </p>
+                    <p>
+                        GENTLE NIGHT <br>
+                        Alcohol Denat, Fragrance, Water, PEG-60 Hydrogenated Castor Oil, Benzyl salicylate, Citronellol, Citral, Benzyl alcohol, Benzyl benzoate
+                    </p>
+                    <p>
+                        GAIAC FLOWER <br>
+                        Alcohol Denat, Fragrance, Water, PEG-60 Hydrogenated Castor Oil, Limonene, Citronellol, Geraniol, Linalool, Benzyl alcohol, Farnesol, Eugenol, Citral
+                    </p>
+                    <p>
+                        FORGET ME NOT <br>
+                        Alcohol Denat, Fragrance, Water, PEG-60 Hydrogenated Castor Oil, Limonene, Linalool, Coumarin, Citronellol, Citral, Eugenol, Geraniol, Farnesol, Isoeugenol
+                    </p>
+                    <p>
+                        IN THE SHOWER <br>
+                        Alcohol Denat, Fragrance, Water, PEG-40 Hydrogenated Castor Oil, Limonene, Linalool, Citral, Eugenol, Isoeugenol, Geraniol 
+                    </p>
+                    <p>
+                        FOR REST <br>
+                        Alcohol, Parfum/Fragrance, Aqua/Water/Eau, Benzyl Benzoate, Limonene, Linalool, Citral, Benzyl Alcohol, Geraniol, Citronellol, Eugenol, Isoeugenol
+                    </p>
+                </div>
+                <div id="tabFourth">
+                    <p>Explore Nonfiction's six signature fragrances. Spray on body and clothes.</p>
+                </div>
+            </div>
+            <ul class="detailSlider">
+                <li><img src="images/discovery_perfume_slide_01.png" alt="discovery edp set perfume image"></li>
+                <li><img src="images/discovery_perfume_slide_02.png" alt="discovery edp set perfume package image"></li>
+                <li><img src="images/discovery_perfume_slide_03.png" alt="discovery edp set perfume package image"></li>
+                <li><img src="images/slide_last.png" alt="postcard image"></li>
+            </ul>
+            <div>
+                <select title="please select an option">
+                    <option>Postcard</option>
+                    <option>Thank you</option>
+                    <option>Happy Birthday</option>
+                    <option>Congratulations</option>
+                    <option>None</option>
+                </select>
+                <input type="button" value="Add to Cart $40.00 USD" class="boxBtn" data-panelName="cartPanel">
+            </div>
+        </div>
+
+        <figure class="limgRtxt edpPerfume_bg">
+            <img src="images/bg_discovery_perfume.png" alt="image of perfume label">
+            <figcaption>
+                <p>Discovery EDP Set presents you with Nonfiction's signature fragrances.</p>
+                <p>Experience sensational charms of fragrances, with each presenting its unique narratives.</p>
+            </figcaption>
+        </figure>
+
+        <div>
+            <h2>You may also like</h2>
+            <ul class="recList">
+                <li>
+                    <a href="gaiac-flower-perfume.html">
+                        <img src="images/gaiacflower_perfume_slide_01.png" alt="gaiac flower perfume">
+                    </a>
+                    <dl>
+                        <dt>GAIAC FLOWER</dt>
+                        <dd>Perfume</dd>
+                        <dd>$128.00 USD</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="santal-cream-portable-perfume.html">
+                        <img src="images/santalcream_pp_slide_01.png" alt="santal cream portable perfume">
+                    </a>
+                    <dl>
+                        <dt>SANTAL CREAM</dt>
+                        <dd>Portable Perfume</dd>
+                        <dd>$59.00 USD</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="for-rest-perfume.html">
+                        <img src="images/forrest_perfume_slide_01.png" alt="for rest perfume">
+                    </a>
+                    <dl>
+                        <dt>FOR REST</dt>
+                        <dd>Perfume</dd>
+                        <dd>$128.00 USD</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <h2>SUBSCRIBE</h2>
+                <form>
+                    <input type="email" placeholder="Email Address" title="Enter your email address to receive special offers">
+                    <input type="submit" value="submit">
+                </form>
+                <p>Enter your email address to receive special offers!</p>
+            </div>
+            <div>
+                <div>
+                    <h3>INFO</h3>
+                    <ul>
+                        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                        <li><a href="payment-info.html">Payment Info</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="refund-policy.html">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>CONTACT US</h3>
+                    <ul>
+                        <li><a href="contact-us.html">Help &amp; FAQs</a></li>
+                        <li><a href="stockist.html">Stockists</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/official.nonfiction/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.pinterest.co.kr/officialnonfiction/_created/" target="_blank">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <address>
+                    NONFICTION Inc. Company no: 819-87-01383 | CEO: Hye-young Cha | Address: 3F 49, Itaewon-ro 55ga-gil, Yongsan-gu, Seoul 04348 South Korea | <a href="mailto:help@nonfiction-beauty.com">Mail: help@nonfiction-beauty.com</a> | <a href="tel:+8227904096">Tel: +82 2 790 4096</a>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

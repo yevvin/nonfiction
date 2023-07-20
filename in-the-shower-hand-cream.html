@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NONFICTION</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/nf.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <aside id="menuPanel">
+        <input type="button" value="close" class="closeBtn">
+        <nav>
+            <div>
+                <b>SHOP</b>
+                <ul>
+                    <li><a href="list-shop-all.html">SHOP ALL</a></li>
+                    <li><a href="list-best-seller.html">BEST SELLER</a></li>
+                    <li><a href="list-home-fragrance.html">HOME FRAGRANCE</a></li>
+                    <li><a href="list-perfume.html">PERFUME</a></li>
+                    <li><a href="list-body-care.html">BODY CARE</a></li>
+                    <li><a href="list-hand-care.html">HAND CARE</a></li>
+                    <li><a href="list-gift-set.html">GIFT SET</a></li>
+                    <li><a href="list-acc.html">ACC</a></li>
+                </ul>
+            </div>
+            <div>
+                <b>ABOUT</b>
+                <ul>
+                    <li><a href="our-story.html">OUR STORY</a></li>
+                    <li><a href="press.html">PRESS</a></li>
+                </ul>
+            </div>
+            <b><a href="stockist.html">STOCKIST</a></b>
+            <b><a href="contact-us.html">CONTACT</a></b>
+        </nav>
+    </aside>
+
+    <div id="cartPanel">
+        <h2>
+            YOUR CART
+            <span>(1)</span>
+            <input type="button" value="close" class="closeBtn">
+        </h2>
+        <form action="checkout.html">
+            <ul>
+                <li class="active">
+                    <a href="santal-cream-hand-cream.html">
+                        <img src="images/santalcream_hc_slide_01.png" alt="santal cream hand cream image">
+                    </a>
+                    <div>
+                        <dl>
+                            <dt>SANTAL CREAM</dt>
+                            <dd>Hand Cream</dd>
+                            <dd>50ML / 1.7OZ</dd>
+                            <dd>POSTCARD : NONE</dd>
+                        </dl>
+                        <div class="numberComponent">
+                            <input type="button" value="-" class="countDown">
+                            <span>1</span>
+                            <input type="button" value="+" class="countUp">
+                        </div>
+                        <input type="button" value="Remove" class="deleteBtn lineBtn">
+                        <strong>$21.00 USD</strong>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <strong>
+                    <span>Total</span>
+                    <span>$21.00 USD</span>
+                </strong>
+                <p>Free Shipping on orders over $80</p>
+                <input type="submit" value="PROCEED TO CHECKOUT">
+            </div>
+        </form>
+    </div>
+
+    <header>
+        <div>
+            <div>
+                <input type="button" value="menu" class="material-icons-outlined" data-panelName="menuPanel">
+                <a href="press.html">PRESS</a>
+            </div>
+            <h1>
+                <a href="index-after.html">
+                    <img src="images/logo.png" alt="NONFICTION beauty">
+                </a>
+            </h1>
+            <ul>
+                <li><input type="button" value="search" data-panelName="searchPanel"></li>
+                <li><a href="mypage.html">account</a></li>
+                <li><input type="button" value="cart" data-panelName="cartPanel"><span>+99</span></li>
+            </ul>
+        </div>
+        <div id="searchPanel">
+            <form>
+                <input type="search" placeholder="SEARCH" title="insert your search keyword">
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </header>
+
+    <section class="detailContainer">
+        <div>
+            <div>
+                <small>Hand Cream</small>
+                <h2>IN THE SHOWER</h2>
+                <span>50ML / 1.7OZ</span>
+                <strong>$21.00 USD</strong>
+                <ul class="tabMenu">
+                    <li>
+                        <input type="button" value="About the product" data-tabNumb="tabFirst" class="activated">
+                    </li>
+                    <li>
+                        <input type="button" value="Scent" data-tabNumb="tabSecond">
+                    </li>
+                    <li>
+                        <input type="button" value="Ingredients" data-tabNumb="tabThird">
+                    </li>
+                    <li>
+                        <input type="button" value="How to apply" data-tabNumb="tabFourth">
+                    </li>
+                </ul>
+                <div id="tabFirst" class="activated">
+                    <p>
+                        Nonfiction's hand cream is rich in shea butter and vitamin that instantly absorbes into skin, leaving velvety smooth texture and caring your dry hands with revitalizing elements. Nonfiction's unique fragrance spreads with warmth of hands, leaving distinctive mood and impression around you.
+                        <strong>* Shopping bags are available in the ACC category.</strong>
+                    </p>
+                </div>
+                <div id="tabSecond">
+                    <p>
+                        "A fresh interpretation of woody fragrance enhanced with Campari accord."
+                    </p>
+                    <p>
+                        A dense forest drenched in a shower of rain. Scents of rain-soaked soil and smoked leaves are reminiscent of brisk wind. In the Shower is a new interpretation of the paradoxical combination of dark forest and airy Campari accord. Rain pours down, filling the air with crushed citrus and mingling with scent of drenched soil. Smoky aftertaste lingers around where fallen leaves were collected and burned. Rustiness of patchouli and mystic Guaiac slowly permeate the air and disperse to reveal the sensual silhouette of the forest in the change of season.
+                    </p>
+                    <p>
+                        Patchouli, Tobacco, Bitter orange, Campari, Guaiac
+                    </p>
+                </div>
+                <div id="tabThird">
+                    <p>Aqua/Water/Eau, Butyrospermum Parkii (Shea) Butter, Caprylic/Capric Triglyceride, Propanediol, Dipropylene Glycol, Dicaprylyl Ether, Cetearyl Alcohol, Cetearyl Olivate, Caprylyl Methicone, Sorbitan Olivate, 1,2-Hexanediol, Parfum/Fragrance, Glyceryl Stearate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Palmitic Acid, Tromethamine, Stearic Acid, Glycerin, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Xanthan Gum, Butylene Glycol, Disodium EDTA, Myristic Acid, Sodium Hyaluronate, Beta-Glucan, Tocopherol, Polyglutamic Acid, Chamomilla Recutita (Matricaria) Flower Extract, Carica Papaya (Papaya) Fruit Water, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Helianthus Annuus (Sunflower) Seed Oil, Centella Asiatica Extract, Oryza Sativa (Rice) Extract, Chenopodium Quinoa Seed Extract, Avena Sativa (Oat) Meal Extract, Polygonum Cuspidatum Root Extract, Scutellaria Baicalensis Root Extract, Camellia Sinensis Leaf Extract, Anthemis Nobilis Flower Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Calendula Officinalis Flower Extract, Sesamum Indicum (Sesame) Seed Extract, Hydrogenated Lecithin, Polyglyceryl-10 Stearate, Panthenol, Sodium Ascorbyl Phosphate, Niacinamide, Biotin, Folic Acid, Pyridoxine, Cyanocobalamin, Linoleic Acid, Riboflavin, Beta-Carotene, Inositol, Thiamine HCl, Limonene, Linalool</p>
+                </div>
+                <div id="tabFourth">
+                    <p>Apply to clean hands and massage until absorbed.</p>
+                </div>
+            </div>
+            <ul class="detailSlider">
+                <li><img src="images/intheshower_hc_slide_01.png" alt="in the shower hand cream image"></li>
+                <li><img src="images/intheshower_hc_slide_02.png" alt="in the shower hand cream package image"></li>
+                <li><img src="images/hc_slide_03.png" alt="texture image of hand cream"></li>
+                <li><img src="images/slide_last.png" alt="postcard image"></li>
+            </ul>
+            <div>
+                <select title="please select an option">
+                    <option>Postcard</option>
+                    <option>Thank you</option>
+                    <option>Happy Birthday</option>
+                    <option>Congratulations</option>
+                    <option>None</option>
+                </select>
+                <input type="button" value="Add to Cart $21.00 USD" class="boxBtn" data-panelName="cartPanel">
+            </div>
+        </div>
+
+        <figure class="limgRtxt handCream_bg">
+            <img src="images/bg_01_handcream.png" alt="image of applying hand cream">
+            <figcaption>
+                <p>A fresh interpretation of woody fragrance enhanced with Campari accord in In the Shower captured in hand cream.</p>
+                <p>Shea butter and vitamin E are the key to revitalizing dry hands.</p>
+            </figcaption>
+        </figure>
+
+        <div>
+            <h2>You may also like</h2>
+            <ul class="recList">
+                <li>
+                    <a href="gaiac-flower-hand-cream.html">
+                        <img src="images/gaiacflower_hc_slide_01.png" alt="gaiac flower hand cream">
+                    </a>
+                    <dl>
+                        <dt>GENTLE NIGHT</dt>
+                        <dd>Hand Cream</dd>
+                        <dd>$21.00 USD</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="for-rest-hand-cream.html">
+                        <img src="images/forrest_hc_slide_01.png" alt="for rest hand cream">
+                    </a>
+                    <dl>
+                        <dt>FOR REST</dt>
+                        <dd>Hand Cream</dd>
+                        <dd>$21.00 USD</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="forget-me-not-hand-lotion.html">
+                        <img src="images/forgetmenot_hl_slide_01.png" alt="forget me not hand lotion">
+                    </a>
+                    <dl>
+                        <dt>FORGET ME NOT</dt>
+                        <dd>Hand Lotion</dd>
+                        <dd>$32.00 USD</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <h2>SUBSCRIBE</h2>
+                <form>
+                    <input type="email" placeholder="Email Address" title="Enter your email address to receive special offers">
+                    <input type="submit" value="submit">
+                </form>
+                <p>Enter your email address to receive special offers!</p>
+            </div>
+            <div>
+                <div>
+                    <h3>INFO</h3>
+                    <ul>
+                        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                        <li><a href="payment-info.html">Payment Info</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="refund-policy.html">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>CONTACT US</h3>
+                    <ul>
+                        <li><a href="contact-us.html">Help &amp; FAQs</a></li>
+                        <li><a href="stockist.html">Stockists</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/official.nonfiction/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.pinterest.co.kr/officialnonfiction/_created/" target="_blank">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <address>
+                    NONFICTION Inc. Company no: 819-87-01383 | CEO: Hye-young Cha | Address: 3F 49, Itaewon-ro 55ga-gil, Yongsan-gu, Seoul 04348 South Korea | <a href="mailto:help@nonfiction-beauty.com">Mail: help@nonfiction-beauty.com</a> | <a href="tel:+8227904096">Tel: +82 2 790 4096</a>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NONFICTION</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/nf.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <aside id="menuPanel">
+        <input type="button" value="close" class="closeBtn">
+        <nav>
+            <div>
+                <b>SHOP</b>
+                <ul>
+                    <li><a href="list-shop-all.html">SHOP ALL</a></li>
+                    <li><a href="list-best-seller.html">BEST SELLER</a></li>
+                    <li><a href="list-home-fragrance.html">HOME FRAGRANCE</a></li>
+                    <li><a href="list-perfume.html">PERFUME</a></li>
+                    <li><a href="list-body-care.html">BODY CARE</a></li>
+                    <li><a href="list-hand-care.html">HAND CARE</a></li>
+                    <li><a href="list-gift-set.html">GIFT SET</a></li>
+                    <li><a href="list-acc.html">ACC</a></li>
+                </ul>
+            </div>
+            <div>
+                <b>ABOUT</b>
+                <ul>
+                    <li><a href="our-story.html">OUR STORY</a></li>
+                    <li><a href="press.html">PRESS</a></li>
+                </ul>
+            </div>
+            <b><a href="stockist.html">STOCKIST</a></b>
+            <b><a href="contact-us.html">CONTACT</a></b>
+        </nav>
+    </aside>
+
+    <div id="cartPanel">
+        <h2>
+            YOUR CART
+            <span>(1)</span>
+            <input type="button" value="close" class="closeBtn">
+        </h2>
+        <form action="checkout.html">
+            <ul>
+                <li class="active">
+                    <a href="santal-cream-hand-cream.html">
+                        <img src="images/santalcream_hc_slide_01.png" alt="santal cream hand cream image">
+                    </a>
+                    <div>
+                        <dl>
+                            <dt>SANTAL CREAM</dt>
+                            <dd>Hand Cream</dd>
+                            <dd>50ML / 1.7OZ</dd>
+                            <dd>POSTCARD : NONE</dd>
+                        </dl>
+                        <div class="numberComponent">
+                            <input type="button" value="-" class="countDown">
+                            <span>1</span>
+                            <input type="button" value="+" class="countUp">
+                        </div>
+                        <input type="button" value="Remove" class="deleteBtn lineBtn">
+                        <strong>$21.00 USD</strong>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <strong>
+                    <span>Total</span>
+                    <span>$21.00 USD</span>
+                </strong>
+                <p>Free Shipping on orders over $80</p>
+                <input type="submit" value="PROCEED TO CHECKOUT">
+            </div>
+        </form>
+    </div>
+
+    <header>
+        <div>
+            <div>
+                <input type="button" value="menu" class="material-icons-outlined" data-panelName="menuPanel">
+                <a href="press.html">PRESS</a>
+            </div>
+            <h1>
+                <a href="index-after.html">
+                    <img src="images/logo.png" alt="NONFICTION beauty">
+                </a>
+            </h1>
+            <ul>
+                <li><input type="button" value="search" data-panelName="searchPanel"></li>
+                <li><a href="mypage.html">account</a></li>
+                <li><input type="button" value="cart" data-panelName="cartPanel"><span>+99</span></li>
+            </ul>
+        </div>
+        <div id="searchPanel">
+            <form>
+                <input type="search" placeholder="SEARCH" title="insert your search keyword">
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </header>
+
+    <section class="detailContainer">
+        <div>
+            <div>
+                <small>Gift Set</small>
+                <h2>Body &amp; Hair Mini Travel Set</h2>
+                <span>50ML X 4</span>
+                <strong>$35.00 USD</strong>
+                <ul class="tabMenu">
+                    <li>
+                        <input type="button" value="About the product" data-tabNumb="tabFirst" class="activated">
+                    </li>
+                    <li>
+                        <input type="button" value="Scent" data-tabNumb="tabSecond">
+                    </li>
+                    <li>
+                        <input type="button" value="Ingredients" data-tabNumb="tabThird">
+                    </li>
+                    <li>
+                        <input type="button" value="How to apply" data-tabNumb="tabFourth">
+                    </li>
+                </ul>
+                <div id="tabFirst" class="activated">
+                    <p>
+                        Our Body &amp; Hair Mini Travel Set is here for your getaway moments, providing unique aromatic experiences.
+                    </p>
+                    <p>
+                        For body care, you can choose one from three of our best-selling fragrances - Santal Cream, Gentle Night, and Gaiac Flower.
+                    </p>
+                    <p>
+                        Rich in fragrance of ROSE PALE, the shampoo and conditioner gently leave pure and clean scent of roses on hair and thus, pleasant sensation. <br>
+                        Combined with plant-derived surfactants, ROSE PALE Shampoo mildly cleanses scalp and hair with thick and rich foam and a complex of herbal substances made with rosemary, lavender, and tee tree, while panthenol gives moisturized and shiny finish. <br>
+                        ROSE PALE Conditioner, with light texture, repairs damaged hair, coating each strand of hair with moisture and nourishment from argan oil and soy protein, and helps get rid of static hair.
+                        <strong>* Shopping bags are available in the ACC category.</strong>
+                        <strong>* This product is provided with gift box packaging, so we don't provide additional gift wrapping.</strong>
+                    </p>
+                </div>
+                <div id="tabSecond">
+                    <p>
+                        SANTAL CREAM - Serene and languid moments scented with vetiver, sandalwood, and fresh cardamom. <br>
+                        Sandalwood, Vetiver, Fig, Cardamom, Ginger, Bergamot
+                    </p>
+                    <p>
+                        GENTLE NIGHT - Epicene beauty blended with warmth of sweet suede, cedarwood, and vanilla musk. <br>
+                        Suede, White tea, Fig, Moss, Cedarwood, Musk
+                    </p>
+                    <p>
+                        GAIAC FLOWER - Smoky variation of intense oriental flower. <br>
+                        Wild rose, Guaiac, Oriental, Vanilla, Amber
+                    </p>
+                    <p>
+                        ROSE PALE - Fragrance of pink damask roses. Milky sandalwood and violet put together into a velvety fresh scent. <br>
+                        Damask rose, Geranium, Violet,  Amber, Musk
+                    </p>
+                </div>
+                <div id="tabThird">
+                    <p>
+                        SANTAL CREAM Body Wash <br>
+                        Aqua/Water/Eau, Sodium C14-16 Olefin Sulfonate, Hydrolyzed Oat Protein, Glycerin, Cocamidopropyl Betaine, Propanediol, Coco-Glucoside, Sodium Chloride, Parfum/Fragrance,1,2-Hexanediol, Glycereth-25 PCA Isostearate, Citric Acid, Tetradecene, Hexadecene, Glyceryl Caprylate, Disodium EDTA, Ethylhexylglycerin, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Coptis Japonica Extract, Butylene Glycol, Olea Europaea (Olive) Leaf Extract, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Chamomilla Recutita (Matricaria) Extract, Tocopheryl Acetate, Avena Sativa (Oat) Kernel Extract, Sesamum Indicum(Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Dextrin, Cyanocobalamin, Theobroma Cacao (Cocoa) Extract, Cyclodextrin, Panthenol, Niacinamide, Tocopherol, Rutin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Benzyl Salicylate
+                    </p>
+                    <p>
+                        SANTAL CREAM Body Lotion <br>
+                        Aqua/Water/Eau, Glycerin, Dimethicone, Butylene Glycol, Hydrogenated Polyisobutene, Caprylic/Capric Triglyceride, Isononyl Isononanoate, 1,2-Hexanediol, Cetearyl Alcohol, Parfum/Fragrance, Neopentyl Glycol Diheptanoate, Behenyl Alcohol, Phenyl Trimethicone, Sorbitol, Cetyl Alcohol, Stearyl Alcohol, Glyceryl Stearate, Cetearyl Glucoside, PEG-100 Stearate, Cyclopentasiloxane, Polysilicone-11, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Sesamum Indicum (Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Ethylhexylglycerin, Xanthan Gum, Disodium EDTA, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Tocopheryl Acetate, Glucose, Chamomilla Recutita (Matricaria) Extract, Avena Sativa (Oat) Kernel Extract, Cyclodextrin, Tocopherol, Panthenol, Niacinamide, Rutin, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Benzyl Salicylate, Coumarin, Limonene
+                    </p>
+                    <p>
+                        GENTLE NIGHT Body Wash <br>
+                        Aqua/Water/Eau, Sodium C14-16 Olefin Sulfonate, Hydrolyzed Oat Protein, Glycerin, Cocamidopropyl Betaine, Propanediol, Coco-Glucoside, Sodium Chloride, Parfum/Fragrance,1,2-Hexanediol, Glycereth-25 PCA Isostearate, Citric Acid, Tetradecene, Hexadecene, Glyceryl Caprylate, Disodium EDTA, Ethylhexylglycerin, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Coptis Japonica Extract, Butylene Glycol, Olea Europaea (Olive) Leaf Extract, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Chamomilla Recutita (Matricaria) Extract, Tocopheryl Acetate, Avena Sativa (Oat) Kernel Extract, Sesamum Indicum(Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Dextrin, Cyanocobalamin, Theobroma Cacao (Cocoa) Extract, Cyclodextrin, Panthenol, Niacinamide, Tocopherol, Rutin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Benzyl Salicylate, Linalool, Limonene, Hexyl Cinnamal, Hydroxycitronellal
+                    </p>
+                    <p>
+                        GENTLE NIGHT Body Lotion <br>
+                        Aqua/Water/Eau, Glycerin, Dimethicone, Butylene Glycol, Hydrogenated Polyisobutene, Caprylic/Capric Triglyceride, Isononyl Isononanoate, 1,2-Hexanediol, Cetearyl Alcohol, Neopentyl Glycol Diheptanoate, Behenyl Alcohol, Phenyl Trimethicone, Parfum/Fragrance, Sorbitol, Cetyl Alcohol, Stearyl Alcohol, Glyceryl Stearate, Cetearyl Glucoside, PEG-100 Stearate, Cyclopentasiloxane, Polysilicone-11, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Sesamum Indicum (Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Ethylhexylglycerin, Xanthan Gum, Disodium EDTA, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Tocopheryl Acetate, Glucose, Chamomilla Recutita (Matricaria) Extract, Avena Sativa (Oat) Kernel Extract, Cyclodextrin, Tocopherol, Panthenol, Niacinamide, Rutin, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Benzyl Salicylate, Linalool, Limonene, Hexyl Cinnamal, Hydroxycitronellal, Citronellol, Alpha-Isomethyl Ionone, Citral
+                    </p>
+                    <p>
+                        GAIAC FLOWER Body Wash <br>
+                        Aqua/Water/Eau, Sodium C14-16 Olefin Sulfonate, Hydrolyzed Oat Protein, Glycerin, Cocamidopropyl Betaine, Propanediol, Coco-Glucoside, Sodium Chloride, Parfum/Fragrance,1,2-Hexanediol, Glycereth-25 PCA Isostearate, Citric Acid, Tetradecene, Hexadecene, Glyceryl Caprylate, Disodium EDTA, Ethylhexylglycerin, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Coptis Japonica Extract, Butylene Glycol, Olea Europaea (Olive) Leaf Extract, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Chamomilla Recutita (Matricaria) Extract, Tocopheryl Acetate, Avena Sativa (Oat) Kernel Extract, Sesamum Indicum(Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Dextrin, Cyanocobalamin, Theobroma Cacao (Cocoa) Extract, Cyclodextrin, Panthenol, Niacinamide, Tocopherol, Rutin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Limonene
+                    </p>
+                    <p>
+                        GAIAC FLOWER Body Lotion <br>
+                        Aqua/Water/Eau, Glycerin, Dimethicone, Butylene Glycol, Hydrogenated Polyisobutene, Caprylic/Capric Triglyceride, Isononyl Isononanoate, 1,2-Hexanediol, Cetearyl Alcohol, Neopentyl Glycol Diheptanoate, Behenyl Alcohol, Phenyl Trimethicone, Parfum/Fragrance, Sorbitol, Cetyl Alcohol, Stearyl Alcohol, Glyceryl Stearate, Cetearyl Glucoside, PEG-100 Stearate, Cyclopentasiloxane, Polysilicone-11, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Sesamum Indicum (Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Ethylhexylglycerin, Xanthan Gum, Disodium EDTA, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Tocopheryl Acetate, Glucose, Chamomilla Recutita (Matricaria) Extract, Avena Sativa (Oat) Kernel Extract, Cyclodextrin, Tocopherol, Panthenol, Niacinamide, Rutin, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Limonene, Citronellol, Geraniol, Linalool
+                    </p>
+                    <p>
+                        ROSE PALE Shampoo <br>
+                        Aqua/Water/Eau, Disodium Laureth Sulfosuccinate, Sodium C14-16 Olefin Sulfonate, Cocamidopropyl Betaine, Dimethicone, Lauryl Hydroxysultaine, Sodium Cocoyl Isethionate, Sodium Methyl Cocoyl Taurate, Lauramide MIPA, Parfum/Fragrance, Alcohol Denat, Coco-Glucoside, Soyamidopropylamine Oxide, C12-14 Alketh-12, Decyl Glucoside, Citric Acid, Cetearyl Alcohol, Trihydroxystearin, Sodium Chloride, Sodium Benzoate, Caprylic/Capric Triglyceride, Caprylyl Glycol, Ethylhexylglycerin, Polyquaternium-10, Propylene Glycol, Quaternium-80, Polyquaternium-22, Potassium Sorbate, Sodium Citrate, Laureth-4, Sodium Phytate, Malt Extract, Laureth-23, Cocamide Methyl MEA, Glycerin, Tocopherol, Panthenol, Butylene Glycol, Xylitylglucoside, Anhydroxylitol, Xylitol, Glucose, Vinegar, Lavandula Angustifolia (Lavender) Extract, Melaleuca Alternifolia (Tea Tree) Leaf Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Saccharomyces Ferment Filtrate, Hexyl Cinnamal, Citronellol
+                    </p>
+                    <p>
+                        ROSE PALE Conditioner <br>
+                        Aqua/Water/Eau, Dipropylene Glycol, Cetearyl Alcohol, Sorbitol, Dimethicone, Stearamidopropyl Dimethylamine, Stearyl Alcohol, Behentrimonium Chloride, Parfum/Fragrance, Hydrogenated Coconut Oil, Aspartic Acid, Hydroxyethylcellulose, Sodium Benzoate, Chlorella Vulgaris Extract, Glucose, Butylene Glycol, Fructooligosaccharides, Fructose, Glycerin, Glycine Soja (Soybean) Seed Extract, 1,2-Hexanediol, Pentylene Glycol, Octanediol, Disodium Phosphate, Polysorbate 60, Ethylhexylglycerin, Sodium Phosphate, Argania Spinosa Kernel Oil, Hydroxypropyltrimonium Hyaluronate, Hydrolyzed Soy Protein, Macadamia Integrifolia Seed Oil, Ceramide NP, Phytosphingosine, Leuconostoc/Radish Root Ferment Filtrate, Hexyl Cinnamal, Citronellol
+                    </p>
+                </div>
+                <div id="tabFourth">
+                    <p>Body Wash - Lather and massage all over the body for rich foam, and rinse thoroughly. <br>
+                        Body Lotion - Gently smooth all over the body until absorbed. <br>
+                        Shampoo - Lather and massage into wet scalp and hair then rinse out. <br>
+                        Conditioner - Massage into wet hair gently and rinse well thoroughly.
+                    </p>
+                </div>
+            </div>
+            <ul class="detailSlider">
+                <li><img src="images/minitravel_gs_slide_01.png" alt="Body & Hair Mini Travel Set image"></li>
+                <li><img src="images/minitravel_gs_slide_02.png" alt="Body & Hair Mini Travel Set package image"></li>
+                <li><img src="images/slide_last.png" alt="postcard image"></li>
+            </ul>
+            <div>
+                <select title="please select an option">
+                    <option>SANTAL CREAM</option>
+                    <option>GENTLE NIGHT</option>
+                    <option>GAIAC FLOWER</option>
+                </select>
+                <select title="please select an option">
+                    <option>Postcard</option>
+                    <option>Thank you</option>
+                    <option>Happy Birthday</option>
+                    <option>Congratulations</option>
+                    <option>None</option>
+                </select>
+                <input type="button" value="Add to Cart $35.00 USD" class="boxBtn" data-panelName="cartPanel">
+            </div>
+        </div>
+
+        <figure class="limgRtxt giftSet_bg">
+            <img src="images/bg_01_giftset.png" alt="image of gift set">
+            <figcaption>
+                <p>A mini-sized body &amp; hair travel set prepared for your special getaway moments.</p>
+                <p>Meet three of our best-selling fragrances for body care and Rose Pale for newly introduced hair care.</p>
+            </figcaption>
+        </figure>
+
+        <div>
+            <h2>You may also like</h2>
+            <ul class="recList">
+                <li>
+                    <a href="hand-lip-care-duo.html">
+                        <img src="images/handlipcareduo_gs_slide_01.png" alt="Hand & Lip Care Duo image">
+                    </a>
+                    <dl>
+                        <dt>Hand &amp; Lip Care Duo</dt>
+                        <dd>Gift Set</dd>
+                        <dd>$39.00 USD</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="body-care-set.html">
+                        <img src="images/bodycareset_gs_slide_01.png" alt="body care Set image">
+                    </a>
+                    <dl>
+                        <dt>Body Care Set</dt>
+                        <dd>Gift Set</dd>
+                        <dd>$72.00 USD</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="for-rest-body-wash.html">
+                        <img src="images/forrest_bw_slide_01.png" alt="for rest body wash image">
+                    </a>
+                    <dl>
+                        <dt>FOR REST</dt>
+                        <dd>Body Wash</dd>
+                        <dd>$36.00 USD</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <h2>SUBSCRIBE</h2>
+                <form>
+                    <input type="email" placeholder="Email Address" title="Enter your email address to receive special offers">
+                    <input type="submit" value="submit">
+                </form>
+                <p>Enter your email address to receive special offers!</p>
+            </div>
+            <div>
+                <div>
+                    <h3>INFO</h3>
+                    <ul>
+                        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                        <li><a href="payment-info.html">Payment Info</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="refund-policy.html">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>CONTACT US</h3>
+                    <ul>
+                        <li><a href="contact-us.html">Help &amp; FAQs</a></li>
+                        <li><a href="stockist.html">Stockists</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/official.nonfiction/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.pinterest.co.kr/officialnonfiction/_created/" target="_blank">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <address>
+                    NONFICTION Inc. Company no: 819-87-01383 | CEO: Hye-young Cha | Address: 3F 49, Itaewon-ro 55ga-gil, Yongsan-gu, Seoul 04348 South Korea | <a href="mailto:help@nonfiction-beauty.com">Mail: help@nonfiction-beauty.com</a> | <a href="tel:+8227904096">Tel: +82 2 790 4096</a>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

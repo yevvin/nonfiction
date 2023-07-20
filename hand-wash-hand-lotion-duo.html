@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NONFICTION</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/nf.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <aside id="menuPanel">
+        <input type="button" value="close" class="closeBtn">
+        <nav>
+            <div>
+                <b>SHOP</b>
+                <ul>
+                    <li><a href="list-shop-all.html">SHOP ALL</a></li>
+                    <li><a href="list-best-seller.html">BEST SELLER</a></li>
+                    <li><a href="list-home-fragrance.html">HOME FRAGRANCE</a></li>
+                    <li><a href="list-perfume.html">PERFUME</a></li>
+                    <li><a href="list-body-care.html">BODY CARE</a></li>
+                    <li><a href="list-hand-care.html">HAND CARE</a></li>
+                    <li><a href="list-gift-set.html">GIFT SET</a></li>
+                    <li><a href="list-acc.html">ACC</a></li>
+                </ul>
+            </div>
+            <div>
+                <b>ABOUT</b>
+                <ul>
+                    <li><a href="our-story.html">OUR STORY</a></li>
+                    <li><a href="press.html">PRESS</a></li>
+                </ul>
+            </div>
+            <b><a href="stockist.html">STOCKIST</a></b>
+            <b><a href="contact-us.html">CONTACT</a></b>
+        </nav>
+    </aside>
+
+    <div id="cartPanel">
+        <h2>
+            YOUR CART
+            <span>(1)</span>
+            <input type="button" value="close" class="closeBtn">
+        </h2>
+        <form action="checkout.html">
+            <ul>
+                <li class="active">
+                    <a href="santal-cream-hand-cream.html">
+                        <img src="images/santalcream_hc_slide_01.png" alt="santal cream hand cream image">
+                    </a>
+                    <div>
+                        <dl>
+                            <dt>SANTAL CREAM</dt>
+                            <dd>Hand Cream</dd>
+                            <dd>50ML / 1.7OZ</dd>
+                            <dd>POSTCARD : NONE</dd>
+                        </dl>
+                        <div class="numberComponent">
+                            <input type="button" value="-" class="countDown">
+                            <span>1</span>
+                            <input type="button" value="+" class="countUp">
+                        </div>
+                        <input type="button" value="Remove" class="deleteBtn lineBtn">
+                        <strong>$21.00 USD</strong>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <strong>
+                    <span>Total</span>
+                    <span>$21.00 USD</span>
+                </strong>
+                <p>Free Shipping on orders over $80</p>
+                <input type="submit" value="PROCEED TO CHECKOUT">
+            </div>
+        </form>
+    </div>
+
+    <header>
+        <div>
+            <div>
+                <input type="button" value="menu" class="material-icons-outlined" data-panelName="menuPanel">
+                <a href="press.html">PRESS</a>
+            </div>
+            <h1>
+                <a href="index-after.html">
+                    <img src="images/logo.png" alt="NONFICTION beauty">
+                </a>
+            </h1>
+            <ul>
+                <li><input type="button" value="search" data-panelName="searchPanel"></li>
+                <li><a href="mypage.html">account</a></li>
+                <li><input type="button" value="cart" data-panelName="cartPanel"><span>+99</span></li>
+            </ul>
+        </div>
+        <div id="searchPanel">
+            <form>
+                <input type="search" placeholder="SEARCH" title="insert your search keyword">
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </header>
+
+    <section class="detailContainer">
+        <div>
+            <div>
+                <small>Gift Set</small>
+                <h2>Hand Wash &amp; Hand Lotion Duo</h2>
+                <span>300ML X 2</span>
+                <strong>$64.00 USD</strong>
+                <ul class="tabMenu">
+                    <li>
+                        <input type="button" value="About the product" data-tabNumb="tabFirst" class="activated">
+                    </li>
+                    <li>
+                        <input type="button" value="Scent" data-tabNumb="tabSecond">
+                    </li>
+                    <li>
+                        <input type="button" value="Ingredients" data-tabNumb="tabThird">
+                    </li>
+                    <li>
+                        <input type="button" value="How to apply" data-tabNumb="tabFourth">
+                    </li>
+                </ul>
+                <div id="tabFirst" class="activated">
+                    <p>
+                        For hands that can easily become dry, this hand care duo will be a refreshing remedy. The moisturizing hand wash is rich in calming substances to minimize skin damages, and the hand lotion with hyaluronic acid will keep your hands moisturized, leaving sense of freshness. With the signature fragrance of Nonfiction filled in this hand care duo, you may set a healthy and fragrant care routine for your hands.
+                        <strong>* Shopping bags are available in the ACC category.</strong>
+                        <strong>* This product is provided with gift box packaging, so we don't provide additional gift wrapping.</strong>
+                        <strong>* Pumps are available in the ACC category.</strong>
+                    </p>
+                </div>
+                <div id="tabSecond">
+                    <p>
+                        SANTAL CREAM - Serene and languid moments culminated by a harmony of vetiver, sandalwood, and fresh cardamom. <br>
+                        Sandalwood, Vetiver, Fig, Cardamom, Ginger, Bergamot
+                    </p>
+                    <p>
+                        GENTLE NIGHT - Epicene beauty blended with warmth of sweet suede, calming cedarwood, vanilla, and musk. <br>
+                        Suede, White Tea, Fig, Moss, Cedarwood, Musk
+                    </p>
+                    <p>
+                        GAIAC FLOWER - Smoky twists of innocence and sensuality of oriental flowers. <br>
+                        Wild Rose, Guaiac, Oriental, Vanilla, Amber
+                    </p>
+                    <p>
+                        FORGET ME NOT - Mystic and captivating aroma of citrus blended with notes of spicy pepper, amber, and green. <br>
+                        Basil, Pink Pepper, Green, Gardenia, Amber
+                    </p>
+                    <p>
+                        IN THE SHOWER - A fresh interpretation of woody fragrance enhanced with Campari accord. <br>
+                        Patchouli, Tobacco, Bitter Orange, Campari, Guaiac
+                    </p>
+                    <p>
+                        FOR REST - Subtle and modern scent completed by a combination of hinoki, yuzu, nutmeg and frankincense. <br>
+                        Hinoki, Frankincense, Turkish Rose, Yuzu, Nutmeg
+                    </p>
+                </div>
+                <div id="tabThird">
+                    <p>
+                        SANTAL CREAM Hand Wash <br>
+                        Water/Aqua, Cocamidopropyl Betaine, Glycerin, Acrylates Copolymer, Potassium Cocoyl Glycinate, Dipropylene Glycol, Sodium Chloride, Potassium Cocoate, Fragrance/Parfum, 1,2-Hexanediol, Sodium Benzoate, Ethylhexylglycerin, Disodium EDTA, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Chamomilla Recutita (Matricaria) Extract, Tocopheryl Acetate, Avena Sativa (Oat) Kernel Extract, Sesamum Indicum (Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Butylene Glycol, Cyclodextrin, Panthenol, Niacinamide, Tocopherol, Rutin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Benzyl Salicylate, Coumarin, Limonene
+                    </p>
+                    <p>
+                        SANTAL CREAM Hand Lotion <br>
+                        Aqua/Water/Eau, Propanediol, Dipropylene Glycol, Caprylic/Capric Triglyceride, Butyrospermum Parkii (Shea) Butter, Caprylyl Methicone, Cetearyl Olivate, 1,2-Hexanediol, Dicaprylyl Ether, Cetearyl Alcohol, Sorbitan Olivate, Parfum/Fragrance, Glyceryl Stearate, Palmitic Acid, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Xanthan Gum, Disodium EDTA, Butylene Glycol, Sorbitan Isostearate, Polysorbate 60, Myristic Acid, Sodium Hyaluronate, Polyglutamic Acid, Tocopherol, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Persea Gratissima (Avocado) Oil, Helianthus Annuus (Sunflower) Seed Oil, Hydrogenated Lecithin, Polyglyceryl-10 Stearate, Panthenol, Sodium Ascorbyl Phosphate, Calendula Officinalis Flower Extract, Niacinamide, Biotin, Folic Acid, Pyridoxine, Cyanocobalamin, Linoleic Acid, Riboflavin, Beta-Carotene, Inositol, Thiamine HCl, Benzyl Salicylate, Coumarin, Limonene
+                    </p>
+                    <p>
+                        GENTLE NIGHT Hand Wash <br>
+                        Water/Aqua, Cocamidopropyl Betaine, Glycerin, Acrylates Copolymer, Potassium Cocoyl Glycinate, Dipropylene Glycol, Sodium Chloride, Fragrance/Parfum, Potassium Cocoate, 1,2-Hexanediol, Sodium Benzoate, Ethylhexylglycerin, Disodium EDTA, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Chamomilla Recutita (Matricaria) Extract, Tocopheryl Acetate, Avena Sativa (Oat) Kernel Extract, Sesamum Indicum (Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Butylene Glycol, Cyclodextrin, Panthenol, Niacinamide, Tocopherol, Rutin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Benzyl Salicylate, Limonene, Hexyl Cinnamal, Hydroxycitronellal, Linalool
+                    </p>
+                    <p>
+                        GENTLE NIGHT Hand Lotion <br>
+                        Aqua/Water/Eau, Propanediol, Dipropylene Glycol, Caprylic/Capric Triglyceride, Butyrospermum Parkii (Shea) Butter, Caprylyl Methicone, Cetearyl Olivate, 1,2-Hexanediol, Dicaprylyl Ether, Cetearyl Alcohol, Sorbitan Olivate, Parfum/Fragrance, Glyceryl Stearate, Palmitic Acid, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Xanthan Gum, Disodium EDTA, Butylene Glycol, Sorbitan Isostearate, Polysorbate 60, Myristic Acid, Sodium Hyaluronate, Polyglutamic Acid, Tocopherol, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Persea Gratissima (Avocado) Oil, Helianthus Annuus (Sunflower) Seed Oil, Hydrogenated Lecithin, Polyglyceryl-10 Stearate, Panthenol, Sodium Ascorbyl Phosphate, Calendula Officinalis Flower Extract, Niacinamide, Biotin, Folic Acid, Pyridoxine, Cyanocobalamin, Linoleic Acid, Riboflavin, Beta-Carotene, Inositol, Thiamine HCl, Benzyl Salicylate, Linalool, Limonene, Hexyl Cinnamal, Hydroxycitronellal, Citronellol, Alpha-Isomethyl Ionone
+                    </p>
+                    <p>
+                        GAIAC FLOWER Hand Wash <br>
+                        Water/Aqua, Cocamidopropyl Betaine, Glycerin, Acrylates Copolymer, Potassium Cocoyl Glycinate, Dipropylene Glycol, Fragrance/Parfum, Sodium Chloride, Potassium Cocoate, 1,2-Hexanediol, Sodium Benzoate, Ethylhexylglycerin, Disodium EDTA, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Chamomilla Recutita (Matricaria) Extract, Tocopheryl Acetate, Avena Sativa (Oat) Kernel Extract, Sesamum Indicum (Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Butylene Glycol, Cyclodextrin, Panthenol, Niacinamide, Tocopherol, Rutin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Limonene
+                    </p>
+                    <p>
+                        GAIAC FLOWER Hand Lotion <br>
+                        Aqua/Water/Eau, Propanediol, Dipropylene Glycol, Caprylic/Capric Triglyceride, Butyrospermum Parkii (Shea) Butter, Caprylyl Methicone, Cetearyl Olivate, Parfum/Fragrance, 1,2-Hexanediol, Dicaprylyl Ether, Cetearyl Alcohol, Sorbitan Olivate, Glyceryl Stearate, Palmitic Acid, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Xanthan Gum, Disodium EDTA, Butylene Glycol, Sorbitan Isostearate, Polysorbate 60, Myristic Acid, Sodium Hyaluronate, Polyglutamic Acid, Tocopherol, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Persea Gratissima (Avocado) Oil, Helianthus Annuus (Sunflower) Seed Oil, Hydrogenated Lecithin, Polyglyceryl-10 Stearate, Panthenol, Sodium Ascorbyl Phosphate, Calendula Officinalis Flower Extract, Niacinamide, Biotin, Folic Acid, Pyridoxine, Cyanocobalamin, Linoleic Acid, Riboflavin, Beta-Carotene, Inositol, Thiamine HCl, Limonene, Citronellol, Geraniol
+                    </p>
+                    <p>
+                        FORGET ME NOT Hand Wash <br>
+                        Water/Aqua, Cocamidopropyl Betaine, Glycerin, Acrylates Copolymer, Potassium Cocoyl Glycinate, Dipropylene Glycol, Sodium Chloride, Fragrance/Parfum, Potassium Cocoate, 1,2-Hexanediol, Sodium Benzoate, Ethylhexylglycerin, Disodium EDTA, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Chamomilla Recutita (Matricaria) Extract, Tocopheryl Acetate, Avena Sativa (Oat) Kernel Extract, Sesamum Indicum (Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Butylene Glycol, Cyclodextrin, Panthenol, Niacinamide, Tocopherol, Rutin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Limonene, Linalool, Coumarin
+                    </p>
+                    <p>
+                        FORGET ME NOT Hand Lotion <br>
+                        Aqua/Water/Eau, Propanediol, Dipropylene Glycol, Caprylic/Capric Triglyceride, Butyrospermum Parkii (Shea) Butter, Caprylyl Methicone, Cetearyl Olivate, Parfum/Fragrance, 1,2-Hexanediol, Dicaprylyl Ether, Cetearyl Alcohol, Sorbitan Olivate, Glyceryl Stearate, Palmitic Acid, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Xanthan Gum, Disodium EDTA, Butylene Glycol, Sorbitan Isostearate, Polysorbate 60, Myristic Acid, Sodium Hyaluronate, Polyglutamic Acid, Tocopherol, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Persea Gratissima (Avocado) Oil, Helianthus Annuus (Sunflower) Seed Oil, Hydrogenated Lecithin, Polyglyceryl-10 Stearate, Panthenol, Sodium Ascorbyl Phosphate, Calendula Officinalis Flower Extract, Niacinamide, Biotin, Folic Acid, Pyridoxine, Cyanocobalamin, Linoleic Acid, Riboflavin, Beta-Carotene, Inositol, Thiamine HCl, Limonene, Linalool, Coumarin, Citronellol, Citral, Eugenol
+                    </p>
+                    <p>
+                        IN THE SHOWER Hand Wash <br>
+                        Water/Aqua, Cocamidopropyl Betaine, Glycerin, Acrylates Copolymer, Potassium Cocoyl Glycinate, Dipropylene Glycol, Sodium Chloride, Potassium Cocoate, 1,2-Hexanediol, Fragrance/Parfum, Sodium Benzoate, Ethylhexylglycerin, Disodium EDTA, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Chamomilla Recutita (Matricaria) Extract, Tocopheryl Acetate, Avena Sativa (Oat) Kernel Extract, Sesamum Indicum (Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Butylene Glycol, Cyclodextrin, Panthenol, Niacinamide, Tocopherol, Rutin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Limonene
+                    </p>
+                    <p>
+                        IN THE SHOWER Hand Lotion
+                        Aqua/Water/Eau, Propanediol, Dipropylene Glycol, Caprylic/Capric Triglyceride, Butyrospermum Parkii (Shea) Butter, Caprylyl Methicone, Cetearyl Olivate, 1,2-Hexanediol, Dicaprylyl Ether, Cetearyl Alcohol, Sorbitan Olivate, Glyceryl Stearate, Parfum/Fragrance, Palmitic Acid, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Xanthan Gum, Disodium EDTA, Butylene Glycol, Sorbitan Isostearate, Polysorbate 60, Myristic Acid, Sodium Hyaluronate, Polyglutamic Acid, Tocopherol, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Persea Gratissima (Avocado) Oil, Helianthus Annuus (Sunflower) Seed Oil, Hydrogenated Lecithin, Polyglyceryl-10 Stearate, Panthenol, Sodium Ascorbyl Phosphate, Calendula Officinalis Flower Extract, Niacinamide, Biotin, Folic Acid, Pyridoxine, Cyanocobalamin, Linoleic Acid, Riboflavin, Beta-Carotene, Inositol, Thiamine HCl, Limonene
+                    </p>
+                    <p>
+                        FOR REST Hand Wash <br>
+                        Aqua/Water/Eau, Cocamidopropyl Betaine, Glycerin, Potassium Cocoyl Glycinate, Acrylates Copolymer, Dipropylene Glycol, Sodium Chloride, Potassium Cocoate, 1,2-Hexanediol, Parfum/Fragrance, Sodium Benzoate, Ethylhexylglycerin, Disodium EDTA, Camellia Sinensis Leaf Extract, Centella Asiatica Extract, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Squalane, Persea Gratissima (Avocado) Oil, Chamomilla Recutita (Matricaria) Extract, Tocopheryl Acetate, Avena Sativa (Oat) Kernel Extract, Sesamum Indicum (Sesame) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Butylene Glycol, Cyclodextrin, Panthenol, Niacinamide, Tocopherol, Rutin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Retinol, Polysorbate 20, Polycaprolactone, Limonene, Benzyl Benzoate
+                    </p>
+                    <p>
+                        FOR REST Hand Lotion <br>
+                        Aqua/Water/Eau, Propanediol, Dipropylene Glycol, Caprylic/Capric Triglyceride, Butyrospermum Parkii (Shea) Butter, Caprylyl Methicone, Cetearyl Olivate, 1,2-Hexanediol, Parfum/Fragrance, Dicaprylyl Ether, Cetearyl Alcohol, Sorbitan Olivate, Glyceryl Stearate, Palmitic Acid, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Xanthan Gum, Disodium EDTA, Butylene Glycol, Sorbitan Isostearate, Polysorbate 60, Myristic Acid, Sodium Hyaluronate, Polyglutamic Acid, Tocopherol, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Persea Gratissima (Avocado) Oil, Helianthus Annuus (Sunflower) Seed Oil, Hydrogenated Lecithin, Polyglyceryl-10 Stearate, Panthenol, Sodium Ascorbyl Phosphate, Calendula Officinalis Flower Extract, Niacinamide, Biotin, Folic Acid, Pyridoxine, Cyanocobalamin, Linoleic Acid, Riboflavin, Beta-Carotene, Inositol, Thiamine HCl, Limonene, Benzyl Benzoate, Citronellol, Linalool, Citral, Benzyl Alcohol
+                    </p>
+                </div>
+                <div id="tabFourth">
+                    <p>
+                        Hand Wash - Apply on wet hands, lather, and rinse thoroughly. <br>
+                        Hand Lotion - Apply onto clean hands and massage until absorbed.
+                    </p>
+                </div>
+            </div>
+            <ul class="detailSlider">
+                <li><img src="images/hwhlduo_gs_slide_01.png" alt="Hand Wash & Hand Lotion Duo image"></li>
+                <li><img src="images/hwhlduo_gs_slide_02.png" alt="Hand Wash & Hand Lotion Duo package image"></li>
+                <li><img src="images/slide_last.png" alt="postcard image"></li>
+            </ul>
+            <div>
+                <select title="please select an option">
+                    <option>SANTAL CREAM</option>
+                    <option>GENTLE NIGHT</option>
+                    <option>GAIAC FLOWER</option>
+                    <option>FORGET ME NOT</option>
+                    <option>IN THE SHOWER</option>
+                    <option>FOR REST</option>
+                </select>
+                <select title="please select an option">
+                    <option>Postcard</option>
+                    <option>Thank you</option>
+                    <option>Happy Birthday</option>
+                    <option>Congratulations</option>
+                    <option>None</option>
+                </select>
+                <input type="button" value="Add to Cart $64.00 USD" class="boxBtn" data-panelName="cartPanel">
+            </div>
+        </div>
+
+        <figure class="limgRtxt giftSet_bg">
+            <img src="images/bg_01_giftset.png" alt="image of gift set">
+            <figcaption>
+                <p>This is a duo of hand wash and hand lotion of the same fragrance.</p>
+                <p>The set will leave your hands moisturized with light and fresh texture.</p>
+            </figcaption>
+        </figure>
+
+        <div>
+            <h2>You may also like</h2>
+            <ul class="recList">
+                <li>
+                    <a href="for-rest-hand-wash.html">
+                        <img src="images/forrest_hw_slide_01.png" alt="for rest hand wash">
+                    </a>
+                    <dl>
+                        <dt>FOR REST</dt>
+                        <dd>Hand Wash</dd>
+                        <dd>$32.00 USD</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="hand-care-set.html">
+                        <img src="images/handcareset_gs_slide_01.png" alt="hand care set">
+                    </a>
+                    <dl>
+                        <dt>Hand Care Set</dt>
+                        <dd>Gift Set</dd>
+                        <dd>$53.00 USD</dd>
+                    </dl>
+                </li>
+                <li>
+                    <a href="forget-me-not-hand-wash.html">
+                        <img src="images/forgetmenot_hw_slide_01.png" alt="forget me not hand wash">
+                    </a>
+                    <dl>
+                        <dt>FORGET ME NOT</dt>
+                        <dd>Hand Wash</dd>
+                        <dd>$32.00 USD</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <h2>SUBSCRIBE</h2>
+                <form>
+                    <input type="email" placeholder="Email Address" title="Enter your email address to receive special offers">
+                    <input type="submit" value="submit">
+                </form>
+                <p>Enter your email address to receive special offers!</p>
+            </div>
+            <div>
+                <div>
+                    <h3>INFO</h3>
+                    <ul>
+                        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                        <li><a href="payment-info.html">Payment Info</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="refund-policy.html">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>CONTACT US</h3>
+                    <ul>
+                        <li><a href="contact-us.html">Help &amp; FAQs</a></li>
+                        <li><a href="stockist.html">Stockists</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/official.nonfiction/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.pinterest.co.kr/officialnonfiction/_created/" target="_blank">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <address>
+                    NONFICTION Inc. Company no: 819-87-01383 | CEO: Hye-young Cha | Address: 3F 49, Itaewon-ro 55ga-gil, Yongsan-gu, Seoul 04348 South Korea | <a href="mailto:help@nonfiction-beauty.com">Mail: help@nonfiction-beauty.com</a> | <a href="tel:+8227904096">Tel: +82 2 790 4096</a>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

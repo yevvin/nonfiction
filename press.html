@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NONFICTION</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/nf.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <aside id="menuPanel">
+        <input type="button" value="close" class="closeBtn">
+        <nav>
+            <div>
+                <b>SHOP</b>
+                <ul>
+                    <li><a href="list-shop-all.html">SHOP ALL</a></li>
+                    <li><a href="list-best-seller.html">BEST SELLER</a></li>
+                    <li><a href="list-home-fragrance.html">HOME FRAGRANCE</a></li>
+                    <li><a href="list-perfume.html">PERFUME</a></li>
+                    <li><a href="list-body-care.html">BODY CARE</a></li>
+                    <li><a href="list-hand-care.html">HAND CARE</a></li>
+                    <li><a href="list-gift-set.html">GIFT SET</a></li>
+                    <li><a href="list-acc.html">ACC</a></li>
+                </ul>
+            </div>
+            <div>
+                <b>ABOUT</b>
+                <ul>
+                    <li><a href="our-story.html">OUR STORY</a></li>
+                    <li><a href="press.html">PRESS</a></li>
+                </ul>
+            </div>
+            <b><a href="stockist.html">STOCKIST</a></b>
+            <b><a href="contact-us.html">CONTACT</a></b>
+        </nav>
+    </aside>
+
+    <div id="cartPanel">
+        <h2>
+            YOUR CART
+            <span>(1)</span>
+            <input type="button" value="close" class="closeBtn">
+        </h2>
+        <form action="checkout.html">
+            <ul>
+                <li class="active">
+                    <a href="santal-cream-hand-cream.html">
+                        <img src="images/santalcream_hc_slide_01.png" alt="santal cream hand cream image">
+                    </a>
+                    <div>
+                        <dl>
+                            <dt>SANTAL CREAM</dt>
+                            <dd>Hand Cream</dd>
+                            <dd>50ML / 1.7OZ</dd>
+                            <dd>POSTCARD : NONE</dd>
+                        </dl>
+                        <div class="numberComponent">
+                            <input type="button" value="-" class="countDown">
+                            <span>1</span>
+                            <input type="button" value="+" class="countUp">
+                        </div>
+                        <input type="button" value="Remove" class="deleteBtn lineBtn">
+                        <strong>$21.00 USD</strong>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <strong>
+                    <span>Total</span>
+                    <span>$21.00 USD</span>
+                </strong>
+                <p>Free Shipping on orders over $80</p>
+                <input type="submit" value="PROCEED TO CHECKOUT">
+            </div>
+        </form>
+    </div>
+
+    <header>
+        <div>
+            <div>
+                <input type="button" value="menu" class="material-icons-outlined" data-panelName="menuPanel">
+                <a href="press.html">PRESS</a>
+            </div>
+            <h1>
+                <a href="index-after.html">
+                    <img src="images/logo.png" alt="NONFICTION beauty">
+                </a>
+            </h1>
+            <ul>
+                <li><input type="button" value="search" data-panelName="searchPanel"></li>
+                <li><a href="mypage.html">account</a></li>
+                <li><input type="button" value="cart" data-panelName="cartPanel"><span>+99</span></li>
+            </ul>
+        </div>
+        <div id="searchPanel">
+            <form>
+                <input type="search" placeholder="SEARCH" title="insert your search keyword">
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </header>
+
+    <section class="pressContainer">
+        <h2>PRESS</h2>
+        <ul>
+            <li>
+                <a href="https://www.eyesmag.com/posts/148752/nonfiction-homefragrance-collection" target="_blank">
+                    <img src="images/press_thumbnail_01.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Eyesmag, November, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.harpersbazaar.co.kr/article/72223" target="_blank">
+                    <img src="images/press_thumbnail_02.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Harper's BAZAAR, November, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.thefirstmedia.net/news/articleView.html?idxno=105188" target="_blank">
+                    <img src="images/press_thumbnail_03.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>The first, November, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.vogue.co.kr/2022/11/08/%ed%8c%8c%eb%a6%ac%ec%9d%98-%eb%85%bc%ed%94%bd%ec%85%98-%ed%8a%b9%eb%b3%84%ed%95%9c-%ed%96%a5%ec%9d%98-%ea%b3%b5%ea%b0%84%ec%9d%84-%ec%99%84%ec%84%b1%ed%95%9c-4%ec%9d%b8/?utm_source=naver&utm_medium=partnership" target="_blank">
+                    <img src="images/press_thumbnail_04.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Vogue, September, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.eyesmag.com/posts/146948/nonfiction-gift-set" target="_blank">
+                    <img src="images/press_thumbnail_05.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>eyesmag, August, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.papkorea.com/category/Life/203/news" target="_blank">
+                    <img src="images/press_thumbnail_06.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>PAP Korea Magazine, August, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.elle.co.kr/article/69041" target="_blank">
+                    <img src="images/press_thumbnail_07.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>ELLE Korea, August, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.harpersbazaar.co.kr/article/68226" target="_blank">
+                    <img src="images/press_thumbnail_08.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Harper's BAZAAR, July, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.cosmopolitan.co.kr/article/67769" target="_blank">
+                    <img src="images/press_thumbnail_09.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>COSMOPOLITAN, July, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.wkorea.com/2022/07/08/%ed%95%98%eb%93%9c%ec%ba%90%eb%a6%ac%ed%95%b4-%ec%ba%90%eb%a6%ac%ec%96%b4-%ec%86%8d-%ec%97%ac%ed%96%89%ec%9a%a9-%eb%b7%b0%ed%8b%b0-%ed%82%a4%ed%8a%b8-4/" target="_blank">
+                    <img src="images/press_thumbnail_10.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>W Korea, July, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.eyesmag.com/posts/145402/nonfiction-sanchung-new-showroom" target="_blank">
+                    <img src="images/press_thumbnail_11.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>eyesmag, June, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.vogue.co.kr/2022/06/22/%eb%85%bc%ed%94%bd%ec%85%98%ec%9d%98-%eb%84%a4-%eb%b2%88%ec%a7%b8-%ec%98%81%ea%b0%90%ec%9d%b4-%ed%94%bc%ec%96%b4%eb%82%a9%eb%8b%88%eb%8b%a4/" target="_blank">
+                    <img src="images/press_thumbnail_12.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>VOGUE Korea, June, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.cosmopolitan.co.kr/article/67063" target="_blank">
+                    <img src="images/press_thumbnail_13.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>COSMOPOLITAN, May, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.elle.co.kr/article/66081" target="_blank">
+                    <img src="images/press_thumbnail_14.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>ELLE Korea, May, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.wkorea.com/2022/05/01/%eb%b3%95-%ec%a2%8b%ec%9d%80-%ed%95%9c%eb%82%a8%eb%8f%99-%eb%b7%b0%ed%8b%b0%ec%8a%a4%ed%8c%9f%ec%9c%bc%eb%a1%9c-%eb%86%80%eb%9f%ac%ec%98%a4%ec%84%b8%ec%9a%94/" target="_blank">
+                    <img src="images/press_thumbnail_15.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>W Korea, May, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.eyesmag.com/posts/144070/NONFICTION-HANNAM" target="_blank">
+                    <img src="images/press_thumbnail_16.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>eyesmag, April, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.wkorea.com/2022/02/01/%eb%8a%a6%ec%a7%80-%ec%95%8a%ec%95%98%ec%96%b4-%ec%84%a4-%ec%84%a0%eb%ac%bc/" target="_blank">
+                    <img src="images/press_thumbnail_17.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>W Korea, January, 2022</h3>
+            </li>
+            <li>
+                <a href="https://hypebeast.kr/2022/1/nonfiction-new-year-gift-set-release-info" target="_blank">
+                    <img src="images/press_thumbnail_18.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Hypebeast, January, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.harpersbazaar.co.kr/article/63098" target="_blank">
+                    <img src="images/press_thumbnail_19.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Harper's Bazaar, January, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.elle.co.kr/article/62249" target="_blank">
+                    <img src="images/press_thumbnail_20.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Elle, January, 2022</h3>
+            </li>
+            <li>
+                <a href="https://www.allurekorea.com/2021/12/05/%ed%8a%b9%ec%83%89-%ec%9e%88%eb%8a%94-%ed%96%a5%ea%b3%bc-%ec%83%89%ec%9d%84-%ec%9e%85%ec%9d%80-%eb%b9%84%eb%88%84/" target="_blank">
+                    <img src="images/press_thumbnail_21.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Allure, December, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.marieclairekorea.com/beauty/2021/12/soap-tiful/" target="_blank">
+                    <img src="images/press_thumbnail_22.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Marie Claire, December, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.marieclairekorea.com/beauty/2021/12/scents2021/" target="_blank">
+                    <img src="images/press_thumbnail_23.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Marie Claire, December, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.harpersbazaar.co.kr/article/62585" target="_blank">
+                    <img src="images/press_thumbnail_24.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>harper's BAZAAR, December, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.elle.co.kr/article/62010" target="_blank">
+                    <img src="images/press_thumbnail_25.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Elle, November, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.eyesmag.com/posts/140712/nonfiction-holiday-edition-release" target="_blank">
+                    <img src="images/press_thumbnail_26.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Eyesmag, November, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.arenakorea.com/arena/article/49426" target="_blank">
+                    <img src="images/press_thumbnail_27.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Arena Homme+, October, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.wkorea.com/2021/10/06/%ED%95%B8%EB%93%9C-%EB%A9%94%EC%9D%B4%ED%8A%B8/" target="_blank">
+                    <img src="images/press_thumbnail_28.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>W Korea, October, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.vogue.co.kr/2021/10/27/%ED%96%A5%EC%9D%98-%EB%8C%80%EB%AA%85%EC%82%AC-%EB%85%BC%ED%94%BD%EC%85%98%EC%9D%98-%EC%97%AC%EC%84%AF-%EB%B2%88%EC%A7%B8-%ED%96%A5/" target="_blank">
+                    <img src="images/press_thumbnail_29.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Vogue, October, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.eyesmag.com/posts/140220/NONFICTION-new-scent-launch" target="_blank">
+                    <img src="images/press_thumbnail_30.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Eyesmag, October, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.eyesmag.com/posts/139494/NONFICTION-scented-soap-release-info" target="_blank">
+                    <img src="images/press_thumbnail_31.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Eyesmag, September, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.vogue.co.kr/2021/09/27/%eb%85%bc%ed%94%bd%ec%85%98%ec%9d%98-soaps-sensibility/" target="_blank">
+                    <img src="images/press_thumbnail_32.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Eyesmag, October, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.allurekorea.com/2021/09/12/%EB%AC%B4%ED%99%94%EA%B3%BC-%ED%96%A5%EC%9D%B4-%EA%B9%83%EB%93%A0-%ED%96%A5%EC%88%98%EB%93%A4-4/" target="_blank">
+                    <img src="images/press_thumbnail_33.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Allure, September, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.eyesmag.com/posts/138906/NONFICTION-GIFT-SET" target="_blank">
+                    <img src="images/press_thumbnail_34.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Eyesmag, August, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.harpersbazaar.co.kr/article/57534" target="_blank">
+                    <img src="images/press_thumbnail_35.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Bazaar, August, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.elle.co.kr/article/56409" target="_blank">
+                    <img src="images/press_thumbnail_36.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Elle, June, 2021</h3>
+            </li>
+            <li>
+                <a href="https://www.vogue.co.kr/2021/06/04/%ea%b3%b5%ea%b0%84%ec%9d%98-%ed%92%88%ec%9c%84%eb%a5%bc-%eb%86%92%ec%9d%b4%eb%8a%94-%ec%9e%88%ec%96%b4%eb%b9%8c%eb%a6%ac%ed%8b%b0-%ec%95%84%ec%9d%b4%ed%85%9c/#image-1" target="_blank">
+                    <img src="images/press_thumbnail_37.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>Vogue, June, 2021</h3>
+            </li>
+            <li>
+                <a href="https://post.naver.com/viewer/postView.nhn?volumeNo=31527414&memberNo=5661778&vType=VERTICAL" target="_blank">
+                    <img src="images/press_thumbnail_38.png" alt="thumbnail image of a magazine">
+                </a>
+                <h3>eyesmag, May, 2021</h3>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <h2>SUBSCRIBE</h2>
+                <form>
+                    <input type="email" placeholder="Email Address" title="Enter your email address to receive special offers">
+                    <input type="submit" value="submit">
+                </form>
+                <p>Enter your email address to receive special offers!</p>
+            </div>
+            <div>
+                <div>
+                    <h3>INFO</h3>
+                    <ul>
+                        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                        <li><a href="payment-info.html">Payment Info</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="refund-policy.html">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>CONTACT US</h3>
+                    <ul>
+                        <li><a href="contact-us.html">Help &amp; FAQs</a></li>
+                        <li><a href="stockist.html">Stockists</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/official.nonfiction/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.pinterest.co.kr/officialnonfiction/_created/" target="_blank">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <address>
+                    NONFICTION Inc. Company no: 819-87-01383 | CEO: Hye-young Cha | Address: 3F 49, Itaewon-ro 55ga-gil, Yongsan-gu, Seoul 04348 South Korea | <a href="mailto:help@nonfiction-beauty.com">Mail: help@nonfiction-beauty.com</a> | <a href="tel:+8227904096">Tel: +82 2 790 4096</a>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

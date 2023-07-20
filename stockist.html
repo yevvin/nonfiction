@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NONFICTION</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/nf.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <aside id="menuPanel">
+        <input type="button" value="close" class="closeBtn">
+        <nav>
+            <div>
+                <b>SHOP</b>
+                <ul>
+                    <li><a href="list-shop-all.html">SHOP ALL</a></li>
+                    <li><a href="list-best-seller.html">BEST SELLER</a></li>
+                    <li><a href="list-home-fragrance.html">HOME FRAGRANCE</a></li>
+                    <li><a href="list-perfume.html">PERFUME</a></li>
+                    <li><a href="list-body-care.html">BODY CARE</a></li>
+                    <li><a href="list-hand-care.html">HAND CARE</a></li>
+                    <li><a href="list-gift-set.html">GIFT SET</a></li>
+                    <li><a href="list-acc.html">ACC</a></li>
+                </ul>
+            </div>
+            <div>
+                <b>ABOUT</b>
+                <ul>
+                    <li><a href="our-story.html">OUR STORY</a></li>
+                    <li><a href="press.html">PRESS</a></li>
+                </ul>
+            </div>
+            <b><a href="stockist.html">STOCKIST</a></b>
+            <b><a href="contact-us.html">CONTACT</a></b>
+        </nav>
+    </aside>
+
+    <div id="cartPanel">
+        <h2>
+            YOUR CART
+            <span>(1)</span>
+            <input type="button" value="close" class="closeBtn">
+        </h2>
+        <form action="checkout.html">
+            <ul>
+                <li class="active">
+                    <a href="santal-cream-hand-cream.html">
+                        <img src="images/santalcream_hc_slide_01.png" alt="santal cream hand cream image">
+                    </a>
+                    <div>
+                        <dl>
+                            <dt>SANTAL CREAM</dt>
+                            <dd>Hand Cream</dd>
+                            <dd>50ML / 1.7OZ</dd>
+                            <dd>POSTCARD : NONE</dd>
+                        </dl>
+                        <div class="numberComponent">
+                            <input type="button" value="-" class="countDown">
+                            <span>1</span>
+                            <input type="button" value="+" class="countUp">
+                        </div>
+                        <input type="button" value="Remove" class="deleteBtn lineBtn">
+                        <strong>$21.00 USD</strong>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <strong>
+                    <span>Total</span>
+                    <span>$21.00 USD</span>
+                </strong>
+                <p>Free Shipping on orders over $80</p>
+                <input type="submit" value="PROCEED TO CHECKOUT">
+            </div>
+        </form>
+    </div>
+
+    <header>
+        <div>
+            <div>
+                <input type="button" value="menu" class="material-icons-outlined" data-panelName="menuPanel">
+                <a href="press.html">PRESS</a>
+            </div>
+            <h1>
+                <a href="index-after.html">
+                    <img src="images/logo.png" alt="NONFICTION beauty">
+                </a>
+            </h1>
+            <ul>
+                <li><input type="button" value="search" data-panelName="searchPanel"></li>
+                <li><a href="mypage.html">account</a></li>
+                <li><input type="button" value="cart" data-panelName="cartPanel"><span>+99</span></li>
+            </ul>
+        </div>
+        <div id="searchPanel">
+            <form>
+                <input type="search" placeholder="SEARCH" title="insert your search keyword">
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </header>
+
+    <section class="storeContainer">
+        <h2>store</h2>
+        <ul class="storeSlider">
+            <li><img src="images/store_slide_01.png" alt="nonfiction store samcheong"></li>
+            <li><img src="images/store_slide_02.png" alt="nonfiction store hannam"></li>
+            <li><img src="images/store_slide_03.png" alt="nonfiction store busan"></li>
+            <li><img src="images/store_slide_04.png" alt="nonfiction store seongsu"></li>
+        </ul>
+        <div>
+            <h3>NONFICTION</h3>
+            <ul>
+                <li>
+                    <h4>NONFICTION SAMCHEONG</h4>
+                    <address>
+                        <span>
+                            84, Bukchon-ro 5-gil, Jongno-gu, Seoul, <br>
+                            Republic of Korea
+                        </span>
+                        <a href="tel:+8227334099">+82 2 733 4099</a>
+                        <a href="https://www.nonfiction.com" target="_blank">nonfiction.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>NONFICTION HANNAM</h4>
+                    <address>
+                        <span>
+                            242, Itaewon-ro, <br>
+                            Yongsan-gu, Seoul, Republic of Korea
+                        </span>
+                        <a href="tel:+8227904097">+82 2 790 4097</a>
+                        <a href="https://www.nonfiction.com" target="_blank">nonfiction.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>NONFICTION BUSAN</h4>
+                    <address>
+                        <span>
+                            207, 2F, 302, Haeundaehaebyeon-ro, Haeundae-gu, Busan, Republic of Korea
+                        </span>
+                        <a href="tel:+82517474096">+82 51 747 4096</a>
+                        <a href="https://www.nonfiction.com" target="_blank">nonfiction.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>NONFICTION SEONGSU</h4>
+                    <address>
+                        <span>
+                            19, Seoulsup 6-gil, Seongdong-gu, Seoul, Republic of Korea
+                        </span>
+                        <a href="tel:+8224664098">+82 2 466 4098</a>
+                        <a href="https://www.nonfiction.com" target="_blank">nonfiction.com</a>
+                    </address>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>INTERNATIONAL</h3>
+            <ul>
+                <li>
+                    <h4>NONFICTION GLOBAL</h4>
+                    <address>
+                        <a href="tel:+8227904096">+82 2 790 4096</a>
+                        <a href="https://www.nonfiction-beauty.com" target="_blank">nonfiction-beauty.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>NONFICTION JAPAN</h4>
+                    <address>
+                        <a href="tel:+810120121770">+81 0120 121 770</a>
+                        <a href="https://jp.nonfiction-beauty.com/" target="_blank">jp.nonfiction-beauty.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>SSENSE</h4>
+                    <address>
+                        <a href="https://www.ssense.com" target="_blank">ssense.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>TOM GREYHOUND PARIS</h4>
+                    <address>
+                        <span>
+                            19 rue de Saintonge, 75003 Paris, France
+                        </span>
+                        <a href="tel:+33144613659">+33 1 44 61 36 59</a>
+                        <a href="https://www.tomgreyhound.com" target="_blank">tomgreyhound.com</a>
+                    </address>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>SEPHORA</h4>
+                    <address>
+                        <span>
+                            HONG KONG IFC <br>
+                            Level 1, IFC mall, Shop 1073-75, Podium, 8 Finance St, Central, Hong Kong
+                        </span>
+                        <a href="tel:+85231684088">+852 3168 4088</a>
+                    </address>
+                    <address>
+                        <span>
+                            K11 Art Mall <br>
+                            Shop B216, K11 Art Mall, 18 Hanoi Rd, Tsim Sha Tsui, Hong Kong
+                        </span>
+                        <a href="tel:+85234682103">+852 3468 2103</a>
+                    </address>
+                    <address>
+                        <span>
+                            SEPHORA HK ONLINE
+                        </span>
+                        <a href="tel:+85231684088">+852 3168 4088</a>
+                        <a href="https://www.sephora.hk" target="_blank">sephora.hk</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>JOYCE BEAUTY</h4>
+                    <address>
+                        <span>
+                            PACIFIC PLACE <br>
+                            152 Pacific Place Admiralty, Hong Kong
+                        </span>
+                        <a href="tel:+85237980172">+852 3798 0172</a>
+                    </address>
+                    <address>
+                        <span>
+                            HYSAN PLACE <br>
+                            Shop 214, Hysan Ave, Causeway Bay, Hong Kong
+                        </span>
+                        <a href="tel:+85227620130">+852 2762 0130</a>
+                    </address>
+                    <address>
+                        <span>
+                            FESTIVAL WALK <br>
+                            Shop G - 42, 80 Tat Chee Ave, Kowloon Tong, Hong Kong
+                        </span>
+                        <a href="tel:+85222657176">+852 2265 7176</a>
+                    </address>
+                    <address>
+                        <span>
+                            LANE CRAWFORD, IFC MALL <br>
+                            8 Finance St, Central, Hong Kong
+                        </span>
+                        <a href="tel:+85235720364">+852 3572 0364</a>
+                    </address>
+                    <address>
+                        <span>
+                            LANE CRAWFORD, TIMES SQUARE <br>
+                            Lane Crawford, Times Square, Causeway Bay, Hong Kong
+                        </span>
+                        <a href="tel:+85237980171">+852 3798 0171</a>
+                    </address>
+                    <address>
+                        <span>
+                            LANE CRAWFORD, CANTON ROAD <br>
+                            Lane Crawford, Canton Rd, Tsim Sha Tsui, Hong Kong
+                        </span>
+                        <a href="tel:+85223756601">+852 2375 6601</a>
+                    </address>
+                    <address>
+                        <span>
+                            JOYCE BEAUTY ONLINE
+                        </span>
+                        <a href="mailto:enquiry@joycebeauty.com">enquiry@joycebeauty.com</a>
+                        <a href="https://shop.joycebeauty.com/search?q=nonfiction&type=product" target="_blank">shop.joycebeauty.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>JOYCE</h4>
+                    <address>
+                        <span>
+                            PACIFIC PLACE <br>
+                            201 Pacific Place Admiralty, Hong Kong
+                        </span>
+                        <a href="tel:+85228101120">+852 2810 1120</a>
+                    </address>
+                    <address>
+                        <span>
+                            HARBOUR CITY <br>
+                            3205, Level, Harbour City, 3 Gateway Blvd, Tsim Sha Tsui, Hong Kong
+                        </span>
+                        <a href="tel:+85223678128">+852 2367 8128</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>SUPER A MARKET</h4>
+                    <address>
+                        <span>
+                            AOYAMA <br>
+                            3-18-9, Minami-aoyama, Minato-Ku, Tokyo, Japan 
+                        </span>
+                        <a href="tel:0334238428">03 3423 8428</a>
+                        <a href="https://store.tomorrowland.co.jp/store/superamarket/" target="_blank">superamarket.jp</a>
+                    </address>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>RESTIR</h4>
+                    <address>
+                        <span>
+                            9-6-17, Akasaka, Minato-Ku, Tokyo, Japan
+                        </span>
+                        <a href="tel:0354133708">03 5413 3708</a>
+                        <a href="https://www.restir.com" target="_blank">restir.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>KITH</h4>
+                    <address>
+                        <span>
+                            6-20-10, Jingumae, Shibuya- Ku, Tokyo, Japan
+                        </span>
+                        <a href="tel:0354133708">03 5413 3708</a>
+                        <a href="https://www.kithtokyo.com" target="_blank">kithtokyo.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>H BEAUTY&YOUTH</h4>
+                    <address>
+                        <span>
+                            3-14-17, Minamiaoyama, Minato-Ku, Tokyo, Japan 
+                        </span>
+                        <a href="tel:0364385230">03 6438 5230</a>
+                        <a href="https://www.united-arrows.co.jp/" target="_blank">store.united-arrows.co.jp</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>ISETAN MENS</h4>
+                    <address>
+                        <span>
+                            1F, 3-14-1, Shinjuku, Shinjuku-ku, Tokyo, Japan  
+                        </span>
+                        <a href="tel:0333521111">03 3352 1111</a>
+                        <a href="https://www.mistore.jp/shopping" target="_blank">mistore.jp</a>
+                    </address>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>TOMORROWLAND</h4>
+                    <address>
+                        <span>
+                            SHIBUYA Scramble Square <br>
+                            cocoti 1F, 1-23-16, Shibuya, Shibuya-Ku, Tokyo, Japan
+                        </span>
+                        <a href="tel:0357741711">03 5774 1711</a>
+                    </address>
+                    <address>
+                        <span>
+                            YURAKUCHO <br>
+                            LUMINE Yurakucho 2 3F, 2-5-1, Yurakucho, Chiyoda-Ku, Tokyo, Japan
+                        </span>
+                        <a href="tel:0352204080">03 5220 4080</a>
+                    </address>
+                    <address>
+                        <span>
+                            FUTAGOTAMAGAWA <br>
+                            Tamagawatakasimaya S･Cminamikan 3F, 3-17-1, Tamagawa, Setagaya-ku, Tokyo, Japan
+                        </span>
+                        <a href="tel:0357164447">03 5716 4447</a>
+                    </address>
+                    <address>
+                        <span>
+                            YOKOHAMA <br>
+                            LUMINE Yokohama 1F, 2-16-1, Takashima, Yokohama-shi Nishi-ku, Kanagawa, Japan
+                        </span>
+                        <a href="tel:0454501721">045 450 1721</a>
+                    </address>
+                    <address>
+                        <span>
+                            NAGOYA LACHIC <br>
+                            LACHIC 3F, 3-6-1, Sakae, Nagoya-shi Naka-ku, Aichi, Japan
+                        </span>
+                        <a href="tel:0522380845">052 238 0845</a>
+                    </address>
+                    <address>
+                        <span>
+                            OSAKA <br>
+                            1/2/4F, Meburo16Kan, Minamihorie, Osaka-Shi Nishi-Ku, Osaka, Japan
+                        </span>
+                        <a href="tel:0665318223">06 6531 8223</a>
+                    </address>
+                    <address>
+                        <span>
+                            NAGOYA JR TGM <br>
+                            Takashimaya Gate Tower Mall 3F, 1-1-3, Meieki Jieiarugetotawa, Sakae, Nagoya-shi Nakamura-ku, Aichi, Japan
+                        </span>
+                        <a href="tel:0525515217">052 551 5217</a>
+                    </address>
+                    <address>
+                        <span>
+                            KOBE <br>
+                            1F, 1-1-2, Sannomiyacho, Kobe-shi Chuo-ku, Hyogo, Japan
+                        </span>
+                        <a href="tel:0783278891">078 327 8891</a>
+                    </address>
+                    <address>
+                        <span>
+                            KYOTO <br>
+                            Kyoto BAL 2F, 251, Yamazakicho, Nakagyo-ku, Kyoto-shi, Kyoto, Japan
+                        </span>
+                        <a href="tel:0752552051">075 255 2051</a>
+                    </address>
+                    <address>
+                        <span>
+                            TACHIKAWA <br>
+                            LUMINE Tachikawa 2F, Akebonocho, Tachikawa-shi, Tokyo, Japan
+                        </span>
+                        <a href="tel:0425485071">042 548 5071</a>
+                    </address>
+                    <address>
+                        <span>
+                            SENDAI <br>
+                            Parco Sendai 3F, Chuo, Sendai Aoba-ku, Miyagi, Japan
+                        </span>
+                        <a href="tel:0227748187">022 774 8187</a>
+                    </address>
+                    <address>
+                        <span>
+                            OMIYA <br>
+                            LUMINE Omiya 2 2F, Nishikicho, Saitama-shi, Saitama, Japan
+                        </span>
+                        <a href="tel:0486464086">048 646 4086</a>
+                    </address>
+                    <address>
+                        <span>
+                            KASHIWA <br>
+                            Kashiwa Takashimaya 4F, Suehirocho, Kashiwa-shi, Chiba, Japan
+                        </span>
+                        <a href="tel:0471482046">04 7148 2046</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>BIOTOP</h4>
+                    <address>
+                        <span>
+                            TOKYO <br>
+                            4-6-44, Shirokanedai, Minato-Ku, Tokyo, Japan
+                        </span>
+                        <a href="tel:0334442421">03 3444 2421</a>
+                    </address>
+                    <address>
+                        <span>
+                            OSAKA <br>
+                            1/2/4F, Meburo16Kan, Minamihorie, Osaka-Shi Nishi-Ku, Osaka, Japan
+                        </span>
+                        <a href="tel:0665318223">06 6531 8223</a>
+                    </address>
+                    <address>
+                        <span>
+                            FUKUOKA <br>
+                            2F, 2-6-30, Akasaka, Chuo- ku, Fukuoka-shi, Fukuoka, Japan
+                        </span>
+                        <a href="tel:0927517061">092 751 7061</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>CASSINA</h4>
+                    <address>
+                        <span>
+                            AOYAMA <br>
+                            2-12-14, Minamiaoyama, Minato-Ku, Tokyo, Japan
+                        </span>
+                        <a href="tel:0354749001">03 5474 9001</a>
+                    </address>
+                    <address>
+                        <span>
+                            OSAKA <br>
+                            4-2-4, Minamisemba, Chuo-Ku, Osaka-Shi, Osaka, Japan
+                        </span>
+                        <a href="tel:0662533450">06 6253 3450</a>
+                    </address>
+                    <address>
+                        <span>
+                            FUKUOKA <br>
+                            4-8-28, Watanabedori, Chuo-Ku, Fukuoka-Shi, Fukuoka, Japan
+                        </span>
+                        <a href="tel:0927353901">092 735 3901</a>
+                        <a href="https://www.cassina-ixc.jp/index.html" target="_blank">cassina-ixc.jp</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>PAN</h4>
+                    <address>
+                        <span>
+                            4-3, Tatemachi, Kanazawa- shi, Ishikawa
+                        </span>
+                        <a href="tel:07034108882">070 3410 8882</a>
+                        <a href="https://www.united-arrows.co.jp/" target="_blank">store.united-arrows.co.jp</a>
+                    </address>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>CABAN</h4>
+                    <address>
+                        <span>
+                            MARUNOUCHI <br>
+                            Marunouchi-Nakadori Bldg 1F, 2-2-3, Marunouchi, Chiyoda-Ku, Tokyo, Japan
+                        </span>
+                        <a href="tel:0332865105">03 3286 5105</a>
+                        <a href="https://store.tomorrowland.co.jp/store/caban/" target="_blank">caban.jp</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>ONE FIFTEEN</h4>
+                    <address>
+                        <span>
+                            No. 90, Section 1, Da'an Rd, Da’an District, Taipei City, Taiwan
+                        </span>
+                        <a href="tel:+886287730115">+886 2877 30115</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>STORM FASHION</h4>
+                    <address>
+                        <span>
+                            Store Regnegade 1, 1110 København, Denmark
+                        </span>
+                        <a href="tel:+4533930014">+45 3393 0014</a>
+                    </address>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>KOREA OFFLINE</h3>
+            <ul>
+                <li>
+                    <h4>LOTTE MAIN DFS</h4>
+                    <address>
+                        <span>
+                            11F, 30, Eulji-ro 38-gil, <br>
+                            Jung-gu, Seoul, <br>
+                            Republic of Korea
+                        </span>
+                        <a href="tel:+8227596411">+82 2 759 6411</a>
+                        <a href="https://kor.lottedfs.com/kr/shopmain/home?gatePopUpYn=Y" target="_blank">lottedfs.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>HYUNDAI PANGYO</h4>
+                    <address>
+                        <span>
+                            1F, 20, Pangyoyeok-ro 146beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea
+                        </span>
+                        <a href="tel:+823151701131">+82 31 5170 1131</a>
+                        <a href="https://www.thehyundai.com/gate.html" target="_blank">thehyundai.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>RECTO FLAGSHIP</h4>
+                    <address>
+                        <span>
+                            24, Hannam-daero 46-gil, Yongsan-gu, Seoul, Republic of Korea
+                        </span>
+                        <a href="tel:+8227900798">+82 2 790 0798</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>10 CORSO COMO</h4>
+                    <address>
+                        <span>
+                            CHEONGDAM <br>
+                            416, Apgujeong-ro, Gangnam-gu, Seoul, Republic of Korea
+                        </span>
+                        <a href="tel:+82230181010">+82 2 3018 1010</a>
+                    </address>
+                    <address>
+                        <span>
+                            AVENUEL <br>
+                            5F, 70, Namdaemun-ro, <br>
+                            Jung-gu, Seoul, <br>
+                            Republic of Korea
+                        </span>
+                        <a href="tel:+82221186098">+82 2 2118 6098</a>
+                        <a href="https://10corsocomo.com/" target="_blank">10corsocomo.com</a>
+                    </address>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>THE CONRAN SHOP</h4>
+                    <address>
+                        <span>
+                            401, Dogok-ro, Gangnam-gu, Seoul, Republic of Korea
+                        </span>
+                        <a href="tel:+8225312591">+82 2 531 2591</a>
+                    </address>
+                    <address>
+                        <span>
+                            LOTTE DEPARTMENT STORE DONGTAN <br>
+                            1F, 160, Dongtanyeok-ro, Hwaseong-si, Gyeonggi-do, Republic of Korea
+                        </span>
+                        <a href="tel:+8215770001">+82 1577 0001</a>
+                        <a href="https://www.conranshop.kr/display/brandDetail.lecs?brndNo=463" target="_blank">conranshop.kr</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>WORKSOUT</h4>
+                    <address>
+                        <span>
+                            HONGDAE RYSE <br>
+                            130, Yanghwa-ro, Mapo-gu, Seoul, Republic of Korea
+                        </span>
+                        <a href="tel:+8223378334">+82 2 337 8334</a>
+                    </address>
+                    <address>
+                        <span>
+                            APGUJEONG <br>
+                            20-4, Seolleung-ro 157-gll, Gangnam-gu, Seoul
+                        </span>
+                        <a href="tel:+8225410840">+82 2 541 0840</a>
+                        <a href="https://www.worksout.co.kr/" target="_blank">worksout.co.kr</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>SEPHORA</h4>
+                    <address>
+                        <span>
+                            GANGNAM PARNAS MALL <br>
+                            1F, 521, Teheran-ro, Gangnam-gu, Seoul, Republic of Korea
+                        </span>
+                        <a href="tel:+82234531083">+82 2 3453 1083</a>
+                    </address>
+                    <address>
+                        <span>
+                            SINCHON UPLEX <br>
+                            1F, 13, Yonsei-ro, seodaemun-gu, Seoul, Republic of Korea
+                        </span>
+                        <a href="tel:+82231451610">+82 2 3145 1610</a>
+                    </address>
+                    <address>
+                        <span>
+                            JAMSIL LOTTE WORLD MALL <br>
+                            B1, 300, Olympic-ro, Songpa-gu, Seoul, Republic of Korea
+                        </span>
+                        <a href="tel:+82232134694">+82 2 3213 4694</a>
+                    </address>
+                    <address>
+                        <span>
+                            YEOUIDO IFC <br>
+                            L1F 10, Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul, Republic of Korea
+                        </span>
+                        <a href="tel:+82261375356">+82 2 6137 5356</a>
+                    </address>
+                    <address>
+                        <span>
+                            GALLERIA GWANGGYO <br>
+                            124, Gwanggyojungang-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, Republic of Korea
+                        </span>
+                        <a href="tel:+82251747063">+82251747063</a>
+                    </address>
+                    <address>
+                        <a href="https://www.sephora.kr/brands/nonfiction" target="_blank">sephora.kr</a>
+                    </address>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>KOREA ONLINE</h3>
+            <ul>
+                <li>
+                    <h4>NONFICTION</h4>
+                    <address>
+                        <a href="tel:+8227904096">+82 2 790 4096</a>
+                        <a href="https://nonfiction.com/" target="_blank">nonfiction.kr</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>NAVER BRAND STORE</h4>
+                    <address>
+                        <a href="https://brand.naver.com/nonfiction" target="_blank">brand.naver.com/nonfiction</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>SEPHORA</h4>
+                    <address>
+                        <a href="tel:+82220976565">+82 2 2097 6565</a>
+                        <a href="https://www.sephora.kr/brands/nonfiction" target="_blank">sephora.kr</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>8DIVISION</h4>
+                    <address>
+                        <a href="tel:+827041350038">+82 70 4135 0038</a>
+                        <a href="https://8division.com/product/list.html?cate_no=795" target="_blank">8division.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>WORKSOUT</h4>
+                    <address>
+                        <a href="tel:+8223378334">+82 2 337 8334</a>
+                        <a href="https://www.worksout.co.kr/" target="_blank">worksout.co.kr</a>
+                    </address>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>SSG.COM</h4>
+                    <address>
+                        <a href="https://www.ssg.com/disp/brandShop.ssg?brandId=3000062002" target="_blank">ssg.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>THEHYUNDAI.COM</h4>
+                    <address>
+                        <a href="https://www.thehyundai.com/gate.html" target="_blank">thehyundai.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>HMALL</h4>
+                    <address>
+                        <a href="https://www.hmall.com/p/index.do" target="_blank">hmall.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>KURLY</h4>
+                    <address>
+                        <a href="https://www.kurly.com/main" target="_blank">kurly.com</a>
+                    </address>
+                </li>
+                <li>
+                    <h4>KAKAO GIFT</h4>
+                    <address>
+                        <a href="https://www.kakaocorp.com/page/service/service/KakaoTalkGift" target="_blank">gift.kakao.com</a>
+                    </address>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <h2>SUBSCRIBE</h2>
+                <form>
+                    <input type="email" placeholder="Email Address" title="Enter your email address to receive special offers">
+                    <input type="submit" value="submit">
+                </form>
+                <p>Enter your email address to receive special offers!</p>
+            </div>
+            <div>
+                <div>
+                    <h3>INFO</h3>
+                    <ul>
+                        <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                        <li><a href="payment-info.html">Payment Info</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="refund-policy.html">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>CONTACT US</h3>
+                    <ul>
+                        <li><a href="contact-us.html">Help &amp; FAQs</a></li>
+                        <li><a href="stockist.html">Stockists</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/official.nonfiction/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.pinterest.co.kr/officialnonfiction/_created/" target="_blank">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <address>
+                    NONFICTION Inc. Company no: 819-87-01383 | CEO: Hye-young Cha | Address: 3F 49, Itaewon-ro 55ga-gil, Yongsan-gu, Seoul 04348 South Korea | <a href="mailto:help@nonfiction-beauty.com">Mail: help@nonfiction-beauty.com</a> | <a href="tel:+8227904096">Tel: +82 2 790 4096</a>
+                </address>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

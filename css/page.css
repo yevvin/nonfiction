@@ -1,0 +1,3216 @@
+@media screen and (max-width: 767px){
+    #loginPopup{
+        padding: 75px 4%; width: 90%; height: 55%; background-color: #f7f5f1;
+        box-sizing: border-box; text-align: center;
+        box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+        position: fixed; 
+        max-height: 350px;
+        left: 5%; top: 22.5%;
+        z-index: 100; display: none;
+    }
+    #loginPopup.active{
+        display: block;
+    }
+    #loginPopup h2{
+        font-size: 20px; font-weight: 400; color: #0d3b3c; margin-bottom: 35px;
+        text-transform: uppercase; position: relative;
+    }
+    #loginPopup h2 input.closeBtn{
+        position: absolute; right: 0; top: -55px;
+        width: 15px; line-height: 20px; background-size: 15px;
+    }
+    #loginPopup p{
+        font-size: 15px; font-weight: 400; color: #444444; margin-bottom: 30px;
+        line-height: normal;
+    }
+    #loginPopup a.boxBtn{
+        line-height: 50px; width: 25%; margin: 0 auto; font-size: 15px; min-width: 80px;
+    }
+    
+    .indexContainer > div:first-of-type,
+    .indexContainer > div:nth-of-type(2){
+        margin-bottom: 165px;
+    }
+    .indexContainer > div:first-of-type{
+        position: relative;
+        background: url('../images/main01.png') center / cover no-repeat;
+        height: 700px;
+    }
+    .indexContainer > div:first-of-type img{
+        display: none;
+    }
+    .indexContainer > div:first-of-type div{
+        position: absolute; right: 0; top: 130px;
+        padding: 0 4.5%; color: #444444;
+    }
+    .indexContainer > div:first-of-type div p{
+        font-size: 18px; font-weight: 500; line-height: 30px;
+        max-width: 400px; margin-bottom: 40px;
+    }
+    .indexContainer > div:first-of-type div a{
+        font-size: 15px; font-weight: 400; display: block; width: 25%;
+        border: 1px solid #444444; line-height: 50px; text-align: center;
+        box-sizing: border-box; 
+    }
+    .indexContainer > div:nth-of-type(2) h2{
+        font-size: 30px; font-weight: 400; color: #0d3b3c;
+        text-align: center; margin-bottom: 45px; 
+    }
+    .indexContainer > div:nth-of-type(2) h2 a{
+        font-size: 15px; color: #2f2f2f; 
+        font-weight: 400; display: block; width: 37px; margin: 30px auto 0;
+    }
+    .indexContainer > div:nth-of-type(2) ul.recList li dl dt,
+    .indexContainer > div:nth-of-type(2) ul.recList li dl dd:last-child{
+        font-size: 18px;
+    }
+    .indexContainer > div:nth-of-type(2) ul.recList li dl dd:nth-child(2){
+        font-size: 16px;
+    }
+
+    .indexContainer > figure{
+        background-color: #eae4d5; 
+    }
+    .indexContainer > figure img{
+        width: 100%; display: block;
+    }
+    .indexContainer > figure figcaption{
+        padding: 50px 8%;
+        box-sizing: border-box;
+    }
+    .indexContainer > figure figcaption small{
+        font-size: 20px; color: #0d3b3c; font-weight: 400; margin-bottom: 15px;
+        display: block; position: relative; left: 0;
+    }
+    .indexContainer > figure figcaption h2{
+        font-size: 36px; color: #0d3b3c; font-weight: 400; line-height: 40px;
+        margin-bottom: 45px; 
+    }
+    .indexContainer > figure figcaption p{
+        font-size: 15px; font-weight: 300; color: #0d3b3c; margin-bottom: 25px;
+    }
+    .indexContainer > figure figcaption a.lineBtn{
+        font-size: 15px; color: #2f2f2f; font-weight: 400; width: 37px; display: block;
+    }
+    .indexContainer > div:nth-of-type(2) ul.recList li{
+        float: none; width: 100%; margin-left: 0;
+    }
+    .indexContainer > div:nth-of-type(2) ul.recList li:not(:last-child){
+        margin-bottom: 75px;
+    }
+    .indexContainer > div:last-of-type h2{
+        font-size: 20px; font-weight: 400; color: #0d3b3c;
+        text-align: center; padding: 50px 0; text-transform: uppercase;
+    }
+    .indexContainer > div:last-of-type ul li{
+        display: block;
+    }
+    .indexContainer > div:last-of-type ul li:not(:last-of-type){
+        position: relative; 
+    }
+    .indexContainer > div:last-of-type ul li img{
+        width: 100%; display: block;
+    }
+    .indexContainer > div:last-of-type ul li h3{
+        font-size: 26px; font-weight: 500; color: #2f2f2f;
+        position: absolute; width: 100%; bottom: 125px; padding: 0 5.2%;
+        box-sizing: border-box;
+    }
+    .indexContainer > div:last-of-type ul li div{
+        position: absolute; width: 100%; bottom: 30px; color: #2f2f2f; 
+        box-sizing: border-box; padding: 0 5.2%;
+    }
+    .indexContainer > div:last-of-type ul li div p{
+        font-size: 14px; font-weight: 400;
+        line-height: normal; margin-bottom: 25px;
+    }
+    .indexContainer > div:last-of-type ul li div a.lineBtn{
+        font-size: 15px; font-weight: 400;
+    }
+    .indexContainer > div:last-of-type ul li:last-of-type a{
+        display: block;
+    }
+    
+    .list_Container,
+    .list_bestContainer{
+        padding: 125px 4.5% 0;
+    }
+    .list_Container > div h2,
+    .list_bestContainer > div h2,
+    .list_homefragContainer > div:first-of-type h2{
+        font-size: 36px; font-weight: 400; color: #0d3b3c;
+        margin-bottom: 25px;
+    }
+    .list_Container > div h2+p{
+        font-size: 15px; font-weight: 400; color: #6b6b6b;
+        margin-bottom: 20px;
+    }
+    .list_Container > div h2+p::after{
+        content: ''; display: block; height: 1px; width: 100%; background-color: #d9d9d9;
+        margin-top: 20px;
+    }
+    .list_Container > div figure{
+        display: none;
+    }
+    .list_Container > div > div ul{
+        margin-bottom: 20px;
+    }
+    .list_Container > div > div ul::after{
+        content: ''; display: block; clear: both;
+    }
+    .list_Container > div > div ul li,
+    .list_homefragContainer > div:last-of-type > ul > li{
+        display: block; width: 47.75%; float: left;
+        margin-bottom: 40px; 
+    }
+    .list_bestContainer > div > ul li{
+        display: block; margin-bottom: 40px;
+    }
+    .list_Container > div > div ul li:not(:nth-of-type(2n+1)),
+    .list_homefragContainer > div:last-of-type > ul > li:not(:nth-of-type(2n+1)){
+        margin-left: 4.5%;
+    }
+    .list_Container > div > div ul li a,
+    .list_bestContainer > div > ul li a,
+    .list_homefragContainer > div:last-of-type > ul > li a{
+        display: block; margin-bottom: 20px;
+    }
+    .list_Container > div > div ul li a img,
+    .list_bestContainer > div > ul li a img,
+    .list_bestContainer > div > ul li:first-child figure img,
+    .list_homefragContainer > div:last-of-type > ul > li a img{
+        width: 100%; display: block;
+    }
+    .list_Container > div > div ul li dl,
+    .list_bestContainer > div > ul > li dl,
+    .list_homefragContainer > div:last-of-type > ul > li dl{
+        float: left; width: 70%;
+    }
+    .list_Container > div > div ul li dl dt,
+    .list_bestContainer > div > ul > li dl dt,
+    .list_homefragContainer > div:last-of-type > ul > li dl dt{
+        font-size: 14px; font-weight: 400; color: #2f2f2f; margin-bottom: 10px;
+    }
+    .list_Container > div > div ul li dl dd,
+    .list_bestContainer > div > ul > li dl dd,
+    .list_homefragContainer > div:last-of-type > ul > li dl dd{
+        font-size: 12px; font-weight: 400;
+    }
+    .list_Container > div > div ul li dl dd:first-of-type,
+    .list_bestContainer > div > ul > li dl dd:first-of-type,
+    .list_homefragContainer > div:last-of-type > ul > li dl dd:first-of-type{
+        color: #999999; margin-bottom: 10px;
+    }
+    .list_Container > div > div ul li dl dd:last-of-type,
+    .list_bestContainer > div > ul > li dl dd:last-of-type,
+    .list_homefragContainer > div:last-of-type > ul > li dl dd:last-of-type{
+        color: #6b6b6b;
+    }
+    .list_Container > div > div ul li div{
+        width: 30%; float: right; text-align: right; margin-bottom: 30px;
+        min-height: 82px;
+    }
+    .list_Container > div > div ul li div input[value='favorite_border'],
+    .list_bestContainer > div > ul > li div input[value='favorite_border'],
+    .list_homefragContainer > div:last-of-type > ul > li div input[value='favorite_border']{
+        border: none; background-color: transparent; color: #e49393;
+        margin-bottom: 25px; padding: 0; 
+    }
+    .list_Container > div > div ul li div strong,
+    .list_bestContainer > div > ul > li div strong,
+    .list_homefragContainer > div:last-of-type > ul > li div strong{
+        font-size: 12px; font-weight: 400; color: #444444; display: block; 
+    }
+    .list_Container > div > div ul li > input[value='Add to Cart'],
+    .list_bestContainer > div > ul > li > input[value='Add to Cart'],
+    .list_homefragContainer > div:last-of-type > ul > li > input[value='Add to Cart']{
+        clear: both; display: block; width: 100%; border: none; background-color: #e7e6e4;
+        font-size: 15px; font-weight: 500; color: #999999; line-height: 55px; padding: 0;
+        transition: background-color 0.8s; 
+    }
+    .list_Container > div > div ul li > input[value='Add to Cart']:hover,
+    .list_bestContainer > div > ul > li > input[value='Add to Cart']:hover,
+    .list_homefragContainer > div:last-of-type > ul > li > input[value='Add to Cart']:hover{
+        background-color: #dcd7c9; color: #394434;
+    }
+
+    .list_bestContainer > div h2+p,
+    .list_homefragContainer > div:first-of-type h2+p{
+        font-size: 15px; font-weight: 400; color: #6b6b6b;
+        margin-bottom: 30px;
+    }
+    .list_bestContainer > div > ul li:first-child{
+        display: none;
+    }
+    .list_bestContainer > div > ul li:first-child a{
+        display: block; background-color: #e7e6e4; 
+        font-size: 15px; font-weight: 500; color: #999999;
+        text-align: center; transition: background-color 0.8s;
+        padding: 15px 0;
+    }
+    .list_bestContainer > div > ul > li div{
+        width: 30%; float: right; text-align: right; margin-bottom: 30px;
+        min-height: 77px;
+    }
+    .list_homefragContainer > div:first-of-type{
+        padding: 125px 4.5% 0;
+    }
+    .list_homefragContainer > div.videoContent{
+        margin-bottom: 105px;
+    }
+    .list_homefragContainer > div:last-of-type{
+        padding: 0 4.5%;
+    }
+    .list_homefragContainer > div:last-of-type h2{
+        font-size: 26px; font-weight: 400; color: #0d3b3c; margin-bottom: 20px;
+        line-height: normal;
+    }
+    .list_homefragContainer > div:last-of-type > ul::after{
+        content: ''; display: block; clear: both;
+    }
+    .list_homefragContainer > div:last-of-type > ul > li div{
+        width: 30%; float: right; text-align: right; margin-bottom: 30px;
+        min-height: 82px;
+    }
+
+    .detailContainer > div:first-of-type{
+        padding: 100px 4.5% 0; margin-bottom: 260px;
+        display: flex; flex-wrap: wrap; justify-content: space-between;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type{
+        margin-bottom: 60px; order: 1;
+    }
+    .detailContainer .bx-wrapper,
+    .detailContainer > div:first-of-type > div:last-of-type{
+        width: 100%; align-self: center; 
+    }
+    .detailContainer .bx-wrapper{
+        box-shadow: none; border: none; background: none; margin-bottom: 40px;
+        order: 0;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type{
+        order: 2;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type small{
+        font-size: 15px; font-weight: 400; color: #999999;
+        margin-bottom: 15px; display: block; text-transform: uppercase;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type h2,
+    .detailContainer > div:first-of-type > div:first-of-type span{
+        font-size: 26px; font-weight: 400; color: #000000;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type h2{
+        margin-bottom: 10px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type span{
+        display: block;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type > strong{
+        display: block; font-size: 15px; font-weight: 500; color: #443427;
+        padding-bottom: 20px; border-bottom: 1px solid #deded3;
+        margin: 35px 0 15px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu{
+        margin-bottom: 20px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li{
+        display: inline-block;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li:not(:last-child):after{
+        content: ''; display: inline-block; width: 1px; height: 9px; background-color: #b7b7b7;
+        margin: 0 5px; vertical-align: middle;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li input{
+        background-color: transparent; border: none; padding: 0; line-height: 30px;
+        font-size: 15px; font-weight: 400; color: #b7b7b7;
+        transition: color 0.5s ease-out;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li input.activated{
+        font-weight: 500; color: #596b51;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div{
+        width: 100%;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div{
+        overflow-y: auto; max-height: 250px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div::-webkit-scrollbar{
+        width: 3px; 
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div::-webkit-scrollbar-thumb{
+        background-color: #b7b7b7;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div{
+        height: 0; opacity: 0; transition: all 0.5s ease-out;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div.activated{
+        height: auto; opacity: 1;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p strong,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabSecond p,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabThird p,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFourth p{
+        font-size: 14px; font-weight: 300; color: #2f2f2f; line-height: 20px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p:not(:first-of-type){
+        margin-top: 20px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p strong{
+        margin-top: 20px; display: block;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabSecond p:not(:last-of-type),
+    .detailContainer > div:first-of-type > div:first-of-type div#tabThird p:not(:last-of-type){
+        margin-bottom: 25px;
+    }
+    .detailContainer > div:first-of-type ul.detailSlider li img{
+        width: 100%; display: block;
+    }
+    .detailContainer .bx-default-pager{
+        position: absolute; bottom: 35px;
+    }
+    .detailContainer .bx-pager-item a.bx-pager-link{
+        width: 28px; height: 2px; background-color: #0a2e2f; opacity: 0.3;
+        margin: 0 2px;
+    }
+    .detailContainer .bx-pager-item a.bx-pager-link.active{
+        background-color: #0a2e2f; opacity: 1;
+    }
+    .detailContainer .bx-prev{
+        background: url('../images/before_controls.png') center / 12px 20px no-repeat;
+        left: 2%;
+    }
+    .detailContainer .bx-next{
+        background: url('../images/next_controls.png') center / 12px 20px no-repeat;
+        right: 2%;
+    }
+    .detailContainer .bx-controls-direction a{
+        z-index: 1;
+    }
+    .detailContainer .bx-controls-direction a:hover,
+    .detailContainer .bx-controls-direction a:focus{
+        background-position: center;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type input.checkComponent{
+        display: none;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type label{
+        background: url('../images/off_check.png') left / 15px no-repeat;
+        font-size: 15px; font-weight: 400; color: #0d3b3c; padding-left: 25px;
+        margin-bottom: 10px; display: block; float: right;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type input.checkComponent:checked + label{
+        background: url('../images/on_check.png') left / 15px no-repeat;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type select{
+        display: block;
+        appearance: none; border: none; box-shadow: none; background-image: none;
+        background-color: transparent; 
+        font-size: 15px; font-weight: 400; color: #0a2e2f; width: 100%; padding: 15px 5px;
+        border-bottom: 1px solid #0a2e2f; margin-bottom: 30px;
+        background: url('../images/expand_select.png') right 5px center / 12px 8px no-repeat;
+        text-transform: uppercase; 
+    }
+    .detailContainer > div:first-of-type > div:last-of-type p{
+        font-size: 14px; font-weight: 300; color: #0d3b3c; text-align: right; margin-bottom: 10px;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type input.boxBtn{
+        padding: 10px 0; font-size: 15px;
+    }
+    .detailContainer > .limgRtxt figcaption p:first-of-type{
+        font-size: 18px; font-weight: 400; margin-bottom: 25px;
+    }
+    .detailContainer > .limgRtxt figcaption p:last-of-type{
+        font-size: 15px; font-weight: 500; 
+    }
+    .detailContainer > div:last-of-type{
+        padding: 0 4.5%;
+    }
+    .detailContainer > div:last-of-type h2{
+        font-size: 26px; font-weight: 400; color: #0d3b3c;
+        padding-top: 25px; border-top: 1px solid #0a2e2f; margin-bottom: 65px;
+        text-transform: uppercase;
+    }
+    .detailContainer > div:last-of-type ul.recList li dl dt{
+        font-size: 14px; 
+    }
+    .detailContainer > div:last-of-type ul.recList li dl dd{
+        font-size: 12px;
+    }
+
+    .pressContainer{
+        padding: 200px 4.5% 0;
+    }
+    .pressContainer h2::after{
+        content: ''; display: block; width: 100%; height: 1px; background-color: #d9d9d9;
+        margin-top: 55px;
+    }
+    .pressContainer ul{
+        padding: 0 14.5%;
+    }
+    .pressContainer ul li{
+        display: block; margin-bottom: 75px;
+    }
+    .pressContainer ul li a{
+        display: block; margin-bottom: 30px;
+    }
+    .pressContainer ul li a img{
+        width: 100%; display: block;
+    }
+    .pressContainer ul li h3{
+        font-size: 16px; font-weight: 400; color: #6b6b6b; line-height: normal;
+    }
+
+
+    .contactContainer,
+    .checkoutContainer,
+    .orderCompContainer{
+        padding: 200px 4.5% 0;
+    }
+    .contactContainer ul{
+        margin-bottom: 75px;
+    }
+    .contactContainer ul li{
+        display: block;
+    }
+    .contactContainer ul li:not(:last-of-type){
+        margin-bottom: 50px;
+    }
+    .contactContainer ul li h3{
+        font-size: 20px; font-weight: 400; color: #0d3b3c; margin-bottom: 15px;
+    }
+    .contactContainer ul li h3::after{
+        content: ''; display: block; width: 100%; height: 1px; background-color: #d9d9d9;
+        margin-top: 15px;
+    }
+    .contactContainer ul li a,
+    .contactContainer ul li span{
+        font-size: 15px; font-weight: 400; color: #6b6b6b; 
+    }
+    .contactContainer ul li a{
+        word-break: break-all;
+    }
+    .contactContainer ul li span{
+        margin-bottom: 15px; display: block;
+    }
+    .contactContainer input:not(:last-child),
+    .contactContainer textarea{
+        background-color: transparent;
+        border: 1px solid #b7b7b7; 
+        padding: 15px; box-sizing: border-box;
+        font-size: 14px; font-weight: 400; 
+    }
+    .contactContainer input:not(:last-child)::placeholder,
+    .contactContainer textarea::placeholder{
+        color: #999999;
+    }
+    .contactContainer input:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .contactContainer textarea{
+        resize: none; margin-bottom: 30px; height: 180px;
+    }
+    .contactContainer input.boxBtn{
+        font-size: 18px; line-height: 50px; padding: 0;
+    }
+    
+    .signinContainer{
+        text-align: center;
+    }
+    .signinContainer,
+    .createAccContainer{
+        padding: 200px 10% 0;
+    }
+    .signinContainer input:not(.boxBtn),
+    .createAccContainer input:not(.boxBtn),
+    .resetPWContainer div:last-of-type input:not(.boxBtn){
+        background-color: transparent; border: none; box-sizing: border-box;
+        padding: 10px 5px; border-bottom: 1px solid #d9d9d9;
+        font-size: 15px; font-weight: 400; 
+    }
+    .signinContainer input:not(.boxBtn),
+    .createAccContainer input[type='text'],
+    .createAccContainer input[type='email']{
+        margin-bottom: 15px;
+    }
+    .signinContainer input:not(.boxBtn)::placeholder,
+    .createAccContainer input:not(.boxBtn)::placeholder,
+    .resetPWContainer div:last-of-type input:not(.boxBtn)::placeholder{
+        color: #999999;
+    }
+    .signinContainer a:first-of-type{
+        display: block; text-align: right; font-size: 14px; font-weight: 300; color: #999999;
+        margin-bottom: 45px;
+    }
+    .signinContainer input.boxBtn{
+        margin-bottom: 30px;
+    }
+    .signinContainer input.boxBtn,
+    .createAccContainer input.boxBtn,
+    .resetPWContainer div:last-of-type input.boxBtn{
+        padding: 15px 0; font-size: 18px;
+    }
+    .createAccContainer input:nth-child(4){
+        margin-bottom: 45px;
+    }
+    .resetPWContainer{
+        padding: 200px 10% 0;
+    }
+    .resetPWContainer h2{
+        font-size: 36px; font-weight: 400; color: #0d3b3c; margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    .resetPWContainer p{
+        font-size: 15px; font-weight: 300; color: #6b6b6b;
+    }
+    .resetPWContainer div:first-of-type{
+        margin-bottom: 60px;
+    }
+    .resetPWContainer div:last-of-type input:not(.boxBtn){
+        margin-bottom: 45px;
+    }
+    .mypageContainer{
+        padding: 200px 10% 0; position: relative;
+    }
+    .mypageContainer > div:first-of-type ul li{
+        display: block;
+    }
+    .mypageContainer > div:first-of-type ul li:not(:last-child){
+        margin-bottom: 75px;
+    }
+    .mypageContainer > div:first-of-type ul li h3{
+        font-size: 26px; font-weight: 400; color: #0d3b3c;
+        padding-bottom: 15px; border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 15px;
+    }
+    .mypageContainer > div:first-of-type ul li a{
+        font-size: 15px; font-weight: 400; color: #0a2e2f;
+    }
+    .mypageContainer > div:first-of-type ul li p{
+        font-size: 15px; font-weight: 400; color: #999999;
+    }
+    .mypageContainer > div:first-of-type ul li input[type='button']{
+        padding: 10px 0; box-sizing: border-box; width: 35%; font-size: 15px;
+        min-width: 180px;
+    }
+
+    .mypageContainer > div#addressPopup{
+        background-color: #f7f5f1; padding: 75px 4%; box-sizing: border-box;
+        position: absolute; width: 90%; top: 100px; left: 5%;
+        box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+        display: none;
+    }
+    .mypageContainer > div#addressPopup.active{
+        display: block;
+    }
+    .mypageContainer > div#addressPopup h2{
+        font-size: 20px; font-weight: 400; color: #0d3b3c;
+        padding-bottom: 15px; border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 30px; position: relative;
+    }
+    .mypageContainer > div#addressPopup h2 input.closeBtn{
+        width: 15px; line-height: 27px; background-size: 15px;
+        position: absolute; right: 0; top: -55px;
+    }
+    .mypageContainer > div#addressPopup label{
+        font-size: 14px; font-weight: 400; color: #6b6b6b;
+        display: block; margin-top: 20px;
+    }
+    .mypageContainer > div#addressPopup input:not(.closeBtn),
+    .mypageContainer > div#addressPopup select{
+        appearance: none; box-shadow: none; background-image: none;
+        background-color: transparent; font-family: inherit; font-weight: inherit;
+        width: 100%; padding: 10px; box-sizing: border-box;
+        display: block; border: 1px solid #999999;
+    }
+    .mypageContainer > div#addressPopup select{
+        background: url('../images/expand_select_grey.png') right 15px center / 12px 8px no-repeat;
+    }
+    .mypageContainer > div#addressPopup form > *:not(input#user_phone,input[type='submit']){
+        margin-bottom: 10px;
+    }
+    .mypageContainer > div#addressPopup input[type='submit']{
+        font-size: 15px; padding: 15px 0; width: 55%; margin-left: auto;
+        margin-top: 45px;
+    }
+
+    .checkoutContainer form > div:not(:last-of-type),
+    .orderCompContainer > div:not(:last-of-type){
+        margin-bottom: 15px;
+    }
+    .checkoutContainer form > div input[type='text'],
+    .checkoutContainer form > div input[type='tel']{
+        font-size: 12px; font-weight: 400;
+    }
+    .checkoutContainer form > div input[type='text']::placeholder,
+    .checkoutContainer form > div input[type='tel']::placeholder{
+        font-size: 12px;
+    }
+    .checkoutContainer form > div:first-of-type h3,
+    div.orderDetails h3,
+    .checkoutContainer form > div:last-of-type h3,
+    .orderCompContainer > div h3{
+        font-size: 26px; font-weight: 400; color: #0d3b3c; margin-bottom: 30px;
+    }
+    .checkoutContainer form > div:first-of-type h3::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer form > div:first-of-type h3::after,
+    div.orderDetails h3::after,
+    .checkoutContainer form > div:last-of-type h3::after,
+    .orderCompContainer > div h3:after{
+        content: ''; display: block; height: 1px; width: 100%; background-color: #d9d9d9;
+        margin-top: 15px;
+    }
+    .checkoutContainer form > div:first-of-type h3{
+        position: relative;
+    }
+    .checkoutContainer form > div:first-of-type h3 a.backBtn{
+        line-height: 30px; float: none; position: absolute;
+        right: 0; top: -55px;
+    }
+    .checkoutContainer form > div:first-of-type h3~*:not(input:last-of-type){
+        margin-bottom: 15px;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput{
+        position: relative; border: 1px solid #b7b7b7; box-sizing: border-box; 
+        height: 50px;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput label{
+        position: absolute; font-size: 12px; font-weight: 400; top: 10px; left: 10px;
+        display: block;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput label,
+    .checkoutContainer form > div input::placeholder{
+        color: #999999;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput select{
+        appearance: none; border: none; box-shadow: none; background-image: none;
+        background-color: transparent; font-family: inherit;
+        display: block; width: 100%; box-sizing: border-box;
+        padding: 25px 10px 5px; font-size: 12px; font-weight: 400; color: #444444;
+        background: url('../images/expand_select_grey.png') right 10px center / 12px 8px no-repeat;
+    }
+    .checkoutContainer form > div:first-of-type input{
+        background-color: transparent; display: block; height: 50px;
+        padding: 10px; box-sizing: border-box; border: 1px solid #b7b7b7;
+    }
+    .checkoutContainer form > div:first-of-type input:first-of-type{
+        float: left; margin-right: 2.28%;
+    }
+    .checkoutContainer form > div:first-of-type input:first-of-type,
+    .checkoutContainer form > div:first-of-type input:nth-of-type(2){
+        width: 48.86%;
+    }
+    .checkoutContainer form > div:first-of-type input:not(:first-of-type,:nth-of-type(2)){
+        width: 100%;
+    }
+    div.orderDetails ul li{
+        display: block;
+    }
+    div.orderDetails ul li::after{
+        content: ''; display: block; clear: both;
+    }
+    div.orderDetails ul li a{
+        float: left;
+        display: block; margin-right: 5%; width: 20%;
+    }
+    div.orderDetails ul li a img{
+        width: 100%; display: block;
+    }
+    div.orderDetails ul li div{
+        width: 75%; float: left;
+    }
+    div.orderDetails ul li div::after{
+        content: ''; display: block; clear: both;
+    }
+    div.orderDetails ul li div dl,
+    div.orderDetails ul li div span{
+        float: left;
+    }
+    div.orderDetails ul li div strong{
+        float: right;
+    }
+    div.orderDetails ul li div dl{
+        width: 100%; margin-bottom: 20px;
+    }
+    div.orderDetails ul li div span,
+    div.orderDetails ul li div strong{
+        font-size: 14px; font-weight: 400; color: #2f2f2f;
+        display: block;
+    }
+    div.orderDetails ul li div dl > *:not(dd:last-of-type){
+        margin-bottom: 10px;
+    }
+    div.orderDetails ul li div dl dt{
+        font-size: 14px; font-weight: 400; color: #2f2f2f;
+    }
+    div.orderDetails ul li div dl dd{
+        font-weight: 300;
+    }
+    div.orderDetails ul li div dl dd:first-of-type{
+        font-size: 14px; color: #999999;
+    }
+    div.orderDetails ul li div dl dd:nth-of-type(2){
+        font-size: 14px; color: #6b6b6b;
+    }
+    div.orderDetails ul li div dl dd:last-of-type{
+        font-size: 12px; color: #6b6b6b;
+    }
+    .checkoutContainer form > div:last-of-type::after,
+    .orderCompContainer > div:last-of-type::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child,
+    .orderCompContainer > div:last-of-type > div:first-child{
+        margin-bottom: 75px;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child input{
+        float: left; display: block; margin-bottom: 25px;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child input[type='text']{
+        width: 78%; background-color: transparent; border: 1px solid #b7b7b7;
+        padding: 15px 5px; box-sizing: border-box;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child input[value='Apply']{
+        width: 19.62%; margin-left: 2.38%; background-color: #0a2e2f; border: none;
+        padding: 16px 0; font-size: 12px; font-weight: 400; color: #ffffff;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong{
+        clear: both; display: block; font-weight: 400; 
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong:not(:last-child),
+    .orderCompContainer > div:last-of-type > div:first-child strong:not(:last-child){
+        margin-bottom: 20px; font-size: 14px; color: #999999;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong:last-child,
+    .orderCompContainer > div:last-of-type > div:first-child strong:last-child{
+        color: #444444; font-size: 16px;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong span:last-child,
+    .orderCompContainer > div:last-of-type > div:first-child strong span:last-child{
+        float: right;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child p{
+        font-size: 14px; font-weight: 300; color: #999999; margin-bottom: 25px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input[type='radio']{
+        display: none;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > label{
+        display: block; padding-left: 35px; line-height: 25px;
+        font-size: 14px; font-weight: 400; color: #444444;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input[type='radio'] + label{
+        background: url('../images/off_radio.png') left center / 18px no-repeat;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input[type='radio']:checked + label{
+        background: url('../images/on_radio.png') left center / 18px no-repeat;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_paypal + label{
+        margin-bottom: 10px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_eximbay + label{
+        margin-bottom: 30px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div{
+        margin-bottom: 30px; display: none;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_eximbay:checked ~ div{
+        display: block;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div label{
+        font-size: 14px; font-weight: 400; color: #999999; margin-bottom: 5px;
+        display: block;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div input{
+        background-color: transparent; border: 1px solid #b7b7b7;
+        box-sizing: border-box;
+        display: block; width: 100%; padding: 15px 10px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div input#card_number{
+        margin-bottom: 20px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div div{
+        float: left; width: 47.62%;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div div:first-of-type{
+        margin-right: 4.76%;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input.boxBtn{
+        line-height: 45px; font-size: 15px; padding: 0;
+    }
+
+    .orderCompContainer h2{
+        margin-bottom: 25px; font-size: 36px; font-weight: 400; color: #0d3b3c; text-transform: uppercase;
+        text-align: center;
+    }
+    .orderCompContainer h2+p,
+    .orderCompContainer > div.orderDetails small{
+        font-size: 14px; font-weight: 300; color: #999999;
+    }
+    .orderCompContainer h2+p{
+        text-align: center; margin-bottom: 75px;
+    }
+    .orderCompContainer > div.orderDetails small{
+        display: block; margin-bottom: 25px;
+    }
+    .orderCompContainer > div:last-of-type{
+        margin-bottom: 45px;
+    }
+    .orderCompContainer > div:last-of-type > div:first-child strong{
+        display: block; font-weight: 400;
+    }
+    .orderCompContainer > div:last-of-type > div:last-child address{
+        font-size: 14px; font-weight: 300; color: #444444; line-height: normal;
+    }
+    .orderCompContainer > a.boxBtn{
+        width: 22.91%; margin: 0 auto; text-align: center;
+        font-size: 18px; padding: 20px 0; min-width: 220px;
+    }
+
+    .storeContainer{
+        padding: 200px 4.5% 0;
+    }
+    .storeContainer ul.storeSlider li img{
+        display: block; width: 100%;
+    }
+    .storeContainer .bx-wrapper{
+        width: 100%; box-shadow: none; border: none; background: none; margin-bottom: 75px;
+    }
+    .storeContainer .bx-default-pager{
+        position: absolute; bottom: 20px;
+    }
+    .storeContainer .bx-pager-item a.bx-pager-link{
+        width: 28px; height: 2px; background-color: #0a2e2f; opacity: 0.3;
+        margin: 0 2px;
+    }
+    .storeContainer .bx-pager-item a.bx-pager-link.active{
+        background-color: #0a2e2f; opacity: 1;
+    }
+    .storeContainer .bx-prev{
+        background: url('../images/before_controls.png') center / 12px 20px no-repeat;
+        left: 1.49%;
+    }
+    .storeContainer .bx-next{
+        background: url('../images/next_controls.png') center / 12px 20px no-repeat;
+        right: 1.49%;
+    }
+    .storeContainer .bx-controls-direction a{
+        z-index: 1;
+    }
+    .storeContainer .bx-controls-direction a:hover,
+    .storeContainer .bx-controls-direction a:focus{
+        background-position: center;
+    }
+    .storeContainer > div:not(:last-child,.bx-wrapper){
+        margin-bottom: 130px;
+    }
+    .storeContainer > div h3{
+        font-size: 26px; font-weight: 400; color: #444444; text-align: center;
+        margin-bottom: 55px;
+    }
+    .storeContainer > div > ul li{
+        display: block; margin-bottom: 75px;
+    }
+    .storeContainer > div > ul li h4{
+        font-size: 20px; font-weight: 400; color: #444444; margin-bottom: 20px;
+    }
+    .storeContainer > div > ul li address{
+        font-size: 15px; font-weight: 400; color: #6b6b6b; line-height: normal;
+    }
+    .storeContainer > div > ul li address *{
+        display: block;
+    }
+    .storeContainer > div > ul li address:not(:last-child)::after{
+        content: ''; display: block; height: 1px; width: 100%; background-color: #d9d9d9;
+        margin: 15px 0;
+    }
+
+    .article{
+        padding: 200px 4.5% 0; color: #2f2f2f;
+    }
+    .article::after{
+        content: ''; display: block; clear: both;
+    }
+    .article > div{
+        background-color: #f7f5f1; padding: 75px 4.67%; margin-bottom: 30px;
+    }
+    .article > div div:not(:last-child),
+    .article > div div ul,
+    .terms > div div p:not(:last-child),
+    .refund > div div p:not(:last-of-type),
+    .privacy > div div p,
+    .privacy > div div:last-child address{
+        margin-bottom: 35px;
+    }
+    .article > div div *:not(h3){
+        font-size: 14px; font-weight: 400; line-height: normal;
+    }
+    .article > div div h3{
+        margin-bottom: 15px; font-size: 16px; font-weight: 500; 
+    }
+    .article > div div ul li{
+        display: block;
+    }
+    .terms > div div:nth-child(2) span{
+        font-weight: 500; margin-bottom: 35px; display: block;
+    }
+    .refund > div div span{
+        margin-top: 35px; display: block;
+    }
+    .privacy > div > p{
+        margin-bottom: 35px; font-size: 14px; font-weight: 400; line-height: normal;
+    }
+    .privacy > div div span{
+        margin-bottom: 35px; display: block;
+    }
+    .privacy > div div ul li b{
+        font-weight: 500;
+    }
+    .privacy > div div a{
+        border-bottom: 1px solid #2f2f2f; word-break: break-all;
+    }
+    .privacy > div div table{
+        margin-bottom: 35px; width: 100%; text-align: left; word-break: break-all;
+    }
+    .privacy > div div table caption{
+        font-size: 16px; font-weight: 500; text-align: left; margin-bottom: 35px;
+    }
+    .privacy > div div table thead tr th{
+        font-weight: 500;
+    }
+    .privacy > div div:last-child address a{
+        border-bottom: none;
+    }
+
+    .ourStoryContainer div{
+        padding-top: 300px;
+    }
+    .ourStoryContainer div h2{
+        font-size: 40px; font-weight: 400; color: #0d3b3c; text-align: center;
+        margin-bottom: 300px; text-transform: uppercase;
+    }
+    .ourStoryContainer div figure img{
+        width: 100%; display: block;
+    }
+    .ourStoryContainer div:nth-child(2n+1) figure figcaption{
+        padding-left: 20%;
+    }
+    .ourStoryContainer div:nth-child(2n) figure figcaption{
+        padding-right: 20%;
+    }
+    .ourStoryContainer div figure figcaption{
+        background-color: #faf8f4; padding: 75px 7%;
+    }
+    .ourStoryContainer div figure figcaption h3{
+        font-size: 26px; font-weight: 400; color: #0d3b3c; margin-bottom: 30px;
+    }
+    .ourStoryContainer div figure figcaption *:not(h3){
+        font-size: 15px; font-weight: 400; color: #186a6b; line-height: normal;
+        max-width: 440px;
+    }
+    .ourStoryContainer div figure figcaption span{
+        display: block; margin-top: 25px;
+    }
+    .ourStoryContainer div:last-child figure figcaption ul li{
+        display: block;
+    }
+    .ourStoryContainer div:last-child figure figcaption ul li:not(:last-child){
+        margin-bottom: 25px;
+    }
+}
+/* mobile */
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    #loginPopup{
+        padding: 75px 3.1%; width: 35%; height: 35%; background-color: #f7f5f1;
+        box-sizing: border-box; text-align: center;
+        box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+        position: fixed; left: 32.5%; top: 32.5%; min-width: 300px; min-height: 380px;
+        z-index: 100; display: none;
+    }
+    #loginPopup.active{
+        display: block;
+    }
+    #loginPopup h2{
+        font-size: 30px; font-weight: 400; color: #0d3b3c; margin-bottom: 35px;
+        text-transform: uppercase;
+    }
+    #loginPopup h2 input.closeBtn{
+        width: 19px; float: right; line-height: 27px; background-size: 19px;
+    }
+    #loginPopup p{
+        font-size: 18px; font-weight: 400; color: #444444; margin-bottom: 50px;
+        line-height: normal;
+    }
+    #loginPopup a.boxBtn{
+        line-height: 50px; width: 25%; margin: 0 auto; font-size: 15px; min-width: 80px;
+    }
+    
+    .indexContainer > div:first-of-type,
+    .indexContainer > div:nth-of-type(2){
+        margin-bottom: 165px;
+    }
+    .indexContainer > div:first-of-type{
+        position: relative;
+    }
+    .indexContainer > div:first-of-type img{
+        display: block; width: 100%; 
+    }
+    .indexContainer > div:first-of-type div{
+        position: absolute; right: 0; top: 130px; padding: 0 3.12%;
+        color: #444444;
+    }
+    .indexContainer > div:first-of-type div p{
+        font-size: 18px; font-weight: 500; line-height: 35px;
+        max-width: 420px; margin-bottom: 40px;
+    }
+    .indexContainer > div:first-of-type div a{
+        font-size: 15px; font-weight: 400; display: block; width: 20%;
+        border: 1px solid #444444; line-height: 50px; text-align: center;
+        box-sizing: border-box; 
+    }
+    .indexContainer > div:nth-of-type(2) h2{
+        font-size: 40px; font-weight: 400; color: #0d3b3c;
+        text-align: center; margin-bottom: 60px; position: relative;
+    }
+    .indexContainer > div:nth-of-type(2) h2 a{
+        font-size: 15px; color: #2f2f2f; position: absolute;
+        right: 3.12%; top: 10px; font-weight: 400; display: block;
+    }
+    .indexContainer > div:nth-of-type(2) ul.recList li dl dt,
+    .indexContainer > div:nth-of-type(2) ul.recList li dl dd:last-child{
+        font-size: 18px;
+    }
+    .indexContainer > div:nth-of-type(2) ul.recList li dl dd:nth-child(2){
+        font-size: 16px;
+    }
+
+    .indexContainer > figure{
+        background-color: #eae4d5; 
+        display: flex;
+    }
+    .indexContainer > figure img{
+        width: 50%; display: block;
+        float: right; order: 2;
+    }
+    .indexContainer > figure figcaption{
+        width: 50%; 
+        padding: 0 5.2%;
+        box-sizing: border-box;
+        justify-content: center; display: flex; flex-direction: column;
+    }
+    .indexContainer > figure figcaption small{
+        font-size: 2.6vw; color: #0d3b3c; font-weight: 400; margin-bottom: 3.1vw;
+        display: block; position: relative; left: -15px;
+    }
+    .indexContainer > figure figcaption h2{
+        font-size: 5.2vw; color: #0d3b3c; font-weight: 400; line-height: 5.5vw;
+        margin-bottom: 8.3vw; 
+    }
+    .indexContainer > figure figcaption p{
+        font-size: 1.95vw; font-weight: 300; color: #0d3b3c; margin-bottom: 3.38vw;
+    }
+    .indexContainer > figure figcaption a.lineBtn{
+        font-size: 15px; color: #2f2f2f; font-weight: 400; width: 37px; display: block;
+    }
+
+    .indexContainer > div:last-of-type h2{
+        font-size: 40px; font-weight: 400; color: #0d3b3c;
+        text-align: center; line-height: 260px; text-transform: uppercase;
+    }
+    .indexContainer > div:last-of-type ul::after{
+        content: ''; display: block; clear: both;
+    }
+    .indexContainer > div:last-of-type ul > li:not(:last-of-type){
+        float: left;
+    }
+    .indexContainer > div:last-of-type ul li{
+        display: block;
+    }
+    .indexContainer > div:last-of-type ul li:not(:last-of-type){
+        width: 50%; position: relative; 
+    }
+    .indexContainer > div:last-of-type ul li img{
+        width: 100%; display: block;
+    }
+    .indexContainer > div:last-of-type ul li h3{
+        font-size: 26px; font-weight: 500; color: #2f2f2f;
+        position: absolute; width: 100%; bottom: 100px; padding: 0 5.2%;
+        box-sizing: border-box;
+    }
+    .indexContainer > div:last-of-type ul li div::after{
+        content: ''; display: block; clear: both;
+    }
+    .indexContainer > div:last-of-type ul li div{
+        position: absolute; width: 100%; bottom: 30px; color: #2f2f2f; 
+        box-sizing: border-box; padding: 0 5.2%;
+    }
+    .indexContainer > div:last-of-type ul li div p{
+        font-size: 1.82vw; font-weight: 400; float: left; 
+        width: 90%; line-height: normal;
+    }
+    .indexContainer > div:last-of-type ul li div a.lineBtn{
+        position: absolute; right: 5.2%; font-size: 15px; font-weight: 400;
+        display: block;
+    }
+    .indexContainer > div:last-of-type ul li:last-of-type{
+        clear: both;
+    }
+    .indexContainer > div:last-of-type ul li:last-of-type a{
+        display: block;
+    }
+    
+    .list_Container,
+    .list_bestContainer{
+        padding: 125px 3.12% 0;
+    }
+    .list_Container > div h2,
+    .list_bestContainer > div h2,
+    .list_homefragContainer > div:first-of-type h2{
+        font-size: 40px; font-weight: 400; color: #0d3b3c;
+        margin-bottom: 25px;
+    }
+    .list_Container > div h2+p{
+        font-size: 15px; font-weight: 400; color: #6b6b6b;
+        margin-bottom: 20px;
+    }
+    .list_Container > div h2+p::after{
+        content: ''; display: block; height: 1px; width: 100%; background-color: #d9d9d9;
+        margin-top: 20px;
+    }
+    .list_Container > div figure{
+        display: none;
+    }
+    .list_Container > div > div ul{
+        margin-bottom: 20px;
+    }
+    .list_Container > div > div ul::after,
+    .list_bestContainer > div > ul::after,
+    .list_homefragContainer > div:last-of-type > ul::after{
+        content: ''; display: block; clear: both;
+    }
+    .list_Container > div > div ul li,
+    .list_bestContainer > div > ul li,
+    .list_homefragContainer > div:last-of-type > ul > li{
+        display: block; width: 30.5%; float: left;
+        margin-bottom: 40px; 
+    }
+    .list_Container > div > div ul li:not(:nth-of-type(3n+1)),
+    .list_bestContainer > div > ul li:not(:nth-child(2)),
+    .list_homefragContainer > div:last-of-type > ul > li:not(:nth-of-type(3n+1)){
+        margin-left: 4.25%;
+    }
+    .list_Container > div > div ul li a,
+    .list_bestContainer > div > ul li a,
+    .list_homefragContainer > div:last-of-type > ul > li a{
+        display: block; margin-bottom: 20px;
+    }
+    .list_Container > div > div ul li a img,
+    .list_bestContainer > div > ul li a img,
+    .list_homefragContainer > div:last-of-type > ul > li a img{
+        width: 100%; display: block;
+    }
+    .list_Container > div > div ul li dl,
+    .list_bestContainer > div > ul > li dl,
+    .list_homefragContainer > div:last-of-type > ul > li dl{
+        float: left; width: 70%;
+    }
+    .list_Container > div > div ul li dl dt,
+    .list_bestContainer > div > ul > li dl dt,
+    .list_homefragContainer > div:last-of-type > ul > li dl dt{
+        font-size: 16px; font-weight: 400; color: #2f2f2f; margin-bottom: 10px;
+    }
+    .list_Container > div > div ul li dl dd,
+    .list_bestContainer > div > ul > li dl dd,
+    .list_homefragContainer > div:last-of-type > ul > li dl dd{
+        font-size: 14px; font-weight: 400;
+    }
+    .list_Container > div > div ul li dl dd:first-of-type,
+    .list_bestContainer > div > ul > li dl dd:first-of-type,
+    .list_homefragContainer > div:last-of-type > ul > li dl dd:first-of-type{
+        color: #999999; margin-bottom: 10px;
+    }
+    .list_Container > div > div ul li dl dd:last-of-type,
+    .list_bestContainer > div > ul > li dl dd:last-of-type,
+    .list_homefragContainer > div:last-of-type > ul > li dl dd:last-of-type{
+        color: #6b6b6b;
+    }
+    .list_Container > div > div ul li div,
+    .list_homefragContainer > div:last-of-type > ul > li div{
+        width: 30%; float: right; text-align: right; margin-bottom: 30px;
+        min-height: 82px;
+    }
+    .list_Container > div > div ul li div input[value='favorite_border'],
+    .list_bestContainer > div > ul > li div input[value='favorite_border'],
+    .list_homefragContainer > div:last-of-type > ul > li div input[value='favorite_border']{
+        border: none; background-color: transparent; color: #e49393;
+        margin-bottom: 25px; padding: 0; 
+    }
+    .list_Container > div > div ul li div strong,
+    .list_bestContainer > div > ul > li div strong,
+    .list_homefragContainer > div:last-of-type > ul > li div strong{
+        font-size: 14px; font-weight: 400; color: #444444; display: block; 
+    }
+    .list_Container > div > div ul li > input[value='Add to Cart'],
+    .list_bestContainer > div > ul > li > input[value='Add to Cart'],
+    .list_homefragContainer > div:last-of-type > ul > li > input[value='Add to Cart']{
+        clear: both; display: block; width: 100%; border: none; background-color: #e7e6e4;
+        font-size: 18px; font-weight: 500; color: #999999; line-height: 55px; padding: 0;
+        transition: background-color 0.8s; 
+    }
+    .list_Container > div > div ul li > input[value='Add to Cart']:hover,
+    .list_bestContainer > div > ul > li > input[value='Add to Cart']:hover,
+    .list_homefragContainer > div:last-of-type > ul > li > input[value='Add to Cart']:hover{
+        background-color: #dcd7c9; color: #394434;
+    }
+
+    .list_bestContainer > div h2+p,
+    .list_homefragContainer > div:first-of-type h2+p{
+        font-size: 15px; font-weight: 400; color: #6b6b6b;
+        margin-bottom: 30px;
+    }
+    .list_bestContainer > div > ul li:first-child{
+        display: none;
+    }
+    .list_bestContainer > div > ul > li div{
+        width: 30%; float: right; text-align: right; margin-bottom: 30px;
+        min-height: 77px;
+    }
+
+    .list_homefragContainer > div:first-of-type{
+        padding: 125px 3.12% 0;
+    }
+    .list_homefragContainer > div.videoContent{
+        margin-bottom: 105px;
+    }
+    .list_homefragContainer > div:last-of-type{
+        padding: 0 3.12%;
+    }
+    .list_homefragContainer > div:last-of-type h2{
+        font-size: 30px; font-weight: 400; color: #0d3b3c; margin-bottom: 20px;
+        position: relative; overflow: hidden; line-height: normal;
+    }
+    .list_homefragContainer > div:last-of-type h2::after{
+        content: ''; display: inline-block; width: 100%; height: 1px; background-color: #b3b0a9;
+        position: absolute; bottom: 50%; margin-left: 20px; 
+    }
+
+    .detailContainer > div:first-of-type{
+        padding: 150px 3.12% 0; margin-bottom: 260px;
+        display: flex; flex-wrap: wrap; justify-content: space-between;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type{
+        margin-bottom: 40px; width: 100%;
+    }
+    .detailContainer .bx-wrapper,
+    .detailContainer > div:first-of-type > div:last-of-type{
+        width: 50%; align-self: center; 
+    }
+    .detailContainer .bx-wrapper{
+        box-shadow: none; border: none; background: none; margin: 0;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type{
+        padding-left: 5.55%; box-sizing: border-box;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type small{
+        font-size: 15px; font-weight: 400; color: #999999;
+        margin-bottom: 15px; display: block; text-transform: uppercase;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type h2,
+    .detailContainer > div:first-of-type > div:first-of-type span{
+        font-size: 26px; font-weight: 400; color: #000000;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type h2{
+        margin-bottom: 10px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type span{
+        display: block;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type > strong{
+        display: block; font-size: 15px; font-weight: 500; color: #443427;
+        padding-bottom: 20px; border-bottom: 1px solid #deded3;
+        margin: 35px 0 15px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu{
+        margin-bottom: 20px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li{
+        display: inline-block;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li:not(:last-child):after{
+        content: ''; display: inline-block; width: 1px; height: 9px; background-color: #b7b7b7;
+        margin: 0 5px; vertical-align: middle;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li input{
+        background-color: transparent; border: none; padding: 0; line-height: 30px;
+        font-size: 15px; font-weight: 400; color: #b7b7b7;
+        transition: color 0.5s ease-out;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li input.activated{
+        font-weight: 500; color: #596b51;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div{
+        width: 100%;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div{
+        overflow-y: auto; max-height: 250px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div::-webkit-scrollbar{
+        width: 3px; 
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div::-webkit-scrollbar-thumb{
+        background-color: #b7b7b7;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div{
+        height: 0; opacity: 0; transition: all 0.5s ease-out;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div.activated{
+        height: auto; opacity: 1;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p strong,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabSecond p,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabThird p,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFourth p{
+        font-size: 14px; font-weight: 300; color: #2f2f2f; line-height: 20px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p:not(:first-of-type){
+        margin-top: 20px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p strong{
+        margin-top: 20px; display: block;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabSecond p:not(:last-of-type),
+    .detailContainer > div:first-of-type > div:first-of-type div#tabThird p:not(:last-of-type){
+        margin-bottom: 25px;
+    }
+    .detailContainer > div:first-of-type ul.detailSlider li img{
+        width: 100%; display: block;
+    }
+    .detailContainer .bx-default-pager{
+        position: absolute; bottom: 35px;
+    }
+    .detailContainer .bx-pager-item a.bx-pager-link{
+        width: 28px; height: 2px; background-color: #0a2e2f; opacity: 0.3;
+        margin: 0 2px;
+    }
+    .detailContainer .bx-pager-item a.bx-pager-link.active{
+        background-color: #0a2e2f; opacity: 1;
+    }
+    .detailContainer .bx-prev{
+        background: url('../images/before_controls.png') center / 12px 20px no-repeat;
+        left: 2%;
+    }
+    .detailContainer .bx-next{
+        background: url('../images/next_controls.png') center / 12px 20px no-repeat;
+        right: 2%;
+    }
+    .detailContainer .bx-controls-direction a{
+        z-index: 1;
+    }
+    .detailContainer .bx-controls-direction a:hover,
+    .detailContainer .bx-controls-direction a:focus{
+        background-position: center;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type input.checkComponent{
+        display: none;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type label{
+        background: url('../images/off_check.png') left / 15px no-repeat;
+        font-size: 15px; font-weight: 400; color: #0d3b3c; padding-left: 25px;
+        margin-bottom: 10px; display: block; float: right;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type input.checkComponent:checked + label{
+        background: url('../images/on_check.png') left / 15px no-repeat;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type select{
+        display: block;
+        appearance: none; border: none; box-shadow: none; background-image: none;
+        background-color: transparent; 
+        font-size: 15px; font-weight: 400; color: #0a2e2f; width: 100%; padding: 15px 5px;
+        border-bottom: 1px solid #0a2e2f; margin-bottom: 30px;
+        background: url('../images/expand_select.png') right 5px center/ 12px 8px no-repeat;
+        text-transform: uppercase; 
+    }
+    .detailContainer > div:first-of-type > div:last-of-type p{
+        font-size: 14px; font-weight: 300; color: #0d3b3c; text-align: right; margin-bottom: 10px;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type input.boxBtn{
+        padding: 10px 0; font-size: 15px;
+    }
+    .detailContainer > .limgRtxt figcaption p:first-of-type{
+        font-size: 18px; font-weight: 400; margin-bottom: 25px;
+    }
+    .detailContainer > .limgRtxt figcaption p:last-of-type{
+        font-size: 15px; font-weight: 500; 
+    }
+    .detailContainer > div:last-of-type{
+        padding: 0 12%;
+    }
+    .detailContainer > div:last-of-type h2{
+        font-size: 30px; font-weight: 400; color: #0d3b3c;
+        padding-top: 25px; border-top: 1px solid #0a2e2f; margin-bottom: 65px;
+        text-transform: uppercase;
+    }
+    .detailContainer > div:last-of-type ul.recList li dl dt{
+        font-size: 16px; 
+    }
+    .detailContainer > div:last-of-type ul.recList li dl dd{
+        font-size: 14px;
+    }
+
+    .pressContainer{
+        padding: 200px 6.5% 0;
+    }
+    .pressContainer h2::after{
+        content: ''; display: block; width: 100%; height: 1px; background-color: #d9d9d9;
+        margin-top: 55px;
+    }
+    .pressContainer ul::after{
+        content: ''; display: block; clear: both;
+    }
+    .pressContainer ul li{
+        float: left; width: 31.64%; display: block; margin-bottom: 75px;
+        min-height: 400px;
+    }
+    .pressContainer ul li:not(:nth-of-type(3n+1)){
+        margin-left: 2.53%;
+    }
+    .pressContainer ul li a{
+        display: block; margin-bottom: 30px;
+    }
+    .pressContainer ul li a img{
+        width: 100%; display: block;
+    }
+    .pressContainer ul li h3{
+        font-size: 16px; font-weight: 400; color: #6b6b6b; line-height: normal;
+    }
+
+
+    .contactContainer,
+    .checkoutContainer,
+    .orderCompContainer{
+        padding: 200px 10% 0;
+    }
+    .contactContainer div::after{
+        content: ''; display: block; clear: both;
+    }
+    .contactContainer ul{
+        float: left; margin-right: 4.1%; width: 47.95%;
+    }
+    .contactContainer ul li{
+        display: block;
+    }
+    .contactContainer ul li:not(:last-of-type){
+        margin-bottom: 50px;
+    }
+    .contactContainer ul li h3{
+        font-size: 20px; font-weight: 400; color: #0d3b3c; margin-bottom: 15px;
+    }
+    .contactContainer ul li h3::after{
+        content: ''; display: block; width: 100%; height: 1px; background-color: #d9d9d9;
+        margin-top: 15px;
+    }
+    .contactContainer ul li a,
+    .contactContainer ul li span{
+        font-size: 15px; font-weight: 400; color: #6b6b6b;
+    }
+    .contactContainer ul li span{
+        margin-bottom: 15px; display: block;
+    }
+    .contactContainer fieldset{
+        width: 47.95%;
+    }
+    .contactContainer input:not(:last-child),
+    .contactContainer textarea{
+        background-color: transparent;
+        border: 1px solid #b7b7b7; 
+        padding: 15px; box-sizing: border-box;
+        font-size: 14px; font-weight: 400; 
+    }
+    .contactContainer input:not(:last-child)::placeholder,
+    .contactContainer textarea::placeholder{
+        color: #999999;
+    }
+    .contactContainer input:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .contactContainer textarea{
+        resize: none; margin-bottom: 30px; height: 180px;
+    }
+    .contactContainer input.boxBtn{
+        font-size: 18px; line-height: 50px; padding: 0;
+    }
+    
+    .signinContainer{
+        text-align: center;
+    }
+    .signinContainer,
+    .createAccContainer{
+        padding: 200px 30% 0;
+    }
+    .signinContainer input:not(.boxBtn),
+    .createAccContainer input:not(.boxBtn),
+    .resetPWContainer div:last-of-type input:not(.boxBtn){
+        background-color: transparent; border: none; box-sizing: border-box;
+        padding: 10px 5px; border-bottom: 1px solid #d9d9d9;
+        font-size: 15px; font-weight: 400; 
+    }
+    .signinContainer input:not(.boxBtn),
+    .createAccContainer input[type='text'],
+    .createAccContainer input[type='email']{
+        margin-bottom: 15px;
+    }
+    .signinContainer input:not(.boxBtn)::placeholder,
+    .createAccContainer input:not(.boxBtn)::placeholder,
+    .resetPWContainer div:last-of-type input:not(.boxBtn)::placeholder{
+        color: #999999;
+    }
+    .signinContainer a:first-of-type{
+        display: block; text-align: right; font-size: 14px; font-weight: 300; color: #999999;
+        margin-bottom: 45px;
+    }
+    .signinContainer input.boxBtn{
+        margin-bottom: 30px;
+    }
+    .signinContainer input.boxBtn,
+    .createAccContainer input.boxBtn,
+    .resetPWContainer div:last-of-type input.boxBtn{
+        padding: 15px 0; font-size: 18px;
+    }
+    .createAccContainer input:nth-child(4){
+        margin-bottom: 45px;
+    }
+    .resetPWContainer{
+        padding: 200px 10% 0;
+    }
+    .resetPWContainer h2{
+        font-size: 40px; font-weight: 400; color: #0d3b3c; margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    .resetPWContainer p{
+        font-size: 18px; font-weight: 300; color: #6b6b6b;
+    }
+    .resetPWContainer div:first-of-type{
+        width: 55.36%;
+    }
+    .resetPWContainer div:last-of-type{
+        margin-left: auto; width: 44.64%; 
+    }
+    .resetPWContainer div:last-of-type input:not(.boxBtn){
+        margin-bottom: 45px;
+    }
+    .mypageContainer{
+        padding: 200px 18% 0; position: relative;
+    }
+    .mypageContainer > div:first-of-type ul li{
+        display: block;
+    }
+    .mypageContainer > div:first-of-type ul li:not(:last-child){
+        margin-bottom: 75px;
+    }
+    .mypageContainer > div:first-of-type ul li h3{
+        font-size: 30px; font-weight: 400; color: #0d3b3c;
+        padding-bottom: 15px; border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 15px;
+    }
+    .mypageContainer > div:first-of-type ul li a{
+        font-size: 15px; font-weight: 400; color: #0a2e2f;
+    }
+    .mypageContainer > div:first-of-type ul li p{
+        font-size: 15px; font-weight: 400; color: #999999;
+    }
+    .mypageContainer > div:first-of-type ul li input[type='button']{
+        padding: 10px 0; box-sizing: border-box; width: 29%; font-size: 15px;
+        min-width: 255px;
+    }
+
+    .mypageContainer > div#addressPopup{
+        background-color: #f7f5f1; padding: 75px 3.12%; box-sizing: border-box;
+        position: absolute; width: 65%; top: 100px; left: 17.5%;
+        box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+        display: none;
+    }
+    .mypageContainer > div#addressPopup.active{
+        display: block;
+    }
+    .mypageContainer > div#addressPopup h2{
+        font-size: 30px; font-weight: 400; color: #0d3b3c;
+        padding-bottom: 15px; border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 30px;
+    }
+    .mypageContainer > div#addressPopup h2 input.closeBtn{
+        width: 19px; float: right; line-height: 27px; background-size: 19px;
+    }
+    .mypageContainer > div#addressPopup label{
+        font-size: 14px; font-weight: 400; color: #6b6b6b;
+        float: left; display: block; margin-top: 12px;
+        width: 20%;
+    }
+    .mypageContainer > div#addressPopup input:not(.closeBtn),
+    .mypageContainer > div#addressPopup select{
+        appearance: none; box-shadow: none; background-image: none;
+        background-color: transparent; font-family: inherit; font-weight: inherit;
+        width: 80%;  padding: 10px 15px; box-sizing: border-box;
+        display: block; margin-left: auto; border: 1px solid #999999;
+    }
+    .mypageContainer > div#addressPopup select{
+        background: url('../images/expand_select_grey.png') right 15px center / 12px 8px no-repeat;
+    }
+    .mypageContainer > div#addressPopup form > *:not(input#user_phone,input[type='submit']){
+        margin-bottom: 15px;
+    }
+    .mypageContainer > div#addressPopup input[type='submit']{
+        font-size: 15px; padding: 15px 0; width: 30%; margin-left: auto;
+        margin-top: 45px;
+    }
+
+    .checkoutContainer form > div:not(:last-of-type),
+    .orderCompContainer > div:not(:last-of-type){
+        margin-bottom: 15px;
+    }
+    .checkoutContainer form > div input[type='text'],
+    .checkoutContainer form > div input[type='tel']{
+        font-size: 14px; font-weight: 400;
+    }
+    .checkoutContainer form > div:first-of-type h3,
+    div.orderDetails h3,
+    .checkoutContainer form > div:last-of-type h3,
+    .orderCompContainer > div h3{
+        font-size: 30px; font-weight: 400; color: #0d3b3c; margin-bottom: 30px;
+    }
+    .checkoutContainer form > div:first-of-type h3::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer form > div:first-of-type h3::after,
+    div.orderDetails h3::after,
+    .checkoutContainer form > div:last-of-type h3::after,
+    .orderCompContainer > div h3:after{
+        content: ''; display: block; height: 1px; width: 100%; background-color: #d9d9d9;
+        margin-top: 15px;
+    }
+    .checkoutContainer form > div:first-of-type h3 a.backBtn{
+        line-height: 30px;
+    }
+    .checkoutContainer form > div:first-of-type h3~*:not(input:last-of-type){
+        margin-bottom: 15px;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput{
+        position: relative; border: 1px solid #b7b7b7; box-sizing: border-box; 
+        height: 50px;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput label{
+        position: absolute; font-size: 12px; font-weight: 400; top: 10px; left: 15px;
+        display: block;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput label,
+    .checkoutContainer form > div input::placeholder{
+        color: #999999;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput select{
+        appearance: none; border: none; box-shadow: none; background-image: none;
+        background-color: transparent; font-family: inherit;
+        display: block; width: 100%; box-sizing: border-box;
+        padding: 25px 15px 5px; font-size: 14px; font-weight: 400; color: #444444;
+        background: url('../images/expand_select_grey.png') right 15px center / 12px 8px no-repeat;
+    }
+    .checkoutContainer form > div:first-of-type input{
+        background-color: transparent; display: block; height: 50px;
+        padding: 15px; box-sizing: border-box; border: 1px solid #b7b7b7;
+    }
+    .checkoutContainer form > div:first-of-type input:first-of-type{
+        float: left; margin-right: 2.28%;
+    }
+    .checkoutContainer form > div:first-of-type input:first-of-type,
+    .checkoutContainer form > div:first-of-type input:nth-of-type(2){
+        width: 48.86%;
+    }
+    .checkoutContainer form > div:first-of-type input:nth-of-type(3),
+    .checkoutContainer form > div:first-of-type input:nth-of-type(4),
+    .checkoutContainer form > div:first-of-type input:last-of-type{
+        width: 100%; 
+    }
+    .checkoutContainer form > div:first-of-type input:nth-of-type(5),
+    .checkoutContainer form > div:first-of-type input:nth-of-type(5)+div.labelInput,
+    .checkoutContainer form > div:first-of-type input:nth-of-type(6){
+        width: 31.81%; float: left;
+    }
+    .checkoutContainer form > div:first-of-type input:nth-of-type(5),
+    .checkoutContainer form > div:first-of-type input:nth-of-type(5)+div.labelInput{
+        margin-right: 2.28%;
+    }
+    div.orderDetails ul li{
+        display: block;
+    }
+    div.orderDetails ul li::after{
+        content: ''; display: block; clear: both;
+    }
+    div.orderDetails ul li a{
+        float: left;
+        display: block; margin-right: 2.27%; width: 11.36%; max-width: 100px;
+    }
+    div.orderDetails ul li a img{
+        width: 100%; display: block;
+    }
+    div.orderDetails ul li div{
+        width: 86.37%; float: left;
+    }
+    div.orderDetails ul li div::after{
+        content: ''; display: block; clear: both;
+    }
+    div.orderDetails ul li div dl,
+    div.orderDetails ul li div span{
+        float: left;
+    }
+    div.orderDetails ul li div strong{
+        float: right;
+    }
+    div.orderDetails ul li div dl{
+        width: 60%;
+    }
+    div.orderDetails ul li div span,
+    div.orderDetails ul li div strong{
+        font-size: 14px; font-weight: 400; color: #2f2f2f;
+        width: 20%; display: block;
+    }
+    div.orderDetails ul li div span{
+        text-align: center;
+    }
+    div.orderDetails ul li div strong{
+        text-align: right;
+    }
+    div.orderDetails ul li div dl > *:not(dd:last-of-type){
+        margin-bottom: 10px;
+    }
+    div.orderDetails ul li div dl dt{
+        font-size: 14px; font-weight: 400; color: #2f2f2f;
+    }
+    div.orderDetails ul li div dl dd{
+        font-weight: 300;
+    }
+    div.orderDetails ul li div dl dd:first-of-type{
+        font-size: 14px; color: #999999;
+    }
+    div.orderDetails ul li div dl dd:nth-of-type(2){
+        font-size: 14px; color: #6b6b6b;
+    }
+    div.orderDetails ul li div dl dd:last-of-type{
+        font-size: 12px; color: #6b6b6b;
+    }
+    .checkoutContainer form > div:last-of-type::after,
+    .orderCompContainer > div:last-of-type::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer form > div:last-of-type > div,
+    .orderCompContainer > div:last-of-type > div{
+        float: left; width: 47.73%;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child,
+    .orderCompContainer > div:last-of-type > div:first-child{
+        margin-right: 4.54%;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child input{
+        float: left; display: block; margin-bottom: 25px;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child input[type='text']{
+        width: 78%; background-color: transparent; border: 1px solid #b7b7b7;
+        padding: 15px; box-sizing: border-box;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child input[value='Apply']{
+        width: 19.62%; margin-left: 2.38%; background-color: #0a2e2f; border: none;
+        padding: 15px 0; font-size: 15px; font-weight: 400; color: #ffffff;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong{
+        clear: both; display: block; font-weight: 400; 
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong:not(:last-child),
+    .orderCompContainer > div:last-of-type > div:first-child strong:not(:last-child){
+        margin-bottom: 20px; font-size: 14px; color: #999999;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong:last-child,
+    .orderCompContainer > div:last-of-type > div:first-child strong:last-child{
+        color: #444444; font-size: 16px;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong span:last-child,
+    .orderCompContainer > div:last-of-type > div:first-child strong span:last-child{
+        float: right;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child p{
+        font-size: 14px; font-weight: 300; color: #999999; margin-bottom: 25px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input[type='radio']{
+        display: none;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > label{
+        display: block; padding-left: 35px; line-height: 25px;
+        font-size: 14px; font-weight: 400; color: #444444;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_paypal + label{
+        background: url('../images/off_radio.png') left center / 18px no-repeat;
+        margin-bottom: 10px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_paypal:checked + label{
+        background: url('../images/on_radio.png') left center / 18px no-repeat;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_eximbay + label{
+        background: url('../images/off_radio.png') left center / 18px no-repeat, url('../images/bg_payment.png') right / 167px 24px no-repeat;
+        margin-bottom: 30px; padding-right: 170px; 
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_eximbay:checked + label{
+        background: url('../images/on_radio.png') left center / 18px no-repeat, url('../images/bg_payment.png') right / 167px 24px no-repeat;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div{
+        margin-bottom: 30px; display: none;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_eximbay:checked ~ div{
+        display: block;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div label{
+        font-size: 14px; font-weight: 400; color: #999999; margin-bottom: 5px;
+        display: block;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div input{
+        background-color: transparent; border: 1px solid #b7b7b7;
+        box-sizing: border-box;
+        display: block; width: 100%; padding: 15px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div input#card_number{
+        margin-bottom: 20px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div div{
+        float: left; width: 47.62%;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div div:first-of-type{
+        margin-right: 4.76%;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input.boxBtn{
+        line-height: 45px; font-size: 15px; padding: 0;
+    }
+
+    .orderCompContainer h2{
+        margin-bottom: 25px; font-size: 40px; font-weight: 400; color: #0d3b3c; text-transform: uppercase;
+        text-align: center;
+    }
+    .orderCompContainer h2+p,
+    .orderCompContainer > div.orderDetails small{
+        font-size: 14px; font-weight: 300; color: #999999;
+    }
+    .orderCompContainer h2+p{
+        text-align: center; margin-bottom: 75px;
+    }
+    .orderCompContainer > div.orderDetails small{
+        display: block; margin-bottom: 25px;
+    }
+    .orderCompContainer > div:last-of-type{
+        margin-bottom: 45px;
+    }
+    .orderCompContainer > div:last-of-type > div:first-child strong{
+        display: block; font-weight: 400;
+    }
+    .orderCompContainer > div:last-of-type > div:last-child address{
+        font-size: 14px; font-weight: 300; color: #444444; line-height: normal;
+    }
+    .orderCompContainer > a.boxBtn{
+        width: 22.91%; margin: 0 auto; text-align: center;
+        font-size: 18px; padding: 20px 0; min-width: 220px;
+    }
+
+    .storeContainer{
+        padding: 200px 6.5% 0;
+    }
+    .storeContainer ul.storeSlider li img{
+        display: block; width: 100%;
+    }
+    .storeContainer .bx-wrapper{
+        width: 100%; box-shadow: none; border: none; background: none; margin-bottom: 75px;
+    }
+    .storeContainer .bx-default-pager{
+        position: absolute; bottom: 20px;
+    }
+    .storeContainer .bx-pager-item a.bx-pager-link{
+        width: 28px; height: 2px; background-color: #0a2e2f; opacity: 0.3;
+        margin: 0 2px;
+    }
+    .storeContainer .bx-pager-item a.bx-pager-link.active{
+        background-color: #0a2e2f; opacity: 1;
+    }
+    .storeContainer .bx-prev{
+        background: url('../images/before_controls.png') center / 12px 20px no-repeat;
+        left: 1.49%;
+    }
+    .storeContainer .bx-next{
+        background: url('../images/next_controls.png') center / 12px 20px no-repeat;
+        right: 1.49%;
+    }
+    .storeContainer .bx-controls-direction a{
+        z-index: 1;
+    }
+    .storeContainer .bx-controls-direction a:hover,
+    .storeContainer .bx-controls-direction a:focus{
+        background-position: center;
+    }
+    .storeContainer > div:not(:last-child,.bx-wrapper){
+        margin-bottom: 130px;
+    }
+    .storeContainer > div h3{
+        font-size: 30px; font-weight: 400; color: #444444; text-align: center;
+        margin-bottom: 55px;
+    }
+    .storeContainer > div > ul{
+        display: flex; justify-content: space-between; flex-wrap: wrap;
+    }
+    .storeContainer > div > ul:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .storeContainer > div:nth-of-type(3) > ul:last-child,
+    .storeContainer > div:nth-of-type(4) > ul:last-child,
+    .storeContainer > div:last-of-type > ul{
+        justify-content: flex-start;
+    }
+    .storeContainer > div > ul li{
+        display: block; width: 28%; margin-bottom: 30px;
+    }
+    .storeContainer > div > ul li:not(:last-child){
+        margin-right: 4.47%;
+    }
+    .storeContainer > div > ul li h4{
+        font-size: 20px; font-weight: 400; color: #444444; margin-bottom: 20px;
+    }
+    .storeContainer > div > ul li address{
+        font-size: 15px; font-weight: 400; color: #6b6b6b; line-height: normal;
+    }
+    .storeContainer > div > ul li address *{
+        display: block;
+    }
+    .storeContainer > div > ul li address:not(:last-child)::after{
+        content: ''; display: block; height: 1px; width: 100%; background-color: #d9d9d9;
+        margin: 15px 0;
+    }
+
+    .article{
+        padding: 200px 18% 0; color: #2f2f2f;
+    }
+    .article::after{
+        content: ''; display: block; clear: both;
+    }
+    .article > div{
+        background-color: #f7f5f1; padding: 75px 4.67%; margin-bottom: 30px;
+    }
+    .article > div div:not(:last-child),
+    .article > div div ul,
+    .terms > div div p:not(:last-child),
+    .refund > div div p:not(:last-of-type),
+    .privacy > div div p,
+    .privacy > div div:last-child address{
+        margin-bottom: 35px;
+    }
+    .article > div div *:not(h3){
+        font-size: 14px; font-weight: 400; line-height: normal;
+    }
+    .article > div div h3{
+        margin-bottom: 15px; font-size: 16px; font-weight: 500; 
+    }
+    .article > div div ul li{
+        display: block;
+    }
+    .terms > div div:nth-child(2) span{
+        font-weight: 500; margin-bottom: 35px; display: block;
+    }
+    .refund > div div span{
+        margin-top: 35px; display: block;
+    }
+    .privacy > div > p{
+        margin-bottom: 35px; font-size: 14px; font-weight: 400; line-height: normal;
+    }
+    .privacy > div div span{
+        margin-bottom: 35px; display: block;
+    }
+    .privacy > div div ul li b{
+        font-weight: 500;
+    }
+    .privacy > div div a{
+        border-bottom: 1px solid #2f2f2f;
+    }
+    .privacy > div div table{
+        margin-bottom: 35px; width: 100%; text-align: left;
+    }
+    .privacy > div div table caption{
+        font-size: 16px; font-weight: 500; text-align: left; margin-bottom: 35px;
+    }
+    .privacy > div div table thead tr th{
+        font-weight: 500;
+    }
+    .privacy > div div:last-child address a{
+        border-bottom: none;
+    }
+
+    .ourStoryContainer div{
+        padding-top: 470px;
+    }
+    .ourStoryContainer div h2{
+        font-size: 80px; font-weight: 400; color: #0d3b3c; text-align: center;
+        margin-bottom: 470px; text-transform: uppercase;
+    }
+    .ourStoryContainer div figure img{
+        width: 100%; display: block;
+    }
+    .ourStoryContainer div:nth-child(2n+1) figure{
+        padding-left: 20%;
+    }
+    .ourStoryContainer div:nth-child(2n) figure{
+        padding-right: 20%;
+    }
+    .ourStoryContainer div figure figcaption{
+        background-color: #faf8f4; padding: 75px 5.2%;
+    }
+    .ourStoryContainer div figure figcaption h3{
+        font-size: 26px; font-weight: 400; color: #0d3b3c; margin-bottom: 30px;
+    }
+    .ourStoryContainer div figure figcaption *:not(h3){
+        font-size: 15px; font-weight: 400; color: #186a6b; line-height: normal;
+        max-width: 440px;
+    }
+    .ourStoryContainer div figure figcaption span{
+        display: block; margin-top: 25px;
+    }
+    .ourStoryContainer div:last-child figure figcaption ul li{
+        display: block;
+    }
+    .ourStoryContainer div:last-child figure figcaption ul li:not(:last-child){
+        margin-bottom: 25px;
+    }
+}
+/* tablet */
+
+@media screen and (min-width: 1280px){
+    #loginPopup{
+        padding: 75px 3.1%; width: 35%; height: 35%; background-color: #f7f5f1;
+        box-sizing: border-box; text-align: center;
+        box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+        position: fixed; left: 32.5%; top: 32.5%; min-width: 440px; min-height: 340px;
+        z-index: 100; display: none;
+    }
+    #loginPopup.active{
+        display: block;
+    }
+    #loginPopup h2{
+        font-size: 30px; font-weight: 400; color: #0d3b3c; margin-bottom: 35px;
+        text-transform: uppercase;
+    }
+    #loginPopup h2 input.closeBtn{
+        width: 19px; float: right; line-height: 27px; background-size: 19px;
+    }
+    #loginPopup p{
+        font-size: 18px; font-weight: 400; color: #444444; margin-bottom: 50px;
+        line-height: normal;
+    }
+    #loginPopup a.boxBtn{
+        line-height: 50px; width: 25%; margin: 0 auto; font-size: 15px;
+    }
+    
+    .indexContainer > div:first-of-type,
+    .indexContainer > div:nth-of-type(2){
+        margin-bottom: 165px;
+    }
+    .indexContainer > div:first-of-type{
+        position: relative;
+    }
+    .indexContainer > div:first-of-type img{
+        display: block; width: 100%; 
+    }
+    .indexContainer > div:first-of-type div{
+        position: absolute; right: 0; top: 220px; padding: 0 6.25%;
+        color: #444444;
+    }
+    .indexContainer > div:first-of-type div p{
+        font-size: 23px; font-weight: 500; line-height: 40px;
+        max-width: 530px; margin-bottom: 45px;
+    }
+    .indexContainer > div:first-of-type div a{
+        font-size: 18px; font-weight: 400; display: block; width: 20%;
+        border: 1px solid #444444; line-height: 50px; text-align: center;
+        box-sizing: border-box;
+    }
+    .indexContainer > div:nth-of-type(2) h2{
+        font-size: 40px; font-weight: 400; color: #0d3b3c;
+        text-align: center; margin-bottom: 60px; position: relative;
+    }
+    .indexContainer > div:nth-of-type(2) h2 a{
+        font-size: 18px; color: #2f2f2f; position: absolute;
+        right: 100px; top: 8px; font-weight: 400; display: block;
+    }
+    .indexContainer > div:nth-of-type(2) ul.recList li dl dt,
+    .indexContainer > div:nth-of-type(2) ul.recList li dl dd:last-child{
+        font-size: 20px;
+    }
+    .indexContainer > div:nth-of-type(2) ul.recList li dl dd:nth-child(2){
+        font-size: 18px;
+    }
+
+    .indexContainer > figure{
+        background-color: #eae4d5; 
+        display: flex;
+    }
+    .indexContainer > figure img{
+        width: 50%; display: block;
+        float: right; order: 2;
+    }
+    .indexContainer > figure figcaption{
+        width: 50%; 
+        padding: 0 9.3%;
+        box-sizing: border-box;
+        justify-content: center; display: flex; flex-direction: column;
+    }
+    .indexContainer > figure figcaption small{
+        font-size: 2vw; color: #0d3b3c; font-weight: 400; margin-bottom: 3.1vw;
+        display: block; position: relative; left: -50px;
+    }
+    .indexContainer > figure figcaption h2{
+        font-size: 4.1vw; color: #0d3b3c; font-weight: 400; line-height: 4.9vw;
+        margin-bottom: 8.3vw; max-width: 555px;
+    }
+    .indexContainer > figure figcaption p{
+        font-size: 1.35vw; font-weight: 300; color: #0d3b3c; margin-bottom: 3.38vw;
+    }
+    .indexContainer > figure figcaption a.lineBtn{
+        font-size: 18px; color: #2f2f2f; font-weight: 400; width: 44px; display: block;
+    }
+
+    .indexContainer > div:last-of-type h2{
+        font-size: 40px; font-weight: 400; color: #0d3b3c;
+        text-align: center; line-height: 260px; text-transform: uppercase;
+    }
+    .indexContainer > div:last-of-type ul::after{
+        content: ''; display: block; clear: both;
+    }
+    .indexContainer > div:last-of-type ul > li:not(:last-of-type){
+        float: left;
+    }
+    .indexContainer > div:last-of-type ul li{
+        display: block;
+    }
+    .indexContainer > div:last-of-type ul li:not(:last-of-type){
+        width: 50%; position: relative; 
+    }
+    .indexContainer > div:last-of-type ul li img{
+        width: 100%; display: block;
+    }
+    .indexContainer > div:last-of-type ul li h3{
+        font-size: 36px; font-weight: 500; color: #2f2f2f;
+        position: absolute; width: 100%; bottom: 140px; padding: 0 8.3%;
+        box-sizing: border-box;
+    }
+    .indexContainer > div:last-of-type ul li div::after{
+        content: ''; display: block; clear: both;
+    }
+    .indexContainer > div:last-of-type ul li div{
+        position: absolute; width: 100%; bottom: 90px; color: #2f2f2f; 
+        box-sizing: border-box; padding: 0 8.3%;
+    }
+    .indexContainer > div:last-of-type ul li div p{
+        font-size: 21px; font-weight: 400; float: left; 
+        width: 90%;
+    }
+    .indexContainer > div:last-of-type ul li div a.lineBtn{
+        position: absolute; right: 8.3%; font-size: 18px; font-weight: 400;
+        display: block;
+    }
+    .indexContainer > div:last-of-type ul li:last-of-type{
+        clear: both;
+    }
+    .indexContainer > div:last-of-type ul li:last-of-type a{
+        display: block;
+    }
+    
+    .list_Container,
+    .list_bestContainer{
+        padding: 125px 1.5% 0;
+    }
+    .list_Container > div::after{
+        content: ''; display: block; clear: both;
+    }
+    .list_Container > div h2,
+    .list_bestContainer > div h2,
+    .list_homefragContainer > div:first-of-type h2{
+        font-size: 40px; font-weight: 400; color: #0d3b3c;
+        margin-bottom: 25px;
+    }
+    .list_Container > div h2+p{
+        font-size: 15px; font-weight: 400; color: #6b6b6b;
+        margin-bottom: 30px; float: left; width: 30.6%;
+        margin-right: 4.3%;
+    }
+    .list_Container > div figure{
+        clear: both; width: 30.6%; 
+        position: sticky; top: 110px;
+        float: left; 
+        margin-right: 4.3%;
+    }
+    .list_Container > div figure img{
+        width: 100%; display: block;
+    }
+    .list_Container > div > div{
+        width: 65.1%; float: right; 
+    }
+    .list_Container > div > div ul{
+        margin-bottom: 20px;
+    }
+    .list_Container > div > div ul::after{
+        content: ''; display: block; clear: both;
+    }
+    .list_Container > div > div ul li{
+        display: block; width: 30.5%; float: left;
+        margin-bottom: 40px; 
+        min-height: 566px;
+    }
+    .list_Container > div > div ul li:not(:nth-of-type(3n+1)){
+        margin-left: 4.25%;
+    }
+    .list_Container > div > div ul li a{
+        display: block; margin-bottom: 20px;
+    }
+    .list_Container > div > div ul li a img{
+        width: 100%; display: block;
+    }
+    .list_Container > div > div ul li dl,
+    .list_bestContainer > div > ul > li dl,
+    .list_homefragContainer > div:last-of-type > ul > li dl{
+        float: left; width: 70%;
+    }
+    .list_Container > div > div ul li dl dt,
+    .list_bestContainer > div > ul > li dl dt,
+    .list_homefragContainer > div:last-of-type > ul > li dl dt{
+        font-size: 16px; font-weight: 400; color: #2f2f2f; margin-bottom: 10px;
+    }
+    .list_Container > div > div ul li dl dd,
+    .list_bestContainer > div > ul > li dl dd,
+    .list_homefragContainer > div:last-of-type > ul > li dl dd{
+        font-size: 14px; font-weight: 400;
+    }
+    .list_Container > div > div ul li dl dd:first-of-type,
+    .list_bestContainer > div > ul > li dl dd:first-of-type,
+    .list_homefragContainer > div:last-of-type > ul > li dl dd:first-of-type{
+        color: #999999; margin-bottom: 10px;
+    }
+    .list_Container > div > div ul li dl dd:last-of-type,
+    .list_bestContainer > div > ul > li dl dd:last-of-type,
+    .list_homefragContainer > div:last-of-type > ul > li dl dd:last-of-type{
+        color: #6b6b6b;
+    }
+    .list_Container > div > div ul li div{
+        width: 30%; float: right; text-align: right; margin-bottom: 30px;
+        min-height: 82px;
+    }
+    .list_Container > div > div ul li div input[value='favorite_border'],
+    .list_bestContainer > div > ul > li div input[value='favorite_border'],
+    .list_homefragContainer > div:last-of-type > ul > li div input[value='favorite_border']{
+        border: none; background-color: transparent; color: #e49393;
+        margin-bottom: 25px; padding: 0; 
+    }
+    .list_Container > div > div ul li div strong,
+    .list_bestContainer > div > ul > li div strong,
+    .list_homefragContainer > div:last-of-type > ul > li div strong{
+        font-size: 14px; font-weight: 400; color: #444444; display: block; 
+    }
+    .list_Container > div > div ul li > input[value='Add to Cart'],
+    .list_bestContainer > div > ul > li > input[value='Add to Cart'],
+    .list_homefragContainer > div:last-of-type > ul > li > input[value='Add to Cart']{
+        clear: both; display: block; width: 100%; border: none; background-color: #e7e6e4;
+        font-size: 18px; font-weight: 500; color: #999999; line-height: 55px; padding: 0;
+        transition: background-color 0.8s; 
+    }
+    .list_Container > div > div ul li > input[value='Add to Cart']:hover,
+    .list_bestContainer > div > ul > li > input[value='Add to Cart']:hover,
+    .list_bestContainer > div > ul li:nth-of-type(4n+1) a:hover,
+    .list_homefragContainer > div:last-of-type > ul > li > input[value='Add to Cart']:hover{
+        background-color: #dcd7c9; color: #394434;
+    }
+
+    .list_bestContainer > div h2+p,
+    .list_homefragContainer > div:first-of-type h2+p{
+        font-size: 15px; font-weight: 400; color: #6b6b6b;
+        margin-bottom: 30px;
+    }
+    .list_bestContainer > div > ul::after{
+        content: ''; display: block; clear: both;
+    }
+    .list_bestContainer > div > ul li{
+        display: block; width: 23.38%; float: left;
+        margin-bottom: 40px; 
+    }
+    .list_bestContainer > div > ul li:not(:first-child){
+        margin-left: 2.15%;
+    }
+    .list_bestContainer > div > ul li:not(:first-child) a{
+        display: block; margin-bottom: 20px;
+    }
+    .list_bestContainer > div > ul li:not(:first-child) a img{
+        width: 100%; display: block;
+    }
+    .list_bestContainer > div > ul li:first-child figure{
+        position: relative; 
+        margin-bottom: 20px;
+    }
+    .list_bestContainer > div > ul li:first-child figure img{
+        width: 100%; display: block; 
+    }
+    .list_bestContainer > div > ul li:first-child figure figcaption{
+        position: absolute; font-size: 30px; font-weight: 400; color: #ffffff;
+        width: 100%; padding: 30px 4.6%; top: 0; left: 0; box-sizing: border-box;
+    }
+    .list_bestContainer > div > ul li:first-child a{
+        display: block; background-color: #e7e6e4; 
+        font-size: 18px; font-weight: 500; color: #999999;
+        text-align: center; transition: background-color 0.8s;
+        line-height: 55px; 
+    }
+    .list_bestContainer > div > ul > li div{
+        width: 30%; float: right; text-align: right; margin-bottom: 30px;
+    }
+    .list_homefragContainer > div:first-of-type{
+        padding: 125px 1.5% 0;
+    }
+    .list_homefragContainer > div.videoContent{
+        margin-bottom: 105px;
+    }
+    .list_homefragContainer > div:last-of-type{
+        padding: 0 1.5%;
+    }
+    .list_homefragContainer > div:last-of-type h2{
+        font-size: 30px; font-weight: 400; color: #0d3b3c; margin-bottom: 20px;
+        position: relative; overflow: hidden; line-height: normal;
+    }
+    .list_homefragContainer > div:last-of-type h2::after{
+        content: ''; display: inline-block; width: 100%; height: 1px; background-color: #b3b0a9;
+        position: absolute; bottom: 50%; margin-left: 20px; 
+    }
+
+    .list_homefragContainer > div:last-of-type > ul::after{
+        content: ''; display: block; clear: both;
+    }
+    .list_homefragContainer > div:last-of-type > ul > li{
+        display: block; width: 23.38%; float: left;
+        margin-bottom: 40px; 
+    }
+    .list_homefragContainer > div:last-of-type > ul > li:not(:nth-of-type(4n+1)){
+        margin-left: 2.15%;
+    }
+    .list_homefragContainer > div:last-of-type > ul > li a{
+        display: block; margin-bottom: 20px;
+    }
+    .list_homefragContainer > div:last-of-type > ul > li a img{
+        width: 100%; display: block;
+    }
+    .list_homefragContainer > div:last-of-type > ul > li div{
+        width: 30%; float: right; text-align: right; margin-bottom: 30px;
+        min-height: 82px;
+    }
+
+    .detailContainer > div:first-of-type{
+        display: flex; justify-content: space-between;
+        padding: 150px 4.83% 0;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type,
+    .detailContainer > div:first-of-type > div:last-of-type{
+        width: 26.43%; align-self: center; 
+    }
+    .detailContainer .bx-wrapper{
+        width: 34.48%; box-shadow: none; border: none; background: none; margin: 0;
+        min-width: 435px; align-self: center;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type small{
+        font-size: 15px; font-weight: 400; color: #999999;
+        margin-bottom: 15px; display: block; text-transform: uppercase;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type h2,
+    .detailContainer > div:first-of-type > div:first-of-type span{
+        font-size: 30px; font-weight: 400; color: #000000;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type h2{
+        margin-bottom: 10px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type span{
+        display: block;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type > strong{
+        display: block; font-size: 15px; font-weight: 500; color: #443427;
+        padding-bottom: 20px; border-bottom: 1px solid #deded3;
+        margin: 45px 0 20px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu{
+        margin-bottom: 25px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li{
+        display: inline-block; 
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li:not(:last-child)::after{
+        content: ''; display: inline-block; width: 1px; height: 9px; background-color: #b7b7b7;
+        margin: 0 5px; 
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li input{
+        background-color: transparent; border: none; padding: 0; line-height: 30px;
+        font-size: 15px; font-weight: 400; color: #b7b7b7;
+        transition: color 0.5s ease-out;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu li input.activated{
+        font-weight: 500; color: #596b51;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div{
+        width: 100%;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div{
+        overflow-y: auto; max-height: 250px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div::-webkit-scrollbar{
+        width: 3px; 
+    }
+    .detailContainer > div:first-of-type > div:first-of-type ul.tabMenu~div::-webkit-scrollbar-thumb{
+        background-color: #b7b7b7;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div{
+        height: 0; opacity: 0; transition: all 0.5s ease-out;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div.activated{
+        height: auto; opacity: 1;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p strong,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabSecond p,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabThird p,
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFourth p{
+        font-size: 14px; font-weight: 300; color: #2f2f2f; line-height: 20px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p:not(:first-of-type){
+        margin-top: 20px;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabFirst p strong{
+        margin-top: 20px; display: block;
+    }
+    .detailContainer > div:first-of-type > div:first-of-type div#tabSecond p:not(:last-of-type),
+    .detailContainer > div:first-of-type > div:first-of-type div#tabThird p:not(:last-of-type){
+        margin-bottom: 25px;
+    }
+    .detailContainer > div:first-of-type ul.detailSlider li img{
+        width: 100%; display: block;
+    }
+    .detailContainer .bx-default-pager{
+        position: absolute; bottom: 65px;
+    }
+    .detailContainer .bx-pager-item a.bx-pager-link{
+        width: 28px; height: 2px; background-color: #0a2e2f; opacity: 0.3;
+        margin: 0 2px;
+    }
+    .detailContainer .bx-pager-item a.bx-pager-link.active{
+        background-color: #0a2e2f; opacity: 1;
+    }
+    .detailContainer .bx-prev{
+        background: url('../images/before_controls.png') center / 12px 20px no-repeat;
+        left: 2%;
+    }
+    .detailContainer .bx-next{
+        background: url('../images/next_controls.png') center / 12px 20px no-repeat;
+        right: 2%;
+    }
+    .detailContainer .bx-controls-direction a{
+        z-index: 1;
+    }
+    .detailContainer .bx-controls-direction a:hover,
+    .detailContainer .bx-controls-direction a:focus{
+        background-position: center;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type input.checkComponent{
+        display: none;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type label{
+        background: url('../images/off_check.png') left / 15px no-repeat;
+        font-size: 15px; font-weight: 400; color: #0d3b3c; padding-left: 25px;
+        margin-bottom: 10px; display: block; float: right;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type input.checkComponent:checked + label{
+        background: url('../images/on_check.png') left / 15px no-repeat;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type select{
+        display: block;
+        appearance: none; border: none; box-shadow: none; background-image: none;
+        background-color: transparent; 
+        font-size: 15px; font-weight: 400; color: #0a2e2f; width: 100%; padding: 15px 5px;
+        border-bottom: 1px solid #0a2e2f; margin-bottom: 30px;
+        background: url('../images/expand_select.png') right 5px center / 12px 8px no-repeat;
+        text-transform: uppercase; 
+    }
+    .detailContainer > div:first-of-type > div:last-of-type p{
+        font-size: 14px; font-weight: 300; color: #0d3b3c; text-align: right; margin-bottom: 10px;
+    }
+    .detailContainer > div:first-of-type > div:last-of-type input.boxBtn{
+        padding: 10px 0; font-size: 15px;
+    }
+    .detailContainer > .limgRtxt figcaption p:first-of-type{
+        font-size: 30px; font-weight: 400; margin-bottom: 65px;
+    }
+    .detailContainer > .limgRtxt figcaption p:last-of-type{
+        font-size: 20px; font-weight: 500; 
+    }
+    .detailContainer > div:last-of-type{
+        padding: 0 19.35%;
+    }
+    .detailContainer > div:last-of-type h2{
+        font-size: 30px; font-weight: 400; color: #0d3b3c;
+        padding-top: 25px; border-top: 1px solid #0a2e2f; margin-bottom: 65px;
+        text-transform: uppercase;
+    }
+    .detailContainer > div:last-of-type ul.recList li dl dt{
+        font-size: 16px; 
+    }
+    .detailContainer > div:last-of-type ul.recList li dl dd{
+        font-size: 14px;
+    }
+
+    .pressContainer{
+        padding: 200px 8.85% 0;
+    }
+    .pressContainer h2{
+        font-size: 4.16vw; font-weight: 400; color: #0d3b3c; margin-bottom: 3.9vw;
+        text-align: center;
+    }
+    .pressContainer h2::after{
+        content: ''; display: block; width: 100%; height: 1px; background-color: #d9d9d9;
+        margin-top: 55px;
+    }
+    .pressContainer ul::after{
+        content: ''; display: block; clear: both;
+    }
+    .pressContainer ul li{
+        float: left; width: 31.64%; display: block; margin-bottom: 7.03vw;
+    }
+    .pressContainer ul li:not(:nth-of-type(3n+1)){
+        margin-left: 2.53%;
+    }
+    .pressContainer ul li a{
+        display: block; margin-bottom: 30px;
+    }
+    .pressContainer ul li a img{
+        width: 100%; display: block;
+    }
+    .pressContainer ul li h3{
+        font-size: 1.35vw; font-weight: 400; color: #6b6b6b;
+    }
+
+
+    .contactContainer,
+    .checkoutContainer,
+    .orderCompContainer{
+        padding: 200px 25% 0;
+    }
+    .contactContainer div::after{
+        content: ''; display: block; clear: both;
+    }
+    .contactContainer ul{
+        float: left; margin-right: 4.1%; width: 47.95%;
+    }
+    .contactContainer ul li{
+        display: block;
+    }
+    .contactContainer ul li:not(:last-of-type){
+        margin-bottom: 50px;
+    }
+    .contactContainer ul li h3{
+        font-size: 20px; font-weight: 400; color: #0d3b3c; margin-bottom: 15px;
+    }
+    .contactContainer ul li h3::after{
+        content: ''; display: block; width: 100%; height: 1px; background-color: #d9d9d9;
+        margin-top: 15px;
+    }
+    .contactContainer ul li a,
+    .contactContainer ul li span{
+        font-size: 15px; font-weight: 400; color: #6b6b6b;
+    }
+    .contactContainer ul li span{
+        margin-bottom: 15px; display: block;
+    }
+    .contactContainer fieldset{
+        width: 47.95%;
+    }
+    .contactContainer input:not(:last-child),
+    .contactContainer textarea{
+        background-color: transparent;
+        border: 1px solid #b7b7b7; 
+        padding: 15px; box-sizing: border-box;
+        font-size: 14px; font-weight: 400; 
+    }
+    .contactContainer input:not(:last-child)::placeholder,
+    .contactContainer textarea::placeholder{
+        color: #999999;
+    }
+    .contactContainer input:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .contactContainer textarea{
+        resize: none; margin-bottom: 30px; height: 180px;
+    }
+    .contactContainer input.boxBtn{
+        font-size: 18px; line-height: 50px; padding: 0;
+    }
+    
+    .signinContainer{
+        text-align: center;
+    }
+    .signinContainer,
+    .createAccContainer{
+        padding: 200px 40.88% 0;
+    }
+    .signinContainer input:not(.boxBtn),
+    .createAccContainer input:not(.boxBtn),
+    .resetPWContainer div:last-of-type input:not(.boxBtn){
+        background-color: transparent; border: none; box-sizing: border-box;
+        padding: 10px 5px; border-bottom: 1px solid #d9d9d9;
+        font-size: 15px; font-weight: 400; 
+    }
+    .signinContainer input:not(.boxBtn),
+    .createAccContainer input[type='text'],
+    .createAccContainer input[type='email']{
+        margin-bottom: 15px;
+    }
+    .signinContainer input:not(.boxBtn)::placeholder,
+    .createAccContainer input:not(.boxBtn)::placeholder,
+    .resetPWContainer div:last-of-type input:not(.boxBtn)::placeholder{
+        color: #999999;
+    }
+    .signinContainer a:first-of-type{
+        display: block; text-align: right; font-size: 14px; font-weight: 300; color: #999999;
+        margin-bottom: 45px;
+    }
+    .signinContainer input.boxBtn{
+        margin-bottom: 30px;
+    }
+    .signinContainer input.boxBtn,
+    .createAccContainer input.boxBtn,
+    .resetPWContainer div:last-of-type input.boxBtn{
+        padding: 15px 0; font-size: 18px;
+    }
+    .createAccContainer input:nth-child(4){
+        margin-bottom: 45px;
+    }
+    .resetPWContainer{
+        padding: 200px 19.79% 0;
+    }
+    .resetPWContainer h2{
+        font-size: 40px; font-weight: 400; color: #0d3b3c; margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    .resetPWContainer p{
+        font-size: 18px; font-weight: 300; color: #6b6b6b;
+    }
+    .resetPWContainer div:first-of-type{
+        width: 55.36%;
+    }
+    .resetPWContainer div:last-of-type{
+        margin-left: auto; width: 44.64%; 
+    }
+    .resetPWContainer div:last-of-type input:not(.boxBtn){
+        margin-bottom: 45px;
+    }
+    .mypageContainer{
+        padding: 200px 29.68% 0; position: relative;
+    }
+    .mypageContainer > div:first-of-type ul li{
+        display: block;
+    }
+    .mypageContainer > div:first-of-type ul li:not(:last-child){
+        margin-bottom: 75px;
+    }
+    .mypageContainer > div:first-of-type ul li h3{
+        font-size: 30px; font-weight: 400; color: #0d3b3c;
+        padding-bottom: 15px; border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 15px;
+    }
+    .mypageContainer > div:first-of-type ul li a{
+        font-size: 15px; font-weight: 400; color: #0a2e2f;
+    }
+    .mypageContainer > div:first-of-type ul li p{
+        font-size: 15px; font-weight: 400; color: #999999;
+    }
+    .mypageContainer > div:first-of-type ul li input[type='button']{
+        padding: 10px 0; box-sizing: border-box; width: 29%; font-size: 15px;
+        min-width: 255px;
+    }
+
+    .mypageContainer > div#addressPopup{
+        background-color: #f7f5f1; padding: 75px 3.12%; box-sizing: border-box;
+        position: absolute; width: 41.66%; top: 100px;
+        box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+        display: none;
+    }
+    .mypageContainer > div#addressPopup.active{
+        display: block;
+    }
+    .mypageContainer > div#addressPopup h2{
+        font-size: 30px; font-weight: 400; color: #0d3b3c;
+        padding-bottom: 15px; border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 30px;
+    }
+    .mypageContainer > div#addressPopup h2 input.closeBtn{
+        width: 19px; float: right; line-height: 27px; background-size: 19px;
+    }
+    .mypageContainer > div#addressPopup label{
+        font-size: 14px; font-weight: 400; color: #6b6b6b;
+        float: left; display: block; margin-top: 12px;
+        width: 20%;
+    }
+    .mypageContainer > div#addressPopup input:not(.closeBtn),
+    .mypageContainer > div#addressPopup select{
+        appearance: none; box-shadow: none; background-image: none;
+        background-color: transparent; font-family: inherit; font-weight: inherit;
+        width: 80%;  padding: 10px 15px; box-sizing: border-box;
+        display: block; margin-left: auto; border: 1px solid #999999;
+    }
+    .mypageContainer > div#addressPopup select{
+        background: url('../images/expand_select_grey.png') right 15px center / 12px 8px no-repeat;
+    }
+    .mypageContainer > div#addressPopup form > *:not(input#user_phone,input[type='submit']){
+        margin-bottom: 15px;
+    }
+    .mypageContainer > div#addressPopup input[type='submit']{
+        font-size: 15px; padding: 15px 0; width: 30%; margin-left: auto;
+        margin-top: 45px;
+    }
+
+    .checkoutContainer form > div:not(:last-of-type),
+    .orderCompContainer > div:not(:last-of-type){
+        margin-bottom: 15px;
+    }
+    .checkoutContainer form > div input[type='text'],
+    .checkoutContainer form > div input[type='tel']{
+        font-size: 14px; font-weight: 400;
+    }
+    .checkoutContainer form > div:first-of-type h3,
+    div.orderDetails h3,
+    .checkoutContainer form > div:last-of-type h3,
+    .orderCompContainer > div h3{
+        font-size: 30px; font-weight: 400; color: #0d3b3c; margin-bottom: 30px;
+    }
+    .checkoutContainer form > div:first-of-type h3::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer form > div:first-of-type h3::after,
+    div.orderDetails h3::after,
+    .checkoutContainer form > div:last-of-type h3::after,
+    .orderCompContainer > div h3:after{
+        content: ''; display: block; height: 1px; width: 100%; background-color: #d9d9d9;
+        margin-top: 15px;
+    }
+    .checkoutContainer form > div:first-of-type h3 a.backBtn{
+        line-height: 30px;
+    }
+    .checkoutContainer form > div:first-of-type h3~*:not(input:last-of-type){
+        margin-bottom: 15px;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput{
+        position: relative; border: 1px solid #b7b7b7; box-sizing: border-box; 
+        height: 50px;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput label{
+        position: absolute; font-size: 12px; font-weight: 400; top: 10px; left: 15px;
+        display: block;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput label,
+    .checkoutContainer form > div input::placeholder{
+        color: #999999;
+    }
+    .checkoutContainer form > div:first-of-type div.labelInput select{
+        appearance: none; border: none; box-shadow: none; background-image: none;
+        background-color: transparent; font-family: inherit;
+        display: block; width: 100%; box-sizing: border-box;
+        padding: 25px 15px 5px; font-size: 14px; font-weight: 400; color: #444444;
+        background: url('../images/expand_select_grey.png') right 15px center / 12px 8px no-repeat;
+    }
+    .checkoutContainer form > div:first-of-type input{
+        background-color: transparent; display: block; height: 50px;
+        padding: 15px; box-sizing: border-box; border: 1px solid #b7b7b7;
+    }
+    .checkoutContainer form > div:first-of-type input:first-of-type{
+        float: left; margin-right: 2.28%;
+    }
+    .checkoutContainer form > div:first-of-type input:first-of-type,
+    .checkoutContainer form > div:first-of-type input:nth-of-type(2){
+        width: 48.86%;
+    }
+    .checkoutContainer form > div:first-of-type input:nth-of-type(3),
+    .checkoutContainer form > div:first-of-type input:nth-of-type(4),
+    .checkoutContainer form > div:first-of-type input:last-of-type{
+        width: 100%; 
+    }
+    .checkoutContainer form > div:first-of-type input:nth-of-type(5),
+    .checkoutContainer form > div:first-of-type input:nth-of-type(5)+div.labelInput,
+    .checkoutContainer form > div:first-of-type input:nth-of-type(6){
+        width: 31.81%; float: left;
+    }
+    .checkoutContainer form > div:first-of-type input:nth-of-type(5),
+    .checkoutContainer form > div:first-of-type input:nth-of-type(5)+div.labelInput{
+        margin-right: 2.28%;
+    }
+    div.orderDetails ul li{
+        display: block;
+    }
+    div.orderDetails ul li::after{
+        content: ''; display: block; clear: both;
+    }
+    div.orderDetails ul li a{
+        float: left;
+        display: block; margin-right: 2.27%; width: 11.36%; max-width: 100px;
+    }
+    div.orderDetails ul li a img{
+        width: 100%; display: block;
+    }
+    div.orderDetails ul li div{
+        width: 86.37%; float: left;
+    }
+    div.orderDetails ul li div::after{
+        content: ''; display: block; clear: both;
+    }
+    div.orderDetails ul li div dl,
+    div.orderDetails ul li div span{
+        float: left;
+    }
+    div.orderDetails ul li div strong{
+        float: right;
+    }
+    div.orderDetails ul li div dl{
+        width: 60%;
+    }
+    div.orderDetails ul li div span,
+    div.orderDetails ul li div strong{
+        font-size: 14px; font-weight: 400; color: #2f2f2f;
+        width: 20%; display: block;
+    }
+    div.orderDetails ul li div span{
+        text-align: center;
+    }
+    div.orderDetails ul li div strong{
+        text-align: right;
+    }
+    div.orderDetails ul li div dl > *:not(dd:last-of-type){
+        margin-bottom: 10px;
+    }
+    div.orderDetails ul li div dl dt{
+        font-size: 14px; font-weight: 400; color: #2f2f2f;
+    }
+    div.orderDetails ul li div dl dd{
+        font-weight: 300;
+    }
+    div.orderDetails ul li div dl dd:first-of-type{
+        font-size: 14px; color: #999999;
+    }
+    div.orderDetails ul li div dl dd:nth-of-type(2){
+        font-size: 14px; color: #6b6b6b;
+    }
+    div.orderDetails ul li div dl dd:last-of-type{
+        font-size: 12px; color: #6b6b6b;
+    }
+    .checkoutContainer form > div:last-of-type::after,
+    .orderCompContainer > div:last-of-type::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer form > div:last-of-type > div,
+    .orderCompContainer > div:last-of-type > div{
+        float: left; width: 47.73%;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child,
+    .orderCompContainer > div:last-of-type > div:first-child{
+        margin-right: 4.54%;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child input{
+        float: left; display: block; margin-bottom: 25px;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child input[type='text']{
+        width: 78%; background-color: transparent; border: 1px solid #b7b7b7;
+        padding: 15px; box-sizing: border-box;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child input[value='Apply']{
+        width: 19.62%; margin-left: 2.38%; background-color: #0a2e2f; border: none;
+        padding: 15px 0; font-size: 15px; font-weight: 400; color: #ffffff;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong{
+        clear: both; display: block; font-weight: 400; 
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong:not(:last-child),
+    .orderCompContainer > div:last-of-type > div:first-child strong:not(:last-child){
+        margin-bottom: 20px; font-size: 14px; color: #999999;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong:last-child,
+    .orderCompContainer > div:last-of-type > div:first-child strong:last-child{
+        color: #444444; font-size: 16px;
+    }
+    .checkoutContainer form > div:last-of-type > div:first-child strong span:last-child,
+    .orderCompContainer > div:last-of-type > div:first-child strong span:last-child{
+        float: right;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child p{
+        font-size: 14px; font-weight: 300; color: #999999; margin-bottom: 25px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input[type='radio']{
+        display: none;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > label{
+        display: block; padding-left: 35px; line-height: 25px;
+        font-size: 14px; font-weight: 400; color: #444444;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_paypal + label{
+        background: url('../images/off_radio.png') left center / 18px no-repeat;
+        margin-bottom: 10px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_paypal:checked + label{
+        background: url('../images/on_radio.png') left center / 18px no-repeat;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_eximbay + label{
+        background: url('../images/off_radio.png') left center / 18px no-repeat, url('../images/bg_payment.png') right / 167px 24px no-repeat;
+        margin-bottom: 30px; padding-right: 170px; 
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_eximbay:checked + label{
+        background: url('../images/on_radio.png') left center / 18px no-repeat, url('../images/bg_payment.png') right / 167px 24px no-repeat;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div{
+        margin-bottom: 30px; display: none;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input#payment_eximbay:checked ~ div{
+        display: block;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div label{
+        font-size: 14px; font-weight: 400; color: #999999; margin-bottom: 5px;
+        display: block;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div input{
+        background-color: transparent; border: 1px solid #b7b7b7;
+        box-sizing: border-box;
+        display: block; width: 100%; padding: 15px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div input#card_number{
+        margin-bottom: 20px;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div div{
+        float: left; width: 47.62%;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > div div:first-of-type{
+        margin-right: 4.76%;
+    }
+    .checkoutContainer form > div:last-of-type > div:last-child > input.boxBtn{
+        line-height: 45px; font-size: 15px; padding: 0;
+    }
+
+    .orderCompContainer h2{
+        margin-bottom: 25px; font-size: 40px; font-weight: 400; color: #0d3b3c; text-transform: uppercase;
+        text-align: center;
+    }
+    .orderCompContainer h2+p,
+    .orderCompContainer > div.orderDetails small{
+        font-size: 14px; font-weight: 300; color: #999999;
+    }
+    .orderCompContainer h2+p{
+        text-align: center; margin-bottom: 75px;
+    }
+    .orderCompContainer > div.orderDetails small{
+        display: block; margin-bottom: 25px;
+    }
+    .orderCompContainer > div:last-of-type{
+        margin-bottom: 45px;
+    }
+    .orderCompContainer > div:last-of-type > div:first-child strong{
+        display: block; font-weight: 400;
+    }
+    .orderCompContainer > div:last-of-type > div:last-child address{
+        font-size: 14px; font-weight: 300; color: #444444; line-height: normal;
+    }
+    .orderCompContainer > a.boxBtn{
+        width: 22.91%; margin: 0 auto; text-align: center;
+        font-size: 18px; padding: 20px 0; min-width: 220px;
+    }
+
+    .storeContainer{
+        padding: 200px 15% 0;
+    }
+    .storeContainer ul.storeSlider li img{
+        display: block; width: 100%;
+    }
+    .storeContainer .bx-wrapper{
+        width: 100%; box-shadow: none; border: none; background: none; margin-bottom: 75px;
+    }
+    .storeContainer .bx-default-pager{
+        position: absolute; bottom: 20px;
+    }
+    .storeContainer .bx-pager-item a.bx-pager-link{
+        width: 28px; height: 2px; background-color: #0a2e2f; opacity: 0.3;
+        margin: 0 2px;
+    }
+    .storeContainer .bx-pager-item a.bx-pager-link.active{
+        background-color: #0a2e2f; opacity: 1;
+    }
+    .storeContainer .bx-prev{
+        background: url('../images/before_controls.png') center / 12px 20px no-repeat;
+        left: 1.49%;
+    }
+    .storeContainer .bx-next{
+        background: url('../images/next_controls.png') center / 12px 20px no-repeat;
+        right: 1.49%;
+    }
+    .storeContainer .bx-controls-direction a{
+        z-index: 1;
+    }
+    .storeContainer .bx-controls-direction a:hover,
+    .storeContainer .bx-controls-direction a:focus{
+        background-position: center;
+    }
+    .storeContainer > div:not(:last-child,.bx-wrapper){
+        margin-bottom: 130px;
+    }
+    .storeContainer > div h3{
+        font-size: 30px; font-weight: 400; color: #444444; text-align: center;
+        margin-bottom: 55px;
+    }
+    .storeContainer > div > ul{
+        display: flex; justify-content: space-between;
+    }
+    .storeContainer > div > ul:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .storeContainer > div:nth-of-type(3) > ul:last-child,
+    .storeContainer > div:nth-of-type(4) > ul:last-child{
+        justify-content: flex-start;
+    }
+    .storeContainer > div > ul li{
+        display: block; max-width: 290px;
+        width: 25%;
+    }
+    .storeContainer > div > ul li:not(:last-child){
+        margin-right: 4.47%;
+    }
+    .storeContainer > div > ul li h4{
+        font-size: 20px; font-weight: 400; color: #444444; margin-bottom: 20px;
+    }
+    .storeContainer > div > ul li address{
+        font-size: 15px; font-weight: 400; color: #6b6b6b; line-height: normal;
+    }
+    .storeContainer > div > ul li address *{
+        display: block;
+    }
+    .storeContainer > div > ul li address:not(:last-child)::after{
+        content: ''; display: block; height: 1px; width: 100%; background-color: #d9d9d9;
+        margin: 15px 0;
+    }
+
+    .article{
+        padding: 200px 27.6% 0; color: #2f2f2f;
+    }
+    .article::after{
+        content: ''; display: block; clear: both;
+    }
+    .article > div{
+        background-color: #f7f5f1; padding: 75px 4.67%; margin-bottom: 30px;
+    }
+    .article > div div:not(:last-child),
+    .article > div div ul,
+    .terms > div div p:not(:last-child),
+    .refund > div div p:not(:last-of-type),
+    .privacy > div div p,
+    .privacy > div div:last-child address{
+        margin-bottom: 35px;
+    }
+    .article > div div *:not(h3){
+        font-size: 14px; font-weight: 400; line-height: normal;
+    }
+    .article > div div h3{
+        margin-bottom: 15px; font-size: 16px; font-weight: 500; 
+    }
+    .article > div div ul li{
+        display: block;
+    }
+    .terms > div div:nth-child(2) span{
+        font-weight: 500; margin-bottom: 35px; display: block;
+    }
+    .refund > div div span{
+        margin-top: 35px; display: block;
+    }
+    .privacy > div > p{
+        margin-bottom: 35px; font-size: 14px; font-weight: 400; line-height: normal;
+    }
+    .privacy > div div span{
+        margin-bottom: 35px; display: block;
+    }
+    .privacy > div div ul li b{
+        font-weight: 500;
+    }
+    .privacy > div div a{
+        border-bottom: 1px solid #2f2f2f;
+    }
+    .privacy > div div table{
+        margin-bottom: 35px; width: 100%; text-align: left;
+    }
+    .privacy > div div table caption{
+        font-size: 16px; font-weight: 500; text-align: left; margin-bottom: 35px;
+    }
+    .privacy > div div table thead tr th{
+        font-weight: 500;
+    }
+    .privacy > div div:last-child address a{
+        border-bottom: none;
+    }
+
+    .ourStoryContainer div{
+        padding-top: 470px;
+    }
+    .ourStoryContainer div h2{
+        font-size: 80px; font-weight: 400; color: #0d3b3c; text-align: center;
+        margin-bottom: 470px; text-transform: uppercase;
+    }
+    .ourStoryContainer div figure{
+        position: relative;
+    }
+    .ourStoryContainer div figure img{
+        width: 68.49%; display: block;
+    }
+    .ourStoryContainer div figure::after{
+        content: ''; display: block; clear: both;
+    }
+    .ourStoryContainer div:nth-child(2n+1) figure{
+        padding-left: 15%;
+    }
+    .ourStoryContainer div:nth-child(2n+1) figure img{
+        float: right;
+    }
+    .ourStoryContainer div:nth-child(2n) figure{
+        padding-right: 15%;
+    }
+    .ourStoryContainer div:nth-child(2n) figure figcaption{
+        right: 15%;
+    }
+    .ourStoryContainer div figure figcaption{
+        background-color: #faf8f4; padding: 75px 2.08%; width: 31.51%;
+        position: absolute; bottom: 75px; box-sizing: border-box;
+    }
+    .ourStoryContainer div figure figcaption h3{
+        font-size: 30px; font-weight: 400; color: #0d3b3c; margin-bottom: 30px;
+    }
+    .ourStoryContainer div figure figcaption *:not(h3){
+        font-size: 18px; font-weight: 400; color: #186a6b; line-height: normal;
+        max-width: 440px;
+    }
+    .ourStoryContainer div figure figcaption span{
+        display: block; margin-top: 25px;
+    }
+    .ourStoryContainer div:last-child figure figcaption ul li{
+        display: block;
+    }
+    .ourStoryContainer div:last-child figure figcaption ul li:not(:last-child){
+        margin-bottom: 25px;
+    }
+}
+/* desktop */
